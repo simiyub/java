@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharBoolean/CharBoolean.iml" filepath="$PROJECT_DIR$/CharBoolean/CharBoolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Classes.iml" filepath="$PROJECT_DIR$/Classes/Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlowStatement/ControlFlowStatement.iml" filepath="$PROJECT_DIR$/ControlFlowStatement/ControlFlowStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstSteps/FirstSteps.iml" filepath="$PROJECT_DIR$/FirstSteps/FirstSteps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatDouble/FloatDouble.iml" filepath="$PROJECT_DIR$/FloatDouble/FloatDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" filepath="$PROJECT_DIR$/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" filepath="$PROJECT_DIR$/MethodOverloading/MethodOverloading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PassingValuesFromAString/PassingValuesFromAString.iml" filepath="$PROJECT_DIR$/PassingValuesFromAString/PassingValuesFromAString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" filepath="$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShowString/ShowString.iml" filepath="$PROJECT_DIR$/ShowString/ShowString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstract-classes/abstract-classes.iml" filepath="$PROJECT_DIR$/abstract-classes/abstract-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access-modifiers/access-modifiers.iml" filepath="$PROJECT_DIR$/access-modifiers/access-modifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoboxing-unboxing/autoboxing-unboxing.iml" filepath="$PROJECT_DIR$/autoboxing-unboxing/autoboxing-unboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/final/final.iml" filepath="$PROJECT_DIR$/final/final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-classes/inner-classes.iml" filepath="$PROJECT_DIR$/inner-classes/inner-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-programming-masterclass.iml" filepath="$PROJECT_DIR$/.idea/java-programming-masterclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedlist/linkedlist.iml" filepath="$PROJECT_DIR$/linkedlist/linkedlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lists/lists.iml" filepath="$PROJECT_DIR$/lists/lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/package_demo/package_demo.iml" filepath="$PROJECT_DIR$/package_demo/package_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/packages.iml" filepath="$PROJECT_DIR$/packages/packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static/static.iml" filepath="$PROJECT_DIR$/static/static.iml" />
+    </modules>
+  </component>
+</project>
