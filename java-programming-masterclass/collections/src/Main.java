@@ -52,10 +52,10 @@ public class Main {
         System.out.println(languages.get("C++"));
         System.out.println(languages.get("Lisp"));
 
-        demoUsefulFunction(languages);
+        demoUsefulFunctions(languages);
     }
 
-    private static void demoUsefulFunction(Map languages) {
+    private static void demoUsefulFunctions(Map languages) {
         //find duplicates
         //put if absent is more for concurrency
         System.out.println(languages.containsKey("React"));
@@ -67,6 +67,26 @@ public class Main {
         //print map contents
         System.out.println(languages.keySet());
         System.out.println(languages.entrySet());
+
+        //remove
+        languages.remove("Lisp");
+
+        //remove if key value pair matched - returns true/false
+        if(languages.remove("Lisp","Unknown to me")){
+            System.out.println("removed Lisp");
+        }
+        else{
+            System.out.println("Lisp not Removed");
+        }
+
+        //replace
+        if(languages.remove("React", null)){
+            languages.replace("React", "Modern javascript library");
+            System.out.println(languages.get("React"));
+        }
+        //replace old value with new
+        languages.replace("JavaScript", null,"The basis of dynamic web design.");
+        System.out.println(languages.get("JavaScript"));
     }
 
     private static void listDemo() {
