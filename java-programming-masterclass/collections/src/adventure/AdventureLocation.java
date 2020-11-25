@@ -12,6 +12,7 @@ public class AdventureLocation {
         this.locationID = id;
         this.description = description;
         this.exits = new HashMap<>();
+        this.exits.put("Q", 0);
     }
 
     public int getLocationID() {
