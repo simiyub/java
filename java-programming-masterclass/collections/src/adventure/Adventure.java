@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 public class Adventure {
     public static void main(String[] args) {
+        //demoMap();
+        AdventureGameChallenge.run();
+    }
+
+    private static void demoMap() {
         processUserRequest(createLocations());
     }
 
@@ -22,7 +27,7 @@ public class Adventure {
             }
 
             Map<String, Integer> exits = locations.get(loc).getExits();
-            System.out.println("Exits Available are "+ locations.get(loc).getExits().keySet());
+            System.out.println("Exits Available are "+ exits.keySet());
             System.out.println();
 
             String direction = userInput.nextLine().toUpperCase();
@@ -35,11 +40,12 @@ public class Adventure {
         }
     }
 
-    private static Map<Integer, AdventureLocation> createLocations() {
+     static Map<Integer, AdventureLocation> createLocations() {
         Map<Integer,AdventureLocation> locations = new HashMap<>();
         AdventureLocation location = new AdventureLocation(1, "adventure.Adventure");
         location.addExit("West", 1);
-        locations.put(0,new AdventureLocation(0,"You are sitting in front of the computer learning Java."));
+        locations.put(-1,new AdventureLocation(-1,"You are sitting in front of the computer learning Java."))   ;
+        locations.put(0,new AdventureLocation(0,"Exit Adventure."));
         locations.put(1, new AdventureLocation(1, "You are standing at the end of a road before a small brick building"));
         locations.put(2, new AdventureLocation(2, "You are at the top of a hill."));
         locations.put(3,new AdventureLocation(3,"You are inside a building, a well house for a small spring"));
