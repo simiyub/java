@@ -1,7 +1,5 @@
 package adventure;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -20,7 +18,7 @@ public class AdventureGameChallenge {
         userInput = new Scanner(System.in);
         String[] validChoices = {"W","N","S","E"};
 
-        int loc = -1;
+        int loc = 1;
         Map<Integer,AdventureLocation> locations = Adventure.createLocations();
         while(true){
             if(loc==0){
@@ -28,31 +26,59 @@ public class AdventureGameChallenge {
             }
             else{
                 System.out.println("Please choose where you want to go from options below.");
-                loc = getValidLocationID(userInput.nextLine());
-                System.out.println(loc);
+                String choice = userInput.nextLine();
+
+                String direction = getDirection(choice);
+
+                if(direction!=null){
+                    Map<String,Integer> exits = locations.get(loc).getExits();
+                    if(exits.containsKey(direction)){
+                        loc=exits.get(direction);
+                    }
+                    else{
+                        System.out.println("you cannot go that direction.");
+                    }
+                }
+                else{
+                    System.out.println("Direction "+choice+" is invalid.");
+                }
+
 
             }
         }
     }
 
-    private static int getValidLocationID(String userInput) {
-        Map<String, String> transformedChoices = Map.of("West","W","East","E","South","S","North","N","Quit","Q");
-        String[] validChoices = {"W","N","S","E"};
-        String loc=null;
+    private static String getDirection(String userInput) {
+        Map<String, String> transformedChoices = Map.of("WEST","W","EAST","E","SOUTH","S","NORTH","N","QUIT","Q");
+
 
 
         for(String input: userInput.split(" ")){
-
-            for(String in: validChoices){
-                if(in==input){
-                    //return do something with the loc
-                }
+            String direction =null;
+            String upperInput=input.toUpperCase();
+            if(transformedChoices.keySet().contains(upperInput)){
+                direction= transformedChoices.get(upperInput);
             }
-            if(transformedChoices.keySet().contains(input)){
-                //return transformedChoices.get(input);//do something with loc
+            else {
+                direction=getValidDirection(upperInput);
+            }
+            if(direction!=null){
+                return direction;
             }
         }
-        return 0;
+        return null;
+    }
+
+    private static String getValidDirection(String text){
+        String validChoice=null;
+        String[] validChoices = {"W","N","S","E"};
+        for(String letter: validChoices){
+            if(letter==text){
+                //return do something with the loc
+                validChoice=letter;
+            }
+        }
+        return validChoice;
     }
 
     private static void printOptions() {
