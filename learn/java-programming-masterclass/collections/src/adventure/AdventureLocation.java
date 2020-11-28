@@ -30,4 +30,9 @@ public class AdventureLocation {
     public void addExit(String direction, int location) {
         exits.put(direction,location);
     }
+
+    @Override
+    public String toString() {
+        return this.locationID+"\n"+this.description+"\nExits available: "+getExits();
+    }
 }

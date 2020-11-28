@@ -25,15 +25,20 @@ public class AdventureGameChallenge {
                 break;
             }
             else{
+                AdventureLocation location = locations.get(loc);
+                System.out.println(location.toString());
                 System.out.println("Please choose where you want to go from options below.");
                 String choice = userInput.nextLine();
 
                 String direction = getDirection(choice);
 
                 if(direction!=null){
-                    Map<String,Integer> exits = locations.get(loc).getExits();
+
+                    Map<String,Integer> exits = location.getExits();
                     if(exits.containsKey(direction)){
                         loc=exits.get(direction);
+                        location = locations.get(loc);
+                        System.out.println(location.toString());
                     }
                     else{
                         System.out.println("you cannot go that direction.");
@@ -73,9 +78,10 @@ public class AdventureGameChallenge {
         String validChoice=null;
         String[] validChoices = {"W","N","S","E"};
         for(String letter: validChoices){
-            if(letter==text){
+            if(letter.equalsIgnoreCase(text)){
                 //return do something with the loc
                 validChoice=letter;
+                break;
             }
         }
         return validChoice;
