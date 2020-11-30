@@ -8,15 +8,16 @@ import java.util.Scanner;
 
 public class Adventure {
     public static void main(String[] args) {
-        //demoMap();
+        demoMap();
         AdventureGameChallenge.run();
     }
-
     private static void demoMap() {
-        processUserRequest(createLocations());
+        Map<Integer,AdventureLocation> locations =  createLocations();
+        addLocationExits(locations);
+        processUserRequest(locations );
     }
 
-    private static void processUserRequest(Map<Integer, AdventureLocation> locations) {
+    static void processUserRequest(Map<Integer, AdventureLocation> locations) {
         Scanner userInput = new Scanner(System.in);
         int loc = 1;
         while (true){
@@ -48,8 +49,6 @@ public class Adventure {
         locations.put(3,new AdventureLocation(3,"You are inside a building, a well house for a small spring"));
         locations.put(4,new AdventureLocation(4, "You are in a valley beside a stream."));
         locations.put(5, new AdventureLocation(5, "You are in the forest."));
-
-        addLocationExits(locations);
         return locations;
     }
 

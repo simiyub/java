@@ -15,6 +15,21 @@ public class AdventureLocation {
         this.exits.put("Q", 0);
     }
 
+    /***
+     * Introduction immutability by making exists a parameter of the constructor.
+     * Eliminating the need for create exits method.
+     *
+     * Java strategy: https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html
+     * */
+    public AdventureLocation(int id, String description, Map<String, Integer> exits) {
+        this.locationID = id;
+        this.description = description;
+
+        //This makes the exits immutable
+        this.exits = new HashMap<>(exits);
+        this.exits.put("Q", 0);
+    }
+
     public int getLocationID() {
         return locationID;
     }
@@ -35,4 +50,5 @@ public class AdventureLocation {
     public String toString() {
         return this.locationID+"\n"+this.description+"\nExits available: "+getExits();
     }
+
 }
