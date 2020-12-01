@@ -6,7 +6,7 @@ import java.util.Map;
 public class AdventureLocation {
     private final int locationID;
     private final String description;
-    private final Map<String,Integer> exits;
+    private Map<String,Integer> exits=null;
 
     public AdventureLocation(int id, String description) {
         this.locationID = id;
@@ -24,10 +24,10 @@ public class AdventureLocation {
     public AdventureLocation(int id, String description, Map<String, Integer> exits) {
         this.locationID = id;
         this.description = description;
-
-        //This makes the exits immutable
-        this.exits = new HashMap<>(exits);
-        this.exits.put("Q", 0);
+        if(exits!=null){
+            this.exits = new HashMap<>(exits);
+            this.exits.put("Q", 0);
+        }
     }
 
     public int getLocationID() {
