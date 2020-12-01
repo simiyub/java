@@ -17,7 +17,7 @@ public class Adventure {
         processUserRequest(locations );
     }
 
-    static void processUserRequest(Map<Integer, AdventureLocation> locations) {
+    public static void processUserRequest(Map<Integer, AdventureLocation> locations) {
         Scanner userInput = new Scanner(System.in);
         int loc = 1;
         while (true){

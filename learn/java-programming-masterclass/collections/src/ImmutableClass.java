@@ -1,4 +1,4 @@
-package adventure;
+import adventure.AdventureLocation;
 
 import java.util.HashMap;
 import java.util.Map;
