@@ -27,4 +27,9 @@ public class HeavenlyBody {
     public HashSet<HeavenlyBody> getSatellites() {
         return new HashSet<>(satellites);
     }
+
+    @Override
+    public String toString() {
+        return "Name:"+this.name+" Period:"+this.orbitalPeriod+" moons:"+this.satellites;
+    }
 }
