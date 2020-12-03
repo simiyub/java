@@ -32,4 +32,20 @@ public class HeavenlyBody {
     public String toString() {
         return "Name:"+this.name+" Period:"+this.orbitalPeriod+" moons:"+this.satellites;
     }
+
+    //without the override, the method will never be used, instead you'd probably overload it and method never used
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj){
+            return true;
+        }
+        System.out.println("obj.getClass() is "+obj.getClass());
+        System.out.println("this.getClass() is "+obj.getClass());
+        if((obj==null)||(obj.getClass()!=this.getClass())){
+            return false;
+        }
+        String objName = ((HeavenlyBody) obj).getName();
+        return this.name.equals(objName);
+
+    }
 }

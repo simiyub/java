@@ -10,7 +10,14 @@ public class Sets {
     private static Set<HeavenlyBody> planets;
 
     public static void main(String[] args) {
+        demoHashSet();
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        planets.add(pluto);
+        printBodies(planets);
 
+    }
+
+    private static void demoHashSet() {
         solarSystem = new HashMap<>();
         planets = new HashSet<>();
 
@@ -20,8 +27,6 @@ public class Sets {
 
         Set<HeavenlyBody> moons = getMoons();
         printBodies(moons);
-
-
     }
 
     private static Set<HeavenlyBody> getMoons() {
