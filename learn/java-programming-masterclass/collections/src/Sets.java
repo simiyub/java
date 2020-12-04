@@ -13,10 +13,26 @@ public class Sets {
 
     public static void main(String[] args) {
         demoHashSet();
+
+        demoSetMethods();
+
+        bulkOperationsExamples();
+
+        collectionAndArrayExamples();
+
+    }
+
+    private static void demoSetMethods() {
         HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
         planets.add(pluto);
         printBodies(planets);
 
+    }
+
+    private static void bulkOperationsExamples() {
+        /**
+         * Because bulk operations are destructive, we use a new Set here.
+         * */
         Dog dog = new Dog("Twinkle");
 
         Set<Integer> squares = new HashSet<>();
@@ -27,10 +43,6 @@ public class Sets {
             cubes.add(i*i*i);
         }
         System.out.println("There are "+squares.size()+ "squares and "+cubes.size()+" cubes");
-
-        /**
-        * Because bulk operations are destructive, we use a new Set here.
-        * */
         Set <Integer> union = new HashSet<>(squares);
         union.addAll(cubes);
         System.out.println("Union contains "+union.size() + " elements.");
@@ -40,7 +52,9 @@ public class Sets {
         for(int i:intersection){
             System.out.println(i+" is the square of "+Math.sqrt(i)+" and the cube of "+Math.cbrt(i));
         }
+    }
 
+    private static void collectionAndArrayExamples() {
         /**
          * Collections working with arrays
          * */
@@ -58,7 +72,6 @@ public class Sets {
         nature.addAll(Arrays.asList(natureWords));
         String[] divineWords = {"to", "err", "is", "human", "to", "forgive", "divine"};
         divine.addAll(Arrays.asList(divineWords));
-
     }
 
     private static void demoHashSet() {
