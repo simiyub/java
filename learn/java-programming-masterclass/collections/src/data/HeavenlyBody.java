@@ -2,7 +2,7 @@ package data;
 
 import java.util.HashSet;
 
-public class HeavenlyBody {
+public final class HeavenlyBody {
     private final String name;
     private final double orbitalPeriod;
     private final HashSet<HeavenlyBody> satellites;
@@ -47,5 +47,11 @@ public class HeavenlyBody {
         String objName = ((HeavenlyBody) obj).getName();
         return this.name.equals(objName);
 
+    }
+
+    @Override
+    public int hashCode() {
+        System.out.println("Hash code called");
+        return this.name.hashCode() + 57;
     }
 }

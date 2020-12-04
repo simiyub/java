@@ -1,3 +1,4 @@
+import data.Dog;
 import data.HeavenlyBody;
 
 import java.util.HashMap;
@@ -14,6 +15,8 @@ public class Sets {
         HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
         planets.add(pluto);
         printBodies(planets);
+
+        Dog dog = new Dog("Twinkle");
 
     }
 
