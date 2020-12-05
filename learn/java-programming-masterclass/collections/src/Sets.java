@@ -72,6 +72,42 @@ public class Sets {
         nature.addAll(Arrays.asList(natureWords));
         String[] divineWords = {"to", "err", "is", "human", "to", "forgive", "divine"};
         divine.addAll(Arrays.asList(divineWords));
+
+        System.out.println("nature - divine");
+        Set<String> diff1 = new HashSet<>(divine);
+        diff1.removeAll(nature);
+        printSet(diff1);
+        System.out.println("divine - nature");
+        Set<String> diff2 = new HashSet<>(nature);
+        diff2.removeAll(divine);
+        printSet(diff2);
+
+        Set<String> union = new HashSet<>(nature);
+        union.addAll(divine);
+        System.out.println("Add all");
+        printSet(union);
+        Set<String> intersection = new HashSet<>(nature);
+        intersection.retainAll(divine);
+        System.out.println("retain all");
+        printSet(intersection);
+
+        if (nature.containsAll(divine)){
+            System.out.println("divine is a subset of nature");
+        }
+        if(nature.containsAll(intersection)){
+            System.out.println("intersection is a subset of nature");
+        }
+        if(divine.containsAll(intersection)){
+            System.out.println("intersection is a subset of divine");
+        }
+
+    }
+
+    private static void printSet(Set<String> set) {
+        System.out.println("\t");
+        for (String s: set){
+            System.out.println(s+" ");
+        }
     }
 
     private static void demoHashSet() {
