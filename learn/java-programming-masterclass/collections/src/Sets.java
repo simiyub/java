@@ -20,10 +20,16 @@ public class Sets {
 
         collectionAndArrayExamples();
 
+        setChallenge();
+
+    }
+
+    private static void setChallenge() {
+        SetChallenge.run();
     }
 
     private static void demoSetMethods() {
-        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842, "planet");
         planets.add(pluto);
         printBodies(planets);
 
@@ -156,7 +162,8 @@ public class Sets {
     }
 
     private static HeavenlyBody createHeavenlyBody(String name, double orbitalPeriod, boolean planet) {
-        HeavenlyBody body = new HeavenlyBody(name,orbitalPeriod);
+        String bodyType = planet ? "planet" : "moon";
+        HeavenlyBody body = new HeavenlyBody(name,orbitalPeriod, bodyType);
         if(planet){
             planets.add(body);
         }
