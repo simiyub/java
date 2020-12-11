@@ -1,12 +1,14 @@
 import data.Asteroid;
 import data.HeavenlyBody;
+import data.Planet;
 import data.Star;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SetChallenge {
+
+    private static Set<Planet> planets;
+    private static Map<String, HeavenlyBody> solarSystem;
 
     /***
      *         /*
@@ -51,17 +53,18 @@ public class SetChallenge {
      *         and can be retrieved from the map.
      * */
 
-    public static void run() {
+    public void run() {
+        Sets setFactory = new Sets();
+        planets = setFactory.createPlanets();
+        solarSystem = setFactory.getSolarSystem();
 
-        HeavenlyBody body = new HeavenlyBody("body1",   1.0, "Planet"   );
-        Set<HeavenlyBody> bodies = new HashSet<>();
-        bodies.add(body);
+        Star star = new Star("BetaMinor", 1.1,null);
+        solarSystem.put(star.getName(),star);
+        Asteroid asteroid = new Asteroid("BetaMinor", 1.1, "asteroid", null);
+        solarSystem.put(asteroid.getName(), asteroid);
+        System.out.println(solarSystem);
 
-        Star star = new Star("BetaMinor", 1.1, "star");
-        Asteroid asteroid = new Asteroid("BetaMinor", 1.1, "asteroid");
-        bodies.add(star);
-        bodies.add(asteroid);
-        System.out.println(bodies);
+
 
 
 

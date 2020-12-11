@@ -1,26 +1,27 @@
 package data;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class HeavenlyBody {
     private final String name;
     private final double orbitalPeriod;
-    private final HashSet<HeavenlyBody> satellites;
+    private final Set<HeavenlyBody> satellites;
     private final String bodyType;
 
-    public HeavenlyBody(String name, double orbitalPeriod,String bodyType) {
+
+    public HeavenlyBody(String name, double orbitalPeriod,String bodyType, Set<HeavenlyBody> satellites) {
+
         this.bodyType = getBodyType(bodyType);
         this.name = name;
         this.orbitalPeriod = orbitalPeriod;
-        this.satellites = new HashSet<>();
-
-        if(this.bodyType==null) {
-            System.out.println("Invalid body type provided:"+bodyType);
+        this.satellites  = satellites!=null ? satellites : new HashSet<>();
         }
 
-    }
 
-    private String getBodyType(String bodyType) {
+    String getBodyType(String bodyType) {
         String type;
         switch(bodyType.toUpperCase()){
             case("PLANET"):
@@ -43,8 +44,8 @@ public class HeavenlyBody {
         return type;
     }
 
-    public boolean addMoon(HeavenlyBody moon){
-        return this.satellites.add(moon);
+    public boolean addSatellite(HeavenlyBody satellite){
+        return this.satellites.add(satellite);
     }
 
     public String getName() {
@@ -55,8 +56,8 @@ public class HeavenlyBody {
         return orbitalPeriod;
     }
 
-    public HashSet<HeavenlyBody> getSatellites() {
-        return new HashSet<>(satellites);
+    public Set getSatellites() {
+        return new HashSet<HeavenlyBody>(satellites);
     }
 
     @Override
