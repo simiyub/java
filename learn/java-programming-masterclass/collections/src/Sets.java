@@ -11,8 +11,6 @@ public class Sets <T extends HeavenlyBody >{
     private Set<T> planets;
     private static Map<String, HeavenlyBody> solarSystem;
     public static void main(String[] args) {
-        solarSystem = new HashMap<>();
-
         bulkOperationsExamples();
 
         collectionAndArrayExamples();
@@ -111,6 +109,9 @@ public class Sets <T extends HeavenlyBody >{
     }
 
     Set<T> createPlanets() {
+
+        solarSystem = new HashMap<>();
+        planets = new HashSet<>();
         createPlanet("Mercury", 22,null);
         createPlanet("Venus",225,null);
         Set<Moon> moons = new HashSet<>();
@@ -135,7 +136,7 @@ public class Sets <T extends HeavenlyBody >{
 
     private Planet createPlanet(String name, float orbitalPeriod,Set<Moon> moons){
         Planet newPlanet = new Planet(name, orbitalPeriod, "planet", moons) ;
-        solarSystem.put(newPlanet.getName(),newPlanet);
+        solarSystem.put(newPlanet.getId(),newPlanet);
         planets.add((T)newPlanet);
         return newPlanet;
     }

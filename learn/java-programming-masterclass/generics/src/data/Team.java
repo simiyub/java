@@ -109,6 +109,8 @@ public class Team<T extends Player> implements Comparable<Team<T>>{
         }
     }
 
+
+
     public int ranking(){
         return (won*2) +tied;
     }

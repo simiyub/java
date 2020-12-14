@@ -5,17 +5,19 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class HeavenlyBody {
+public class HeavenlyBody <T extends HeavenlyBody>  {
     private final String name;
     private final double orbitalPeriod;
-    private final Set<HeavenlyBody> satellites;
+    private final Set<T> satellites;
     private final String bodyType;
+    private final String id;
 
 
-    public HeavenlyBody(String name, double orbitalPeriod,String bodyType, Set<HeavenlyBody> satellites) {
+    public HeavenlyBody(String name, double orbitalPeriod,String bodyType, Set<T> satellites) {
 
         this.bodyType = getBodyType(bodyType);
         this.name = name;
+        this.id = name+bodyType;
         this.orbitalPeriod = orbitalPeriod;
         this.satellites  = satellites!=null ? satellites : new HashSet<>();
         }
@@ -44,7 +46,7 @@ public class HeavenlyBody {
         return type;
     }
 
-    public boolean addSatellite(HeavenlyBody satellite){
+    public boolean addSatellite(T satellite){
         return this.satellites.add(satellite);
     }
 
@@ -58,6 +60,14 @@ public class HeavenlyBody {
 
     public Set getSatellites() {
         return new HashSet<HeavenlyBody>(satellites);
+    }
+
+    public String getBodyType() {
+        return bodyType;
+    }
+
+    public String getId() {
+        return id;
     }
 
     @Override
@@ -76,13 +86,14 @@ public class HeavenlyBody {
         if((obj==null)||(obj.getClass()!=this.getClass())){
             return false;
         }
-        String objName = ((HeavenlyBody) obj).getName();
-        return this.name.equals(objName);
+        String name = ((HeavenlyBody) obj).getName();
+        String type = ((HeavenlyBody) obj).getBodyType();
+        return this.name.equalsIgnoreCase(name) && this.bodyType.equalsIgnoreCase(type);
 
     }
 
     @Override
     public int hashCode() {
-        return this.name.hashCode() + 57;
+        return this.name.hashCode()+this.bodyType.hashCode() + 57;
     }
 }

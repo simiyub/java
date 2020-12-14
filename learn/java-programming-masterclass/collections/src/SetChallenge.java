@@ -53,16 +53,31 @@ public class SetChallenge {
      *         and can be retrieved from the map.
      * */
 
+    public static void main(String[] args) {
+        SetChallenge challenge = new SetChallenge();
+        challenge.run();
+    }
+
     public void run() {
         Sets setFactory = new Sets();
         planets = setFactory.createPlanets();
         solarSystem = setFactory.getSolarSystem();
 
         Star star = new Star("BetaMinor", 1.1,null);
-        solarSystem.put(star.getName(),star);
+        solarSystem.put(star.getId(),star);
         Asteroid asteroid = new Asteroid("BetaMinor", 1.1, "asteroid", null);
-        solarSystem.put(asteroid.getName(), asteroid);
-        System.out.println(solarSystem);
+        solarSystem.put(asteroid.getId(), asteroid);
+
+        System.out.println("***Solar System: Map***");
+        for(String name:solarSystem.keySet()){
+            System.out.println(solarSystem.get(name).toString());
+        }
+
+        System.out.println("***Planets: Set***");
+        for(HeavenlyBody body: planets){
+            System.out.println(body.toString());
+
+        }
 
 
 
