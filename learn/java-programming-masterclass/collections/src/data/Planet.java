@@ -9,8 +9,8 @@ public class Planet extends HeavenlyBody {
     private final String bodyType = null;
     private Set<Moon> satellites;
 
-    public Planet(String name, double orbitalPeriod, String bodyType, Set<Moon> satellites) {
-        super(name,orbitalPeriod,bodyType,satellites);
+    public Planet(String name, double orbitalPeriod, Set<Moon> satellites) {
+        super(name,orbitalPeriod,"planet",satellites);
         this.satellites  = satellites!=null ? satellites : new HashSet<>();
     }
 }

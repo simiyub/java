@@ -65,7 +65,7 @@ public class SetChallenge {
 
         Star star = new Star("BetaMinor", 1.1,null);
         solarSystem.put(star.getId(),star);
-        Asteroid asteroid = new Asteroid("BetaMinor", 1.1, "asteroid", null);
+        Asteroid asteroid = new Asteroid("BetaMinor", 1.1, null);
         solarSystem.put(asteroid.getId(), asteroid);
 
         System.out.println("***Solar System: Map***");
@@ -78,6 +78,14 @@ public class SetChallenge {
             System.out.println(body.toString());
 
         }
+
+        //2. a.equals(b) must return the same result as b.equals(a) - equals is symmetric.
+        HeavenlyBody earth1 =  new Planet("Earth", 14,null);
+        HeavenlyBody earth2 =  new Planet("Earth", 14,null);
+        System.out.println(earth1.equals(earth2));
+        System.out.println(earth2.equals(earth1));
+        System.out.println(earth1.equals(solarSystem.get("Pluto")));
+        System.out.println(solarSystem.get("Pluto").equals(earth1));
 
 
 

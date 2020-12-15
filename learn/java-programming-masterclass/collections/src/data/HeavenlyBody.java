@@ -77,23 +77,21 @@ public class HeavenlyBody <T extends HeavenlyBody>  {
 
     //without the override, the method will never be used, instead you'd probably overload it and method never used
     @Override
-    public boolean equals(Object obj) {
+    public final boolean equals(Object obj) {
         if (this == obj){
             return true;
         }
-        System.out.println("obj.getClass() is "+obj.getClass());
-        System.out.println("this.getClass() is "+obj.getClass());
-        if((obj==null)||(obj.getClass()!=this.getClass())){
-            return false;
+        if(obj instanceof HeavenlyBody){
+            HeavenlyBody theObj =(HeavenlyBody) obj;
+            if(theObj.getName().equalsIgnoreCase(this.getName())){
+                return this.getBodyType() == theObj.getBodyType();
+            }
         }
-        String name = ((HeavenlyBody) obj).getName();
-        String type = ((HeavenlyBody) obj).getBodyType();
-        return this.name.equalsIgnoreCase(name) && this.bodyType.equalsIgnoreCase(type);
-
+        return false;
     }
 
     @Override
-    public int hashCode() {
+    public final int hashCode() {
         return this.name.hashCode()+this.bodyType.hashCode() + 57;
     }
 }
