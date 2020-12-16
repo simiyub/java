@@ -17,7 +17,7 @@ public class HeavenlyBody <T extends HeavenlyBody>  {
 
         this.bodyType = getBodyType(bodyType);
         this.name = name;
-        this.id = name+bodyType;
+        this.id = this.bodyType +"_"+name;
         this.orbitalPeriod = orbitalPeriod;
         this.satellites  = satellites!=null ? satellites : new HashSet<>();
         }
@@ -82,10 +82,7 @@ public class HeavenlyBody <T extends HeavenlyBody>  {
             return true;
         }
         if(obj instanceof HeavenlyBody){
-            HeavenlyBody theObj =(HeavenlyBody) obj;
-            if(theObj.getName().equalsIgnoreCase(this.getName())){
-                return this.getBodyType() == theObj.getBodyType();
-            }
+            return this.getId() == ((HeavenlyBody) obj).getId();
         }
         return false;
     }

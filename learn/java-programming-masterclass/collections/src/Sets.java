@@ -136,7 +136,7 @@ public class Sets <T extends HeavenlyBody >{
 
     private Planet createPlanet(String name, float orbitalPeriod,Set<Moon> moons){
         Planet newPlanet = new Planet(name, orbitalPeriod, moons) ;
-        solarSystem.put(newPlanet.getName(),newPlanet);
+        solarSystem.put(newPlanet.getId(),newPlanet);
         planets.add((T)newPlanet);
         return newPlanet;
     }

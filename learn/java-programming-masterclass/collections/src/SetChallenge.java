@@ -84,10 +84,14 @@ public class SetChallenge {
         HeavenlyBody earth2 =  new Planet("Earth", 14,null);
         System.out.println(earth1.equals(earth2));
         System.out.println(earth2.equals(earth1));
-        System.out.println(earth1.equals(solarSystem.get("Pluto")));
-        System.out.println(solarSystem.get("Pluto").equals(earth1));
+        System.out.println(solarSystem);
+        System.out.println(earth1.equals(solarSystem.get("PLANET"+"_"+"Pluto")));
+        System.out.println(solarSystem.get("PLANET"+"_"+"Pluto").equals(earth1));
 
-
+        System.out.println("***Solar System***");
+        for(String name:solarSystem.keySet()){
+            System.out.println(solarSystem.get(name));
+        }
 
 
 
