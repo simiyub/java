@@ -36,6 +36,10 @@ public class StockItem implements Comparable<StockItem>{
         }
     }
 
+    public double getValue() {
+        return quantity*price;
+    }
+
     @Override
     public boolean equals(Object obj) {
         return obj ==  this? true :
@@ -61,10 +65,8 @@ public class StockItem implements Comparable<StockItem>{
 
     @Override
     public String toString() {
-        return "StockItem{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", quantity=" + quantity +
-                '}';
+        return quantity+" of "+name+" @ "+price+" per item. Value:"+getValue();
     }
+
+
 }
