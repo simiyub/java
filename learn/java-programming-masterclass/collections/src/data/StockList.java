@@ -24,16 +24,19 @@ public class StockList {
         return 0;
     }
 
-    public int sellStock(String item, int quantity) {
+    public StockItem sellStock(String item, int quantity) {
         if(quantity>0){
             StockItem inStock = list.getOrDefault(item,null);
             if(inStock!=null && inStock.getQuantity()>=quantity){
                 inStock.adjustStock(-quantity);
-                return quantity;
+                return new StockItem(inStock.getName(), inStock.getPrice(), quantity);
+            }
+            else {
+                System.out.println("Could not sell "+item);
             }
         }
 
-        return 0;
+        return null;
     }
 
     public StockItem get(String itemName) {
@@ -46,13 +49,16 @@ public class StockList {
 
     @Override
     public String toString() {
-        String stockList = "***Total StockList***\n";
+        String stockList = "\n**************************\n     Stock List    \n--------------------------\n";
         double totalValue = 0;
         for (String itemName: list.keySet()){
             StockItem item = list.get(itemName);
             stockList += item.toString()+"\n";
             totalValue += item.getValue();
         }
-        return stockList += "***Total Value = £"+totalValue;
+        stockList += "-------------------------\n";
+        stockList += "Total Stock Value = £"+totalValue+"\n";
+        stockList += "=========================";
+        return stockList;
     }
 }
