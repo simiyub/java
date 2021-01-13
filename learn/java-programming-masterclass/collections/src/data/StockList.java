@@ -12,27 +12,36 @@ public class StockList {
         list = new HashMap<>();
     }
 
-    public int addStock(StockItem item) {
+    public StockItem addStock(StockItem item) {
         if(item!=null){
+            System.out.println("Adding new stock..");
             StockItem inStock = list.getOrDefault(item.getName(), item);
             if (inStock !=item){
+                System.out.println(inStock.getName()+" in stock. Quantity="+inStock.getQuantity()+" adjusting quantity by "+item.getQuantity());
                 item.adjustStock(inStock.getQuantity());
             }
+            else{
+                System.out.println(item.getName()+" not in stock. Adding..");
+            }
             list.put(item.getName(), item);
-            return item.getQuantity();
+            System.out.println("Stock level now: "+list.get(item.getName())+"\n");
+            return item;
         }
-        return 0;
+        return null;
     }
 
-    public StockItem sellStock(String item, int quantity) {
+    public StockItem removeStock(String item, int quantity) {
         if(quantity>0){
+            System.out.println("Removing stock..");
             StockItem inStock = list.getOrDefault(item,null);
             if(inStock!=null && inStock.getQuantity()>=quantity){
+                System.out.println("Current stock level: "+inStock);
                 inStock.adjustStock(-quantity);
+                System.out.println("Stock level now: "+list.get(inStock.getName())+"\n");
                 return new StockItem(inStock.getName(), inStock.getPrice(), quantity);
             }
             else {
-                System.out.println("Could not sell "+item);
+                System.out.println(item+" does not exist. Could not remove stock");
             }
         }
 

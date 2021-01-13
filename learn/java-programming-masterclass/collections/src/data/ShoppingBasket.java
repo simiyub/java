@@ -11,20 +11,35 @@ public class ShoppingBasket {
         this.items = new HashSet<>();
     }
 
-    public boolean addToBasket(StockItem item) {
+    public boolean updateBasket(StockItem item) {
         boolean added = false;
-        if(item!=null && item.getQuantity()>0){
+        if(item!=null){
             boolean removed = items.removeIf( dependency -> dependency==item);
-            added = items.add(item);
+
+            if(item.getQuantity()!=0){
+                added = items.add(item);
+            }
+
             if(removed){
-                System.out.println("updated quantity of "+item.getName()+" to "+item.getQuantity());
-            };
+                if(item.getQuantity()==0){
+                    System.out.println("item removed from from basket");
+                }
+                else{
+                    System.out.println("updated quantity of "+item.getName()+" to "+item.getQuantity());
+                }
+            }
 
         }
         else{
-            System.out.println("Item "+item.getName() +" not added ");
+            System.out.println("Item is null");
         }
         return added;
+    }
+
+    public void addItem(StockItem stockItem) {
+        items.add(stockItem);
+        System.out.println("Added "+stockItem.getName()+" to basket.");
+        System.out.println(this.toString());
     }
 
     public Set<StockItem> getItems() {
@@ -42,4 +57,6 @@ public class ShoppingBasket {
         }
         return string+"\n-----------------------\n Total cost = £"+totalCost+"\n=======================";
     }
+
+
 }
