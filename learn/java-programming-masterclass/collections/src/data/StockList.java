@@ -41,7 +41,7 @@ public class StockList {
 
     }
 
-    public StockItem reduceStock(String item, int quantity) {
+    public StockItem reduceStock(String item, float quantity) {
         if(quantity>0){
             System.out.println("Reducing stock..");
             StockItem inStock = list.getOrDefault(item,null);

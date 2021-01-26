@@ -3,9 +3,9 @@ package data;
 public class StockItem implements Comparable<StockItem>{
     private final String name;
     private double price;
-    private int quantity;
+    private float quantity;
 
-    public StockItem(String name, double price, int quantity) {
+    public StockItem(String name, double price, float quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -19,7 +19,7 @@ public class StockItem implements Comparable<StockItem>{
         return price;
     }
 
-    public int getQuantity()
+    public float getQuantity()
     {
         return quantity;
     }
@@ -30,7 +30,7 @@ public class StockItem implements Comparable<StockItem>{
         }
     }
 
-    public void adjustStock(int quantity) {
+    public void adjustStock(float quantity) {
         if(Math.abs(quantity)>0){
             this.quantity += quantity;
         }
