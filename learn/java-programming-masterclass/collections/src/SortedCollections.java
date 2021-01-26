@@ -2,42 +2,54 @@ import data.ShoppingBasket;
 import data.StockItem;
 import data.StockList;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class SortedCollections {
 
     private static StockList stockList;
+    private static Set<ShoppingBasket> baskets;
     public static void main(String[] args) {
 
         stockList = new StockList();
+       baskets = new HashSet<>();
 
         //Adding new item
-        StockItem buyItem1 = new StockItem("item1", 23.5, 14);
-        stockList.addStock(buyItem1);
+        boolean added = addItem("item1", 23.5, 14);
 
-        //remove existing item
-        stockList.removeStock("item1",4);
+        //Removing item
+        boolean removed = removeItem("item1");
 
-        //Add more of an item
+        //Reducing stock
+        stockList.reduceStock("item1",4);
+
+        //Add more stock
         StockItem buyItem2 = new StockItem("item1", 23.5, 6);
+
         stockList.addStock(buyItem2);
 
-        //remove an item that doesn't exist
+        //Remove an item that doesn't exist
+        stockList.reduceStock("missingItem",4);
 
-        stockList.removeStock("missingItem",4);
 
-        ShoppingBasket basket = new ShoppingBasket("James");
+        //add item for a new shopper
+        addItem("newShopperItem", 3.5, 10);
+        buyItem("newShopper", "newShopperItem", 5);
 
-        //Add new item
-        StockItem buyItem = new StockItem("buyItem", 10.5, 10);
 
-        buyItem(basket,buyItem);
+        //add item for an existing shopper
+        addItem("existingShopperItem", 23.5, 14);
+        buyItem("existingShopper", "existingShopperItem", 5);
+        buyItem("existingShopper", "existingShopperItem", 1);
 
-        StockItem lessItem = new StockItem("lessItem", 10.5, 10);
-        stockList.addStock(lessItem);
-        lessOfItem(new StockItem(lessItem.getName(),lessItem.getPrice(),2));
+        //Add more of an item
 
-        moreOfItem();
+        //Reduce quantity of an item
 
-        removeItem();
+        //Remove an item
+
 
 
 
@@ -48,7 +60,22 @@ public class SortedCollections {
          * */
     }
 
+    private static ShoppingBasket getBasket(String james) {
+        return new ShoppingBasket("James");
+    }
+
+    private static boolean removeItem(String itemName) {
+        return stockList.remove(itemName);
+    }
+
+    private static boolean addItem(String itemName, double price, int quantity) {
+        StockItem buyItem1 = new StockItem(itemName, price, quantity);
+        StockItem item = stockList.addStock(buyItem1);
+        return item!=null;
+    }
+
     private static void lessOfItem(StockItem item) {
+
         updateItemQuantity(2);
     }
 
@@ -71,12 +98,12 @@ public class SortedCollections {
         //Buy less
      //   basket.removeQuantity();
 
-        StockItem removedStockItem1=stockList.removeStock("Item1",5);
+        StockItem removedStockItem1=stockList.reduceStock("Item1",5);
         if(removedStockItem1!=null){
             basket.updateBasket(removedStockItem1);
         }
 
-        StockItem removedStockItem2=stockList.removeStock("Item1",2);
+        StockItem removedStockItem2=stockList.reduceStock("Item1",2);
         if(removedStockItem2!=null){
             basket.updateBasket(removedStockItem2);
         }
@@ -86,8 +113,10 @@ public class SortedCollections {
         System.out.println(stockList.toString());
     }
 
-    private static void buyItem(ShoppingBasket basket, StockItem item) {
-
+    private static void buyItem(String shopperName, String ItemName, float quantity) {
+        if(!baskets.contains(shopperName)){
+            baskets.add(new ShoppingBasket(shopperName));
+        }
         StockItem added = stockList.addStock(item);
         if(added!=null){
             basket.addItem(item);

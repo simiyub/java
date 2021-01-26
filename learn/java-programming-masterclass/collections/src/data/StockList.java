@@ -30,9 +30,20 @@ public class StockList {
         return null;
     }
 
-    public StockItem removeStock(String item, int quantity) {
+    public boolean remove(String itemName) {
+        boolean removed = false;
+        if(list.containsKey(itemName)){
+            System.out.println("removing "+itemName);
+            list.remove(itemName);
+            removed = true;
+        }
+        return removed;
+
+    }
+
+    public StockItem reduceStock(String item, int quantity) {
         if(quantity>0){
-            System.out.println("Removing stock..");
+            System.out.println("Reducing stock..");
             StockItem inStock = list.getOrDefault(item,null);
             if(inStock!=null && inStock.getQuantity()>=quantity){
                 System.out.println("Current stock level: "+inStock);
@@ -41,7 +52,7 @@ public class StockList {
                 return new StockItem(inStock.getName(), inStock.getPrice(), quantity);
             }
             else {
-                System.out.println(item+" does not exist. Could not remove stock");
+                System.out.println(item+" does not exist. Could not reduce stock");
             }
         }
 
@@ -70,4 +81,6 @@ public class StockList {
         stockList += "=========================";
         return stockList;
     }
+
+
 }

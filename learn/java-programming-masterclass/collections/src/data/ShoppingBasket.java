@@ -47,6 +47,17 @@ public class ShoppingBasket {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj == this){
+            return true;
+        }
+        else{
+            return this.name.equalsIgnoreCase(((ShoppingBasket) obj).name);
+        }
+
+    }
+
+    @Override
     public String toString() {
         String variableName = "*".repeat(name.length());
         String string = variableName+"******************\n"+name+"'s shopping basket\n"+"-".repeat(name.length())+"------------------\n";
@@ -57,6 +68,9 @@ public class ShoppingBasket {
         }
         return string+"\n-----------------------\n Total cost = £"+totalCost+"\n=======================";
     }
+
+
+
 
 
 }
