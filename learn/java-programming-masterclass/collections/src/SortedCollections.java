@@ -18,18 +18,18 @@ public class SortedCollections {
         boolean added = addStockItem("item1", 23.5, 14);
 
         //Removing item
-        boolean removed = removeItem("item1");
+        boolean removed = removeStockItem("item1");
 
         //Reducing stock
-        stockList.reduceStock("item1",4);
+        reduceStock("item1",4);
 
         //Add more stock
         StockItem buyItem2 = new StockItem("item1", 23.5, 6);
 
-        stockList.addStock(buyItem2);
+        stockList.add(buyItem2);
 
         //Remove an item that doesn't exist
-        stockList.reduceStock("missingItem",4);
+       StockItem removedItem = reduceStock("missingItem",4);
 
 
         //add item for a new shopper
@@ -41,6 +41,8 @@ public class SortedCollections {
         addStockItem("existingShopperItem", 23.5, 14);
         buyItem("existingShopper", "existingShopperItem", 5);
         buyItem("existingShopper", "existingShopperItem", 1);
+
+        buyMore("existingShopper", "existingShopperItem", 1);
 
 
 
@@ -55,62 +57,69 @@ public class SortedCollections {
          * */
     }
 
+
+
     private static ShoppingBasket getBasket(String james) {
         return new ShoppingBasket("James");
     }
 
-    private static boolean removeItem(String itemName) {
+    private static boolean removeStockItem(String itemName) {
         return stockList.remove(itemName);
     }
 
     private static boolean addStockItem(String itemName, double price, int quantity) {
         StockItem buyItem1 = new StockItem(itemName, price, quantity);
-        StockItem item = stockList.addStock(buyItem1);
+        StockItem item = stockList.add(buyItem1);
         return item!=null;
     }
 
-    private static void lessOfItem(StockItem item) {
+    private static StockItem reduceStock(String itemName, float quantity) {
 
-        updateItemQuantity(2);
+        return stockList.adjustStock(itemName,quantity, StockList.REDUCE);
     }
 
-    private static void updateItemQuantity(double quantity) {
+    private static StockItem increaseStock(String itemName, float quantity) {
 
-
-
-        ShoppingBasket basket = new ShoppingBasket("James");
-
-        //Add new item
-        StockItem buyItem = new StockItem("buyItem", 10.5, 10);
-
-
-        //Remove item
-      //  basket.removeItem();
-
-        //Add more
-     //   basket.addMoreQuantity();
-
-        //Buy less
-     //   basket.removeQuantity();
-
-        StockItem removedStockItem1=stockList.reduceStock("Item1",5);
-        if(removedStockItem1!=null){
-            basket.updateBasket(removedStockItem1);
-        }
-
-        StockItem removedStockItem2=stockList.reduceStock("Item1",2);
-        if(removedStockItem2!=null){
-            basket.updateBasket(removedStockItem2);
-        }
-
-        System.out.println(basket);
-
-        System.out.println(stockList.toString());
+        return stockList.adjustStock(itemName,quantity, StockList.INCREASE);
     }
+
+//    private static void updateItemQuantity(double quantity) {
+//
+//
+//
+//        ShoppingBasket basket = new ShoppingBasket("James");
+//
+//        //Add new item
+//        StockItem buyItem = new StockItem("buyItem", 10.5, 10);
+//
+//
+//        //Remove item
+//      //  basket.removeItem();
+//
+//        //Add more
+//     //   basket.addMoreQuantity();
+//
+//        //Buy less
+//     //   basket.removeQuantity();
+//
+//        StockItem removedStockItem1= reduceStock("Item1",5);
+//        if(removedStockItem1!=null){
+//            basket.updateBasket(removedStockItem1);
+//        }
+//
+//        StockItem removedStockItem2= reduceStock("Item1",2);
+//        if(removedStockItem2!=null){
+//            basket.updateBasket(removedStockItem2);
+//        }
+//
+//        System.out.println(basket);
+//
+//        System.out.println(stockList.toString());
+//    }
 
     private static void buyItem(String shopperName, String itemName, float quantity) {
         ShoppingBasket basket;
-        StockItem item = stockList.reduceStock(itemName,quantity);
+        StockItem item = reduceStock(itemName,quantity);
         if(item!=null){
 
             if(baskets.contains(shopperName)){
@@ -129,6 +138,18 @@ public class SortedCollections {
         else{
             System.out.println("Item not available.");
         }
+
+    }
+
+    private static void removeItem(String shopperName, String item){
+
+    }
+
+    private static void buyMore(String shopperName, String item, int quantity) {
+
+    }
+
+    private static void buyLess(String shopperName, String item, int quantity) {
 
     }
 

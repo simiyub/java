@@ -7,12 +7,14 @@ import java.util.Map;
 public class StockList {
 
     private final Map<String,StockItem> list;
+    public static final String INCREASE = "INCREASE";
+    public static final String REDUCE = "REDUCE";
 
     public StockList() {
         list = new HashMap<>();
     }
 
-    public StockItem addStock(StockItem item) {
+    public StockItem add(StockItem item) {
         if(item!=null){
             System.out.println("Adding new stock..");
             StockItem inStock = list.getOrDefault(item.getName(), item);
@@ -41,13 +43,24 @@ public class StockList {
 
     }
 
-    public StockItem reduceStock(String item, float quantity) {
+    public StockItem adjustStock(String item, float quantity, String action) {
         if(quantity>0){
-            System.out.println("Reducing stock..");
+            if(action.equalsIgnoreCase(REDUCE)) {
+                System.out.println("Reducing stock..");
+            }
             StockItem inStock = list.getOrDefault(item,null);
-            if(inStock!=null && inStock.getQuantity()>=quantity){
+            if(inStock!=null){
                 System.out.println("Current stock level: "+inStock);
-                inStock.adjustStock(-quantity);
+
+                if(action.equalsIgnoreCase(REDUCE) && inStock.getQuantity()>=quantity){
+                    System.out.println("Reducing stock..");
+                    inStock.adjustStock(-quantity);
+                }
+                if(action.equalsIgnoreCase(INCREASE) && inStock.getQuantity()>=quantity){
+                    System.out.println("Increasing stock..");
+                    inStock.adjustStock(quantity);
+                }
+
                 System.out.println("Stock level now: "+list.get(inStock.getName())+"\n");
                 return new StockItem(inStock.getName(), inStock.getPrice(), quantity);
             }
