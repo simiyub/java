@@ -57,10 +57,8 @@ public class SortedCollections {
          * */
     }
 
-
-
-    private static ShoppingBasket getBasket(String james) {
-        return new ShoppingBasket("James");
+    private static StockItem getItem(String item){
+        return stockList.get(item);
     }
 
     private static boolean removeStockItem(String itemName) {
@@ -83,57 +81,13 @@ public class SortedCollections {
         return stockList.adjustStock(itemName,quantity, StockList.INCREASE);
     }
 
-//    private static void updateItemQuantity(double quantity) {
-//
-//
-//
-//        ShoppingBasket basket = new ShoppingBasket("James");
-//
-//        //Add new item
-//        StockItem buyItem = new StockItem("buyItem", 10.5, 10);
-//
-//
-//        //Remove item
-//      //  basket.removeItem();
-//
-//        //Add more
-//     //   basket.addMoreQuantity();
-//
-//        //Buy less
-//     //   basket.removeQuantity();
-//
-//        StockItem removedStockItem1= reduceStock("Item1",5);
-//        if(removedStockItem1!=null){
-//            basket.updateBasket(removedStockItem1);
-//        }
-//
-//        StockItem removedStockItem2= reduceStock("Item1",2);
-//        if(removedStockItem2!=null){
-//            basket.updateBasket(removedStockItem2);
-//        }
-//
-//        System.out.println(basket);
-//
-//        System.out.println(stockList.toString());
-//    }
-
     private static void buyItem(String shopperName, String itemName, float quantity) {
-        ShoppingBasket basket;
+
         StockItem item = reduceStock(itemName,quantity);
         if(item!=null){
-
-            if(baskets.contains(shopperName)){
-                for(ShoppingBasket bk: baskets){
-                    if(bk.equals(new ShoppingBasket(shopperName))){
-                        bk.addItem(item);
-                    }
-                }
-            }
-            else{
-                basket = new ShoppingBasket(shopperName);
-                basket.addItem(item);
-                baskets.add(basket);
-            }
+            ShoppingBasket basket = getBasket(shopperName);
+            basket.addItem(item);
+            baskets.add(basket);
         }
         else{
             System.out.println("Item not available.");
@@ -141,8 +95,25 @@ public class SortedCollections {
 
     }
 
-    private static void removeItem(String shopperName, String item){
+    private static ShoppingBasket getBasket(String shopperName) {
+        ShoppingBasket basket;
+        if(baskets.contains(shopperName)){
+            for(ShoppingBasket bk: baskets){
+                if(bk.equals(new ShoppingBasket(shopperName))){
+                    return bk;
+                }
+            }
+        }
+        return new ShoppingBasket(shopperName);
 
+    }
+
+    private static boolean removeItem(String shopperName, String itemName){
+
+        ShoppingBasket basket = getBasket(shopperName);
+        StockItem basketItem = basket.removeItem(getItem(itemName));
+        StockItem removed = increaseStock(basketItem.getName(), basketItem.getQuantity());
+        return true;
     }
 
     private static void buyMore(String shopperName, String item, int quantity) {

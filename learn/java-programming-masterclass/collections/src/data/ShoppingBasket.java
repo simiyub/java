@@ -42,6 +42,19 @@ public class ShoppingBasket {
         System.out.println(this.toString());
     }
 
+    public StockItem removeItem(StockItem stockItem) {
+
+        for(StockItem item : items){
+            if(item ==stockItem){
+                StockItem toRemove = new StockItem(item.getName(),item.getPrice(),item.getQuantity());
+                items.remove(stockItem);
+                System.out.println("Removed "+toRemove.getName()+" from basket.");
+                return toRemove;
+            }
+        }
+        return null;
+    }
+
     public Set<StockItem> getItems() {
         return Collections.unmodifiableSet(items);
     }
