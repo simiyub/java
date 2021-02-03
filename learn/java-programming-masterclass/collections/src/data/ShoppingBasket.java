@@ -36,10 +36,11 @@ public class ShoppingBasket {
         return added;
     }
 
-    public void addItem(StockItem stockItem) {
-        items.add(stockItem);
+    public boolean addItem(StockItem stockItem) {
+        boolean added = items.add(stockItem);
         System.out.println("Added "+stockItem.getName()+" to basket.");
         System.out.println(this.toString());
+        return added;
     }
 
     public StockItem removeItem(StockItem stockItem) {

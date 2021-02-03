@@ -49,9 +49,9 @@ public class SortedCollections {
         /**Outstanding:
          * -----------
          * Next:
-         * 1. Add more of an item to a shopping basket
-         * 2. Reduce quantity of an item from a shopping basket
-         * 3. Remove an item from a shopping basket
+         * 1. Add more of an item to a shopping basket - DONE
+         * 2. Reduce quantity of an item from a shopping basket - DONE
+         * 3. Remove an item from a shopping basket - DONE
          * 4. Check if the basket quantity can be adjusted up and down
          * 5. Make changes so any basket adjustments adjust stock level accordingly
          * */
@@ -108,20 +108,25 @@ public class SortedCollections {
 
     }
 
-    private static boolean removeItem(String shopperName, String itemName){
+    private static boolean removeItemFromBasket(String shopperName, String itemName){
 
         ShoppingBasket basket = getBasket(shopperName);
         StockItem basketItem = basket.removeItem(getItem(itemName));
         StockItem removed = increaseStock(basketItem.getName(), basketItem.getQuantity());
-        return true;
+        return removed!=null;
     }
 
-    private static void buyMore(String shopperName, String item, int quantity) {
-
+    private static boolean buyMore(String shopperName, String item, int quantity) {
+        StockItem itemInStock = reduceStock(item,quantity);
+        ShoppingBasket basket = getBasket(shopperName);
+        return basket.addItem(itemInStock);
     }
 
-    private static void buyLess(String shopperName, String item, int quantity) {
-
+    private static void buyLess(String shopperName, String itemName, int quantity) {
+        ShoppingBasket basket = getBasket(shopperName);
+        StockItem item = getItem(itemName);
+        basket.removeItem(item);
+        reduceStock(itemName,quantity);
     }
 
 }
