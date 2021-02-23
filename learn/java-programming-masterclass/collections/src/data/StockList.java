@@ -2,6 +2,7 @@ package data;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class StockList {
@@ -11,7 +12,7 @@ public class StockList {
     public static final String REDUCE = "REDUCE";
 
     public StockList() {
-        list = new HashMap<>();
+        list = new LinkedHashMap<>();
     }
 
     public StockItem add(StockItem item) {
@@ -78,6 +79,10 @@ public class StockList {
 
     public Map<String, StockItem> items() {
         return Collections.unmodifiableMap(list);
+    }
+
+    public void print(){
+        System.out.println(list);
     }
 
     @Override

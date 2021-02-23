@@ -24,9 +24,9 @@ public class SortedCollections {
         reduceStock("item1",4);
 
         //Add more stock
-        StockItem buyItem2 = new StockItem("item1", 23.5, 6);
+        //StockItem buyItem2 = new StockItem("item1", 23.5, 6);
 
-        stockList.add(buyItem2);
+        addStockItem("item1", 23.5, 6);
 
         //Remove an item that doesn't exist
        StockItem removedItem = reduceStock("missingItem",4);
@@ -44,6 +44,7 @@ public class SortedCollections {
 
         buyMore("existingShopper", "existingShopperItem", 1);
 
+        printStock();
 
 
         /**Outstanding:
@@ -55,6 +56,10 @@ public class SortedCollections {
          * 4. Check if the basket quantity can be adjusted up and down
          * 5. Make changes so any basket adjustments adjust stock level accordingly
          * */
+    }
+
+    private static void printStock() {
+        System.out.println(stockList.toString());
     }
 
     private static StockItem getItem(String item){
