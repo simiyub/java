@@ -87,7 +87,6 @@ public class ArraysDemoImpl implements ArraysDemo {
     @Override
     public String[] fill(String[] array, String filler) {
         int firstNullIndex=-1;
-        //Arrays.fill(array,firstNull,array.length-1,filler);
         for(int i=0;i<array.length;i++){
             if(array[i]==null){
                 firstNullIndex = i;
