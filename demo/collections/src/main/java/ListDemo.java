@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public interface ListDemo extends CollectionDemo{
@@ -13,6 +14,9 @@ public interface ListDemo extends CollectionDemo{
     int lastIndexOf();
     List subList();
     List of();
-    List copyOf();
+    ArrayList copyOf();
+
+
+
 
 }
