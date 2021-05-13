@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0bc27e6-bb5d-45f6-9ecf-fbcb2d06d04f" name="Default Changelist" comment="vendor working">
+      <change afterPath="$PROJECT_DIR$/cardGame/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/TraditionalGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardGame/src/test/java/TraditionalGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingLot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parkingLot/src/main/java/ParkingManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/Cellar/maven/3.6.3/libexec/repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.3/libexec/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sAG42phoI91t2JWu5587BfjVR5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TraditionalGame">
+    <configuration name="TraditionalGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TraditionalGame" />
+      <module name="cardGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserInterface" />
+      <module name="vendor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionalGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TraditionalGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraditionalGameTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TraditionalGameTest" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendorImplTest.vend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vendor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VendorImplTest" />
+      <option name="METHOD_NAME" value="vend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TraditionalGame" />
+        <item itemvalue="JUnit.TraditionalGameTest.run" />
+        <item itemvalue="JUnit.TraditionalGameTest" />
+        <item itemvalue="Application.UserInterface" />
+        <item itemvalue="JUnit.VendorImplTest.vend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0bc27e6-bb5d-45f6-9ecf-fbcb2d06d04f" name="Default Changelist" comment="" />
+      <created>1620307789037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620307789037</updated>
+    </task>
+    <task id="LOCAL-00001" summary="vendor working">
+      <created>1620393339171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620393339171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vendor working" />
+    <option name="LAST_COMMIT_MESSAGE" value="vendor working" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="415" key="#com.intellij.ide.util.MemberChooser" timestamp="1620407785030">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="453" y="415" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1338@0.23.2560.1338" timestamp="1620407785030" />
+    <state x="378" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620392259922">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="378" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1620392259922" />
+    <state x="198" y="267" key="CommitChangelistDialog2" timestamp="1620393348896">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="198" y="267" key="CommitChangelistDialog2/0.23.2560.1338@0.23.2560.1338" timestamp="1620393348896" />
+    <state width="1238" height="470" key="GridCell.Tab.0.bottom" timestamp="1620655639613">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.0.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639613" />
+    <state width="1238" height="470" key="GridCell.Tab.0.center" timestamp="1620655639612">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.0.center/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639612" />
+    <state width="1238" height="470" key="GridCell.Tab.0.left" timestamp="1620655639612">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.0.left/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639612" />
+    <state width="1238" height="470" key="GridCell.Tab.0.right" timestamp="1620655639612">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.0.right/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639612" />
+    <state width="1238" height="470" key="GridCell.Tab.1.bottom" timestamp="1620655639613">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.1.bottom/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639613" />
+    <state width="1238" height="470" key="GridCell.Tab.1.center" timestamp="1620655639613">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.1.center/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639613" />
+    <state width="1238" height="470" key="GridCell.Tab.1.left" timestamp="1620655639613">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.1.left/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639613" />
+    <state width="1238" height="470" key="GridCell.Tab.1.right" timestamp="1620655639613">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state width="1238" height="470" key="GridCell.Tab.1.right/0.23.2560.1338@0.23.2560.1338" timestamp="1620655639613" />
+    <state x="178" y="354" key="Maven.ArtifactSearchDialog" timestamp="1620382680962">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="178" y="354" key="Maven.ArtifactSearchDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1620382680962" />
+    <state x="240" y="432" key="Vcs.Push.Dialog.v2" timestamp="1620393356119">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="240" y="432" key="Vcs.Push.Dialog.v2/0.23.2560.1338@0.23.2560.1338" timestamp="1620393356119" />
+    <state x="432" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620395009789">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="432" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1338@0.23.2560.1338" timestamp="1620395009789" />
+    <state x="419" y="493" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1620395108614">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="419" y="493" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1620395108614" />
+    <state x="239" y="355" key="new project wizard" timestamp="1620908954090">
+      <screen x="0" y="23" width="2560" height="1338" />
+    </state>
+    <state x="239" y="355" key="new project wizard/0.23.2560.1338@0.23.2560.1338" timestamp="1620908954090" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cardGame/src/main/java/Card.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cardGame/src/main/java/TraditionalGame.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cardGame/src/main/java/TraditionalGame.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cardGame/src/main/java/TraditionalGame.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
