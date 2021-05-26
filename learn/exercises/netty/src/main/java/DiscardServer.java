@@ -57,7 +57,7 @@ public class DiscardServer {
                         @Override
                         public void initChannel(SocketChannel ch)
                         {
-                            ch.pipeline().addLast( new DiscardServerHandler());
+                            ch.pipeline().addLast( new TimeServerHandler());
                         }
                     })
 
