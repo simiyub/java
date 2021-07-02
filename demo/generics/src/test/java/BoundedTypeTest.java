@@ -3,16 +3,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BoundedTypeDemoTest {
+class BoundedTypeTest {
 
-    private BoundedTypeDemo<Double> demo;
+    private BoundedType<Double> demo;
 
     private double testDemoDouble;
 
     @BeforeEach
     void setUp() {
         testDemoDouble = 5.0;
-        demo = new BoundedTypeDemo<>(testDemoDouble);
+        demo = new BoundedType<>(testDemoDouble);
     }
 
     @Test

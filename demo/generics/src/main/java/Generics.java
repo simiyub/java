@@ -7,10 +7,10 @@
  *
  * 2. Type Safety: Generics make errors to appear compile time than at run time
  * */
-public class GenericsDemo <T> {
+public class Generics<T> {
     T typeT;
 
-    GenericsDemo(T typeT){
+    Generics(T typeT){
         this.typeT = typeT;
             }
             public T printType(){

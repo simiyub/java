@@ -3,15 +3,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class GenericsDemoTest {
-    private GenericsDemo<String> demo;
+class GenericsTest {
+    private Generics<String> demo;
     private String testDemoTypeT;
 
 
     @BeforeEach
     void setUp() {
         testDemoTypeT = "TestDemoTypeT";
-        demo = new GenericsDemo<>(testDemoTypeT);
+        demo = new Generics<>(testDemoTypeT);
     }
 
     @Test
@@ -24,7 +24,7 @@ class GenericsDemoTest {
     void printTwoTypes(){
         String type1="one";
         int type2 = 1;
-        GenericsDemo.GenericsDemoTwoTypes<String,Integer> demoTwoTypes = new GenericsDemo.GenericsDemoTwoTypes<>(type1, type2);
+        Generics.GenericsDemoTwoTypes<String,Integer> demoTwoTypes = new Generics.GenericsDemoTwoTypes<>(type1, type2);
         System.out.println(demoTwoTypes.printType());
         assertEquals(demoTwoTypes.printType(),type1+type2);
     }
