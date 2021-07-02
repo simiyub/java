@@ -1,4 +1,8 @@
+/**
+* This is a number class to be used for the Generics demo only.
+* */
 public class ANumber extends Number implements Divisible {
+
     Number number;
     public ANumber(Number number) {
          this.number = number;
