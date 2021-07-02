@@ -3,16 +3,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WildCardDemoTest {
+class BoundedTypeDemoTest {
 
-    private WildCardDemo<Double> demo;
+    private BoundedTypeDemo<Double> demo;
 
     private double testDemoDouble;
 
     @BeforeEach
     void setUp() {
         testDemoDouble = 5.0;
-        demo = new WildCardDemo<>(testDemoDouble);
+        demo = new BoundedTypeDemo<>(testDemoDouble);
     }
 
     @Test
@@ -20,6 +20,7 @@ class WildCardDemoTest {
         System.out.println(demo.printType());
         assertEquals(testDemoDouble,demo.printType());
     }
+
 
     @Test
     void genericFunction(){
