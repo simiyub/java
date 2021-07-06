@@ -1,5 +1,6 @@
 package constructor;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
@@ -18,6 +19,11 @@ import static org.junit.jupiter.api.Assertions.*;
  * */
 
 class StreamConstructorTest {
+    private StreamConstructor<Integer, Object> constructor;
+    @BeforeEach
+    void setUp() {
+        constructor = new StreamConstructorImpl<>();
+    }
 
     @Test
     void streamOfCollection() {
@@ -66,7 +72,7 @@ class StreamConstructorTest {
 
     @Test
     void streamOfRandomInts() {
-        StreamConstructor<Integer,Object> constructor = new StreamConstructorImpl<>();
+
         int size = 10;
         IntStream stream = constructor.streamOfRandomInts(size);
         assertEquals(size, stream.count());
@@ -99,5 +105,45 @@ class StreamConstructorTest {
         }
         Stream<Object> stream = constructor.streamOfObjects(students);
         assertEquals(studentCount, stream.count());
+    }
+
+    @Test
+    void streamIterate(){
+        StreamConstructor<String, Object> constructor = new StreamConstructorImpl<>();
+        Student student1 = new Student(1);
+        assertEquals(10,constructor.streamIterate(student1, 10).count());
+
+    }
+
+    @Test
+    void streamPrimitiveInts(){
+        int intCount = 9;
+        assertEquals(intCount,constructor.streamOfPrimitiveInt(1,10).count());
+    }
+
+    @Test
+    void streamOfPrimitiveIntIncludingEnd(){
+        int intCount = 10;
+        assertEquals(intCount,constructor.streamOfPrimitiveIntIncludingEnd(1,intCount).max().orElse(Integer.MAX_VALUE));
+    }
+
+    @Test
+    void streamOfPrimitiveDoubles(){
+
+        int count = 9;
+        assertEquals(count,constructor.streamOfPrimitiveDoubles(count).count());
+    }
+
+    @Test
+    void streamOfStrings(){
+        String testString = "one, two, three, four, five , six, seven, eight, nine, ten";
+        String separator = ",";
+        assertEquals(10,constructor.streamOfStrings(testString,separator).count());
+    }
+
+    @Test
+    void streamOfStringsAsChar(){
+        String word = "Mississippi";
+        assertEquals(word.length(),constructor.streamOfStrings(word).count());
     }
 }
