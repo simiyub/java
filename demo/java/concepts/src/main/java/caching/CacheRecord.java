@@ -2,7 +2,7 @@ package caching;
 
 /**
  * Cache record.
- * * Consider these stats:
+ * * Consider recording these stats:
  *  * Hit count: Number of lookups when get returned a value from the cache
  *  * Miss count: Number of lookups when get returned nothing and we had to make a new lookup and store in the cache
  * */
