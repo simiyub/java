@@ -17,9 +17,22 @@ class CacheTest {
     }
 
     @Test
-    void get() {
-        String key = "one";
+    void getPresent() {
+        String key = "getPresent";
         Integer value = 1;
+        assertDoesNotThrow(() -> cache.put(key,value));
+        assertEquals(value, cache.get(key));
+    }
+
+    Integer mockValue(){
+        return -1;
+    }
+
+    @Test
+    void getAbsent() {
+        String key = "getAbsent";
+        Integer value = mockValue();
+        cache = new CacheImpl<>(callback -> mockValue());
         assertEquals(value, cache.get(key));
     }
 
@@ -30,6 +43,7 @@ class CacheTest {
         assertDoesNotThrow(() -> cache.put(key,value));
         assertEquals(value, cache.get(key));
     }
+
 
     @Test
     void contains() {
@@ -44,27 +58,28 @@ class CacheTest {
     void remove() {
         String key = "remove";
         Integer value = 4;
-        cache.remove(key);
+        cache.put(key,value);
+        assertEquals(value,cache.remove(key));
         assertFalse(cache.contains(key));
+    }
+
+    @Test
+    void size() {
+        String key = "size";
+        Integer value = 4;
+        cache.put(key,value);
+        assertEquals(1,cache.size());
     }
 
  /**
   * To be implemented: checks cleaning works.
   * */
     @Test
-    void clean() {
-        String key = "put";
-        Integer value = 5;
-        assertDoesNotThrow(() ->cache.clean());
-    }
-
-    /**
-     * To be implemented: checks we can clear the cache.
-     * */
-    @Test
     void clear() {
         String key = "put";
-        Integer value = 6;
-        assertDoesNotThrow(() -> cache.clear());
+        Integer value = 4;
+        cache.put(key,value);
+        cache.clear();
+        assertEquals(0,cache.size());
     }
 }

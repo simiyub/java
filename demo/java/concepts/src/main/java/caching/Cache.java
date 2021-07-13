@@ -11,12 +11,12 @@ package caching;
 
  *
  * Consider these stats:
- * Hit count: Number of look-ups encountered when object found
- * Miss count: Number of look-ups encountered when object not found
- * Load success count: Number of successfully loaded entries
- * Total load time: Total time in loading an element
- * Load exception count: Number of exceptions thrown while loading an entry
- * Eviction count: Number of entries evicted from the cache
+ * Total load time: How long it took to put
+ * May support further essential functions below in future if requested.
+ *  * clean
+ * Will need Eviction count: Number of entries removed
+ * Load success count: Number of times we successfully loaded data to the cache
+ * Load exception count: Number of exceptions thrown in put
  * */
 
 public interface Cache <K,V> {
@@ -32,23 +32,23 @@ public interface Cache <K,V> {
     void put(K key, V value);
 
     /**
-     * checks if the cache contains an entry for a given key
+     * would check if the cache contains an entry for a given key
      * */
     boolean contains(K key);
 
     /**
      * removes a value for a given key
      * */
-    void remove(K key);
-
-    /**
-     * removes expired cache entries.
-     * */
-    void clean();
+    V remove(K key);
 
     /**
      * removes all entries from the cache
      * */
     void clear();
+
+    /**
+     * Provide the count of records, should be handy when we implement clean
+     * */
+    int  size();
 
 }
