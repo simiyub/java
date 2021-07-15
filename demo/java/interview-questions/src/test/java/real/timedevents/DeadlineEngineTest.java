@@ -15,12 +15,14 @@ class DeadlineEngineTest {
 
     @Test
     void schedule() {
-        assertDoesNotThrow(() -> engine.schedule(1));
+        long deadline = 1;
+        assertDoesNotThrow(() -> engine.schedule(deadline));
     }
+
 
     @Test
     void cancel() {
-        assertDoesNotThrow(() -> engine.cancel(1));
+        assertTrue(engine.cancel(1));
     }
 
     void deadlineHandler(Long deadline){
@@ -29,11 +31,15 @@ class DeadlineEngineTest {
 
     @Test
     void poll() {
-        assertDoesNotThrow(() -> engine.poll(1,this::deadlineHandler, 5));
+        long id = engine.schedule(1);
+        int result = engine.poll(id,this::deadlineHandler, 5);
+        assertEquals(1,result);
     }
 
     @Test
     void size() {
-        assertDoesNotThrow(() -> engine.size());
+        long deadline = 2;
+        engine.schedule(deadline);
+        assertEquals(1,engine.size());
     }
 }
