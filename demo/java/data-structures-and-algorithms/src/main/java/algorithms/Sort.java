@@ -1,5 +1,5 @@
 package algorithms;
 
-public interface Sort <E extends Comparable<E>> {
+public interface Sort <E> {
     E[] sort(E[] array);
 }

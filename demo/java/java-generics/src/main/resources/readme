@@ -1,0 +1,11 @@
+Demo the following:
+ - Generic types
+ - Generic methods
+ - Generics, Inheritance and Subtypes
+ - Bounded type parameters
+ - Type inference
+ - Wild cards
+ - Type erasure
+ - Generics restrictions
+ Resources
+ https://docs.oracle.com/javase/tutorial/java/generics/index.html

@@ -1,0 +1,9 @@
+Exceptions
+Checked: Will not compile if not dealt with.
+Unchecked will compile include Errors and Runtime Exceptions
+Learn Try with resources.
+Throwable.getSuppressed will provide suppressed exception details.
+Learn Throwable class
+Learn Chained exceptions
+Exception advantages
+Propagation, Separates exception handling from business logic and can handle exception in groups.
