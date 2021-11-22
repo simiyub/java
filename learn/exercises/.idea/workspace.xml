@@ -5,26 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0bc27e6-bb5d-45f6-9ecf-fbcb2d06d04f" name="Default Changelist" comment="vendor working">
-      <change afterPath="$PROJECT_DIR$/cardGame/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardGame/src/main/java/TraditionalGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardGame/src/test/java/TraditionalGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parkingLot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parkingLot/src/main/java/ParkingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/design-patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-patterns/src/EffectiveJavaThreadBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-structures-in-java-1102" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structures-in-java-1102" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardGame/cardGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cardGame/cardGame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingLot/parkingLot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parkingLot/parkingLot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-springboot3-kenkousen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vendor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vendor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-and-spring-boot" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-and-spring-boot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +64,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -209,10 +226,10 @@
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
     <state x="419" y="493" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1620395108614" />
-    <state x="239" y="355" key="new project wizard" timestamp="1620908954090">
+    <state x="239" y="355" key="new project wizard" timestamp="1620928848539">
       <screen x="0" y="23" width="2560" height="1338" />
     </state>
-    <state x="239" y="355" key="new project wizard/0.23.2560.1338@0.23.2560.1338" timestamp="1620908954090" />
+    <state x="239" y="355" key="new project wizard/0.23.2560.1338@0.23.2560.1338" timestamp="1620928848539" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

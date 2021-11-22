@@ -18,7 +18,7 @@ public class StepDefinitions implements En {
 
         When("I ask whether it's Friday yet", () -> {
             // Write code here that turns the phrase above into concrete actions
-           actualAnswer = IsItFriday.isItFriday(today);
+           actualAnswer = new IsItFriday().isItFriday(today);
         });
 
         Then("I should be told {string}", (String expectedAnswer) -> {
@@ -35,8 +35,8 @@ public class StepDefinitions implements En {
 
     }
 
-    private static class IsItFriday {
-        public static String isItFriday(String today) {
+    private  class IsItFriday {
+        public String isItFriday(String today) {
             return "Friday".equals(today) ? "TGIF": "Nope";
         }
     }
