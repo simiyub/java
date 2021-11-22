@@ -10,13 +10,13 @@ package caching;
  *   Consider alternative option if your application is memory intensive.
 
  *
- * Consider these stats:
- * Total load time: How long it took to put
- * May support further essential functions below in future if requested.
- *  * clean
- * Will need Eviction count: Number of entries removed
- * Load success count: Number of times we successfully loaded data to the cache
- * Load exception count: Number of exceptions thrown in put
+ * Future enhancement for consideration:
+ * Clean: updating the cache with new data
+ * Necessary stats:
+ * > Total load time: How long it took to put
+ * > Eviction count: Number of entries removed
+ * > Load success count: Number of times we successfully loaded data to the cache
+ * > Load exception count: Number of exceptions thrown in put
  * */
 
 public interface Cache <K,V> {

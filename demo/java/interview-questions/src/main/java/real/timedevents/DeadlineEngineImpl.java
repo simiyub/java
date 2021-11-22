@@ -10,8 +10,8 @@ import static java.util.stream.Collectors.*;
 
 /**
  * One map for id: deadlines populated on schedule
- *  emptied through poll
- *  cancel and size available too
+ *  and deadline events removed through poll
+ *  cancel and size available too.
  * */
  class DeadlineEngineImpl implements DeadlineEngine {
 

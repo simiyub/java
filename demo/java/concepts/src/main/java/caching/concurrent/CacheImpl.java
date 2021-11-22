@@ -7,10 +7,7 @@ import java.util.function.Function;
 /**
  * In memory implementation of Cache.
  * Currently only supports put and get
- * May support clean function below in future if requested as considered essential.
- * clean
- *
- *  * Eviction count: Number of entries removed
+ * May support clean function in future if requested as this is essential.
  *  * */
 
 public class CacheImpl <K, V> implements Cache<K,V> {

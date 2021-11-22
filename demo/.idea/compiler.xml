@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="collections" />
+        <module name="data-structures-and-algorithms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="collections" target="1.11" />
+      <module name="core" target="1.5" />
+      <module name="generics" target="1.11" />
+      <module name="java-streams" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
   </component>
 </project>

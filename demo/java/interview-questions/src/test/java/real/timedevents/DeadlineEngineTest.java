@@ -62,7 +62,7 @@ class DeadlineEngineTest {
     @Test
     void pollHighVolume() {
         Random random = new Random();
-        int[] deadlinesToTest = {100, 1000, 10_000, 100_000, 1_000_000, 10_000_000};
+        int[] deadlinesToTest = {100, 1000, 10_000, 100_000, 1_000_000};
         for(Integer integer:deadlinesToTest) {
             int countOfDeadlines = integer;
             long[] array = random.longs(countOfDeadlines, 0, Instant.now().minusSeconds(1000).toEpochMilli())
