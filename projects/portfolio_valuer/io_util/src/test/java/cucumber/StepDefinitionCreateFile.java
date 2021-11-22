@@ -4,11 +4,11 @@ import io.cucumber.java8.En;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StepDefinitonCreateFile implements En {
+public class StepDefinitionCreateFile implements En {
     private String fileName;
     private String newFileName;
 
-    public StepDefinitonCreateFile() {
+    public StepDefinitionCreateFile() {
 
         Given("a valid {string} path name", (String string) -> fileName = string );
 

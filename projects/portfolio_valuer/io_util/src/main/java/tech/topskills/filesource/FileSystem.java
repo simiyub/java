@@ -1,5 +1,9 @@
 package tech.topskills.filesource;
 
-public interface FileFactory {
-    void createFile()
+import java.nio.file.Path;
+
+public interface FileSystem {
+
+
+
 }

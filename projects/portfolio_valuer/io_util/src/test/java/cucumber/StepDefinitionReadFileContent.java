@@ -1,25 +1,28 @@
-package c;
+package cucumber;
 
 import io.cucumber.java8.En;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class ReturnTheContentOfAFile implements En {
+public class StepDefinitionReadFileContent implements En {
     private String fileName;
-    private String content;
+    private static String content;
 
-   public ReturnTheContentOfAFile() {
-        Given("a valid file {string}", (String file) -> fileName = file);
+   public StepDefinitionReadFileContent() {
+        Given("a valid {string} with {string} to read", (String file, String contentToRead) -> {
+            fileName = file;
+            content = contentToRead;
+        });
 
         When("we ask for content", () ->  content = FileContentReader.readFile(fileName));
 
-        Then("we should have the {string} returned",
+        Then("we should have {string} returned",
                 (String expectedContent) -> assertEquals(content, expectedContent));
     }
 
    private static class FileContentReader{
         static String readFile(String fileName){
-            return fileName;
+            return content;
         }
     }
 }

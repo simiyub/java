@@ -1,0 +1,5 @@
+rootProject.name = 'portfolio_valuer'
+
+include 'io_util'
+include 'main_application'
+

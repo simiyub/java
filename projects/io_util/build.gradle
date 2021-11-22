@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'tech.topskills'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java8:6.10.4'
+    testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+}
+
+//test {
+//    useJUnitPlatform()
+//}
+
+configurations {
+    cucumberRuntime{
+        extendsFrom testImplementation
+    }
+}
+
+task cucumber(){
+    dependsOn assemble, testClasses
+    doLast{
+        javaexec{
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'c', 'src/test/resources']
+        }
+
+    }
+}

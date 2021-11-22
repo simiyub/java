@@ -1,2 +1,5 @@
-package tech.topskills.action;public enum FileType {
+package tech.topskills.action;
+
+public enum FileType {
+    EXCEL, TEXT
 }

@@ -4,11 +4,11 @@ import io.cucumber.java8.En;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class StepDefitionUpdateFileContent implements En {
+public class StepDefinitionUpdateFileContent implements En {
     private String content;
     private String filePath;
 
-    public StepDefitionUpdateFileContent() {
+    public StepDefinitionUpdateFileContent() {
         Given("a valid {string} to update", (String file) -> this.filePath = file);
 
         When("provided with {string} to add", (String content) ->  this.content = content);

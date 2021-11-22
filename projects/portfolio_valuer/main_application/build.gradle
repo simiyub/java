@@ -17,8 +17,8 @@ dependencies {
 //	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 //	implementation 'org.springframework.boot:spring-boot-starter-web'
 //	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-//    testImplementation 'io.cucumber:cucumber-java8:6.10.4'
-//	testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+    testImplementation 'io.cucumber:cucumber-java8:6.10.4'
+	testImplementation 'io.cucumber:cucumber-junit:6.10.4'
 //	///implementation project('io')
 }
 
@@ -37,7 +37,7 @@ classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets
 args = [
 '--plugin','pretty',
 '--plugin', 'html:target/cucumber-report.html',
-'--glue', 'application',
+'--glue', 'main_application',
 'src/test/resources']
 }
 }

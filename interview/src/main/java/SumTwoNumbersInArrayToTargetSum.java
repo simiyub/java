@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface SumTwoNumbersInArrayToTargetSum {
+public interface SumTwoNumbersInArrayToTargetSum {
+    int[] sum(int[] array, int target);
 }
