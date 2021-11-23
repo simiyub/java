@@ -13,9 +13,18 @@ class SumTwoNumbersInArrayToTargetSumTest {
 
     @Test
     void sum() {
-        int[] expectedResult = new int[]{5,5};
+
         int target = 10;
-        int[] array = new int[]{5,5};
-        assertArrayEquals(expectedResult, new SumTwoNumbersInArrayToTargetSumImpl().sum(array, target));
+        int[] array = new int[]{545,2,1,3,5,1,7,8,9,1,2,3,4,3,5};
+        int[] expectedResult = new SumTwoNumbersInArrayToTargetSumImpl().sum(array, target);
+        assertEquals(target, (expectedResult[0] +expectedResult[1]));
+
+        int[] array2 = new int[]{4,6};
+        int[] expectedResult2 = new SumTwoNumbersInArrayToTargetSumImpl().sum(array2, target);
+        assertEquals(target, (expectedResult2[0] +expectedResult2[1]));
+
+        int[] array3 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] expectedResult3 = new SumTwoNumbersInArrayToTargetSumImpl().sum(array3, 17);
+        assertEquals(17, (expectedResult3[0] +expectedResult3[1]));
     }
 }
