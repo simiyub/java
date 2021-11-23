@@ -35,5 +35,14 @@ class SumTwoNumbersInArrayToTargetSumTest {
     @Test
     void sumWithHashTable(){
        // int target
+        int[] expectedResult1 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array1, target1);
+        assertEquals(target1, (expectedResult1[0] +expectedResult1[1]));
+
+        int[] expectedResult2 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array2, target2);
+        assertEquals(target2, (expectedResult2[0] +expectedResult2[1]));
+
+
+        int[] expectedResult3 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array3, target3);
+        assertEquals(target3, (expectedResult3[0] +expectedResult3[1]));
     }
 }
