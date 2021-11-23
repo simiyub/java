@@ -2,7 +2,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ *O(n) T and O(1) S solution of  finding a subsequence in an array
+ * **/
 public class FindSubArrayInArrayImpl implements FindSubArrayInArray{
     @Override
     public boolean isSubArray(int[] array, int[] candidateSubArray) {
@@ -23,21 +25,4 @@ public class FindSubArrayInArrayImpl implements FindSubArrayInArray{
         return found.size() == candidateSubArray.length;
     }
 
-    public boolean isSubList(List<Integer> array, List<Integer> candidateSubArray) {
-        int currentIndex =0;
-        List<Integer> found = new ArrayList<>();
-        boolean done = found.size() == candidateSubArray.size();
-        for(int i=0; i<=array.size()-1; i++){
-            if(!done && currentIndex <=candidateSubArray.size()-1) {
-                if (candidateSubArray.get(currentIndex) == array.get(i)) {
-                    found.add(candidateSubArray.get(currentIndex));
-                    currentIndex ++;
-                }
-            }
-            else {
-                break;
-            }
-        }
-        return found.size() == candidateSubArray.size();
-    }
 }

@@ -29,9 +29,9 @@ class FindSubArrayInArrayTest {
 
     @Test
     void isSubList1() {
-        List<Integer> array = Arrays.asList(1,1,1,1,1);
-        List<Integer> potentialSubArray = Arrays.asList(1,1,1);
-        assertTrue(new FindSubArrayInArrayImpl().isSubList(array,potentialSubArray));
+        int[] array = new int[]{1,1,1,1,1};
+        int[] potentialSubArray = new int[]{1,1,1};
+        assertTrue(new FindSubArrayInArrayImpl().isSubArray(array,potentialSubArray));
     }
 
 
