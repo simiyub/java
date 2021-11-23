@@ -1,3 +1,5 @@
+package sumtwonumbersinarray;
+
 public class SumTwoNumbersInArrayToTargetSumTwoLoopImpl implements SumTwoNumbersInArrayToTargetSum{
 
     /**

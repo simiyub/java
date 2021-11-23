@@ -1,5 +1,11 @@
+package sumtwonumbersinarray;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sumtwonumbersinarray.SumTwoNumbersInArrayToTargetSum;
+import sumtwonumbersinarray.SumTwoNumbersInArrayToTargetSumHashTableImpl;
+import sumtwonumbersinarray.SumTwoNumbersInArrayToTargetSumSortImpl;
+import sumtwonumbersinarray.SumTwoNumbersInArrayToTargetSumTwoLoopImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
