@@ -18,31 +18,30 @@ class SumTwoNumbersInArrayToTargetSumTest {
         array3 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
     }
 
-    @Test
-    void sumWithTwoLoops() {
+    private void runTest(SumTwoNumbersInArrayToTargetSum impl){
+        int[] expectedResult1 = impl.sum(array1, target1);
+        assertEquals(target1, (expectedResult1[0] +expectedResult1[1]));
 
-        int[] expectedResult = new SumTwoNumbersInArrayToTargetSumTwoLoopImpl().sum(array1, target1);
-        assertEquals(target1, (expectedResult[0] +expectedResult[1]));
-
-        int[] expectedResult2 = new SumTwoNumbersInArrayToTargetSumTwoLoopImpl().sum(array2, target2);
+        int[] expectedResult2 = impl.sum(array2, target2);
         assertEquals(target2, (expectedResult2[0] +expectedResult2[1]));
 
 
-        int[] expectedResult3 = new SumTwoNumbersInArrayToTargetSumTwoLoopImpl().sum(array3, target3);
+        int[] expectedResult3 = impl.sum(array3, target3);
         assertEquals(target3, (expectedResult3[0] +expectedResult3[1]));
     }
 
     @Test
+    void sumWithTwoLoops() {
+        runTest(new SumTwoNumbersInArrayToTargetSumTwoLoopImpl());
+    }
+
+    @Test
     void sumWithHashTable(){
-       // int target
-        int[] expectedResult1 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array1, target1);
-        assertEquals(target1, (expectedResult1[0] +expectedResult1[1]));
+       runTest(new SumTwoNumbersInArrayToTargetSumHashTableImpl());
+    }
 
-        int[] expectedResult2 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array2, target2);
-        assertEquals(target2, (expectedResult2[0] +expectedResult2[1]));
-
-
-        int[] expectedResult3 = new SumTwoNumbersInArrayToTargetSumHashTableImpl().sum(array3, target3);
-        assertEquals(target3, (expectedResult3[0] +expectedResult3[1]));
+    @Test
+    void sumWithSorting(){
+        runTest(new SumTwoNumbersInArrayToTargetSumSortImpl());
     }
 }

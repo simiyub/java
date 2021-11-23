@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class SumTwoNumbersInArrayToTargetSumHashTableImpl {
+public class SumTwoNumbersInArrayToTargetSumHashTableImpl implements SumTwoNumbersInArrayToTargetSum {
     public int[] sum(int[] array, int target) {
 
         /**

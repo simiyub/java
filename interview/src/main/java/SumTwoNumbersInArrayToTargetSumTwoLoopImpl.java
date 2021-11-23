@@ -1,7 +1,7 @@
 public class SumTwoNumbersInArrayToTargetSumTwoLoopImpl implements SumTwoNumbersInArrayToTargetSum{
 
     /**
-     * Solution uses two loops: O(n2) Time complexity
+     * Most inefficient solution that uses two loops: O(n2) Time complexity
      * */
     public int[] sum(int[] array, int expectedResult) {
         int start = 0;
