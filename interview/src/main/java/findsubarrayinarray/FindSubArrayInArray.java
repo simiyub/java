@@ -1,3 +1,4 @@
+package findsubarrayinarray;
 
 /**
  * Given an array and a candidate sub array, return true if the array contains the candidate sub array

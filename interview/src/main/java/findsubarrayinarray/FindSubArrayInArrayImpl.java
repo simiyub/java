@@ -1,3 +1,5 @@
+package findsubarrayinarray;
+
 /***
  * O(n) T and O(1) S of space
  * Implementation uses one loop and no additional data structure
