@@ -16,9 +16,14 @@ class SortedSquareArrayFromSortedArrayTest {
     }
 
     @Test
-    void sortedSquaredArray() {
+    void sortedSquaredArrayBasicSolution() {
         assertArrayEquals(expectedResult1, new SortedSquareArrayFromSortedArrayImpl().sortedSquaredArray(array1));
         assertArrayEquals(expectedResult2, new SortedSquareArrayFromSortedArrayImpl().sortedSquaredArray(array2));
+    }
+    @Test
+    void sortedOptimizedSolution(){
+        assertArrayEquals(expectedResult1, new SortedSquareArrayFromSortedArrayOptimizedImpl().sortedSquaredArray(array1));
+        assertArrayEquals(expectedResult2, new SortedSquareArrayFromSortedArrayOptimizedImpl().sortedSquaredArray(array2));
     }
 
 

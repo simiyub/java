@@ -1,6 +1,6 @@
 import java.util.Arrays;
 /***
- * O(n) and O(1) but also has a sort function which is O(nlogn)
+ * O(n) T and O(n) S but also has a sort function which is O(nlogn), so overall O(nlogn)
  * We square then sort the result
  * */
 public class SortedSquareArrayFromSortedArrayImpl implements SortedSquareArrayFromSortedArray {
