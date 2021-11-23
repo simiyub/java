@@ -1,5 +1,8 @@
 import java.util.Arrays;
-
+/***
+ * O(n) and O(1) but also has a sort function which is O(nlogn)
+ * We square then sort the result
+ * */
 public class SortedSquareArrayFromSortedArrayImpl implements SortedSquareArrayFromSortedArray {
     @Override
     public int[] sortedSquaredArray(int[] array) {
@@ -8,7 +11,6 @@ public class SortedSquareArrayFromSortedArrayImpl implements SortedSquareArrayFr
             squared[i] = array[i]*array[i] ;
         }
         Arrays.sort(squared);
-        System.out.println(Arrays.toString(squared));
         return squared;
     }
 }
