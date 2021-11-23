@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sortedsquarearrayfromsortedarray.SortedSquareArrayFromSortedArrayImpl;
+import sortedsquarearrayfromsortedarray.SortedSquareArrayFromSortedArrayOptimizedImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

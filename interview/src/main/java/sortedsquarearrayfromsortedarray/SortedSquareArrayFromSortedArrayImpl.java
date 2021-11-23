@@ -1,3 +1,5 @@
+package sortedsquarearrayfromsortedarray;
+
 import java.util.Arrays;
 /***
  * O(n) T and O(n) S but also has a sort function which is O(nlogn), so overall O(nlogn)

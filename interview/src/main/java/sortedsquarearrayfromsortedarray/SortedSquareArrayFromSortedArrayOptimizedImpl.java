@@ -1,5 +1,11 @@
+package sortedsquarearrayfromsortedarray;
+
 /**
- *
+ * O(n) T O(n) S
+ * How it works
+ * ------------
+ * We populate the square array with the square values in their sorted position
+ * This eliminates the need for a sort at the end that would to the time complexity
  * */
 public class SortedSquareArrayFromSortedArrayOptimizedImpl implements SortedSquareArrayFromSortedArray {
     @Override
