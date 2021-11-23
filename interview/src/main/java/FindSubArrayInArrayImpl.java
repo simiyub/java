@@ -8,9 +8,9 @@ public class FindSubArrayInArrayImpl implements FindSubArrayInArray{
     public boolean isSubArray(int[] array, int[] candidateSubArray) {
         int currentIndex =0;
         List<Integer> found = new ArrayList<>();
-
+        boolean done = found.size() == candidateSubArray.length;
         for(int i=0; i<=array.length-1; i++){
-            if(currentIndex <=candidateSubArray.length-1) {
+            if(!done && currentIndex <=candidateSubArray.length-1) {
                 if (candidateSubArray[currentIndex] == array[i]) {
                     found.add(candidateSubArray[currentIndex]);
                     currentIndex ++;
@@ -26,9 +26,9 @@ public class FindSubArrayInArrayImpl implements FindSubArrayInArray{
     public boolean isSubList(List<Integer> array, List<Integer> candidateSubArray) {
         int currentIndex =0;
         List<Integer> found = new ArrayList<>();
-
+        boolean done = found.size() == candidateSubArray.size();
         for(int i=0; i<=array.size()-1; i++){
-            if(currentIndex <=candidateSubArray.size()-1) {
+            if(!done && currentIndex <=candidateSubArray.size()-1) {
                 if (candidateSubArray.get(currentIndex) == array.get(i)) {
                     found.add(candidateSubArray.get(currentIndex));
                     currentIndex ++;
