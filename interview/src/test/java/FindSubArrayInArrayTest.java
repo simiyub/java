@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FindSubArrayInArrayTest {
-    private static int[] array1,array2, array3, potentialSubArray1, potentialSubArray2, potentialSubArray3;
+    private static int[] array1,array2, array3, array4, array5, array6;
+            private static int[] potentialSubArray1, potentialSubArray2, potentialSubArray3, potentialSubArray4, potentialSubArray5, potentialSubArray6;
 
     @BeforeEach
     void setUp() {
@@ -14,6 +15,12 @@ class FindSubArrayInArrayTest {
         potentialSubArray2 = new int[]{1,4};
         array3 = new int[]{1,1,1,1,1};
         potentialSubArray3 = new int[]{1,1,1};
+        array4 = new int[] {5, 1, 22, 25, 6, -1, 8, 10};
+        potentialSubArray4 = new int[]{5, 1, 22, 25, 6, -1, 8, 10, 12};
+        array5 = new int[]{5, 1, 22, 25, 6, -1, 8, 10};
+        potentialSubArray5 = new int[]{1, 6, -1, -1};
+        array6 = new int[]{5, 1, 22, 25, 6, -1, 8, 10};
+        potentialSubArray6 = new int[]{1, 6, -1, -2};
     }
 
     private void runTest(FindSubArrayInArray impl){
@@ -21,6 +28,9 @@ class FindSubArrayInArrayTest {
         assertTrue(impl.isSubArray(array1,potentialSubArray1));
         assertTrue(impl.isSubArray(array2,potentialSubArray2));
         assertTrue(impl.isSubArray(array3,potentialSubArray3));
+        assertFalse(impl.isSubArray(array4, potentialSubArray4));
+        assertFalse(impl.isSubArray(array5,potentialSubArray5));
+        assertFalse(impl.isSubArray(array6, potentialSubArray6));
     }
 
     @Test
