@@ -1,5 +1,15 @@
 import java.util.Arrays;
 
+/**
+ * O(logn) T O(1) S
+ * Slightly less efficient than the hashtable implementation for time complexity but doesn't use additional space
+ *
+ *  How it works:
+ * -------------
+ * 1. Sort the array
+ * 2. Walk through with two markers front and back until we find a combination that adds up to the target
+ *
+ * **/
 public class SumTwoNumbersInArrayToTargetSumSortImpl implements SumTwoNumbersInArrayToTargetSum {
     @Override
     public int[] sum(int[] array, int target) {
