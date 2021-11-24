@@ -10,5 +10,5 @@
  * Return a string which is the name of the team which won most matches.
  * */
 public interface TournamentWinner {
-    String tournamentWinner(int[] matchTeams, int[] results );
+    String tournamentWinner(String[][] matchTeams, int[] results );
 }
