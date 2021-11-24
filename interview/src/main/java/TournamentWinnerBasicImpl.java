@@ -1,6 +1,15 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * O(n) T -size of competitions array and O(k) S - k being the size of the teams array
+ *  First solution that comes to mind is:
+ *  Create a map of team:score
+ * 	Walk through the array of competitions and pick results
+ * 	Add every win to the map
+ *  Maintain a score of the current leader and swap each time there's a new leader
+ * 	At the end of the loop, return current leader
+ * */
 public class TournamentWinnerBasicImpl implements TournamentWinner{
     @Override
     public String tournamentWinner(String[][] matchTeams, int[] results) {
