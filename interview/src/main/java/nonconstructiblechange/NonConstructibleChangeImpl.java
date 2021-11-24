@@ -1,6 +1,6 @@
+package nonconstructiblechange;
+
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * O(nlogn) T and O(1) S assuming we can sort the array in place
