@@ -1,9 +1,11 @@
+package tournamentwinner;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * O(n) T -size of competitions array and O(k) S - k being the size of the teams array
- *  First solution that comes to mind is:
+ *  First solution that comes to mind and is the most optimised I can think of is:
  *  Create a map of team:score
  * 	Walk through the array of competitions and pick results
  * 	Add every win to the map
@@ -14,7 +16,7 @@ public class TournamentWinnerBasicImpl implements TournamentWinner{
     @Override
     public String tournamentWinner(String[][] matchTeams, int[] results) {
 
-        Map<String,Integer> wins = new HashMap();
+        Map<String,Integer> wins = new HashMap<>();
         String currentLeader = null;
 
         for(int i=0;i<=matchTeams.length-1;i++){

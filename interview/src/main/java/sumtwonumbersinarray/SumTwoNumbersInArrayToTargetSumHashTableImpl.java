@@ -18,7 +18,7 @@ public class SumTwoNumbersInArrayToTargetSumHashTableImpl implements SumTwoNumbe
     public int[] sum(int[] array, int target) {
 
 
-        Map<Integer, Boolean> found = new HashMap();
+        Map<Integer, Boolean> found = new HashMap<>();
 
         for(int i= 0; i<=array.length-1;i++){
             if(found.get(target - array[i])!=null){
