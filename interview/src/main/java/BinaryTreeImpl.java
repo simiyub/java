@@ -1,3 +1,7 @@
+/**
+ * This implementation uses recursion to implement the binary tree
+ * **/
+
 public class BinaryTreeImpl implements BinaryTree {
 
     private Node root;
