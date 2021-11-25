@@ -11,6 +11,6 @@ class ClosestValueInBSTTest {
 
     @Test
     void closest() {
-
+        assertEquals(expectedValue, );
     }
 }
