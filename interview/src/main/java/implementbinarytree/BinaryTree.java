@@ -1,3 +1,5 @@
+package implementbinarytree;
+
 /***
  * Demonstrate how a binary tree works with all the essential methods of:
  * insert, find, delete, in-order and pre-order traversal

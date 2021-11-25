@@ -1,3 +1,5 @@
+import implementbinarytree.BinaryTree;
+import implementbinarytree.BinaryTreeImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +18,7 @@ class BinaryTreeTest {
         int[] values = new int[]{6,4,8,3,5, 7, 9};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertTrue(tree.find(8).left.value ==7);
+        assertTrue(tree.find(8).getLeft().getValue() ==7);
     }
 
     @Test
@@ -33,7 +35,7 @@ class BinaryTreeTest {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertEquals(12,tree.delete(7).value);
+        assertEquals(12,tree.delete(7).getValue());
     }
 
     @Test
@@ -41,7 +43,7 @@ class BinaryTreeTest {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertEquals(15,tree.traverseInOrder().value);
+        assertEquals(15,tree.traverseInOrder().getValue());
     }
 
     @Test
@@ -49,7 +51,7 @@ class BinaryTreeTest {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertEquals(15,tree.traversePreOrder().value);
+        assertEquals(15,tree.traversePreOrder().getValue());
     }
 
     @Test
@@ -57,7 +59,7 @@ class BinaryTreeTest {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertEquals(15,tree.traversePostOrder().value);
+        assertEquals(15,tree.traversePostOrder().getValue());
     }
 
     @Test
@@ -65,6 +67,6 @@ class BinaryTreeTest {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
         Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertEquals(5,tree.traverseLevelOrder().value);
+        assertEquals(5,tree.traverseLevelOrder().getValue());
     }
 }
