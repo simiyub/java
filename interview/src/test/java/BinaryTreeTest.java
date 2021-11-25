@@ -33,9 +33,25 @@ class BinaryTreeTest {
 
     @Test
     void traverseInOrder() {
+        int[] values = new int[]{12,15,3,7,13,5};
+        BinaryTree tree = new BinaryTreeImpl();
+        Arrays.stream(values).forEach( value-> tree.insert(value));
+        assertEquals(15,tree.traverseInOrder().value);
     }
 
     @Test
     void traversePreOrder() {
+        int[] values = new int[]{12,15,3,7,13,5};
+        BinaryTree tree = new BinaryTreeImpl();
+        Arrays.stream(values).forEach( value-> tree.insert(value));
+        assertEquals(15,tree.traversePreOrder().value);
+    }
+
+    @Test
+    void traversePostOrder() {
+        int[] values = new int[]{12,15,3,7,13,5};
+        BinaryTree tree = new BinaryTreeImpl();
+        Arrays.stream(values).forEach( value-> tree.insert(value));
+        assertEquals(15,tree.traversePostOrder().value);
     }
 }

@@ -4,6 +4,8 @@
 
 public class BinaryTreeImpl implements BinaryTree {
 
+
+
     private Node root;
     @Override
     public Node insert(int value) {
@@ -49,13 +51,77 @@ public class BinaryTreeImpl implements BinaryTree {
         return false;
     }
 
+    /**
+     * Traverses the tree from the left branch, then node and finally the right branch
+     * and returns the last node in the tree
+     * **/
     @Override
-    public void traverseInOrder(Node node) {
-
+    public Node traverseInOrder() {
+        return traverseInOrder(root, null);
     }
 
-    @Override
-    public void traversePreOrder(Node node) {
 
+    /**
+     * Traverses the tree printing out the root node, then the left branch, right branch
+     * and then returns last node in the traversal
+     * **/
+    @Override
+    public Node traversePreOrder() {
+        return traversePreOrder(root, null);
     }
+
+    /**
+     * Traverses the tree and prints out the tree left branch first, then right branch
+     * and finally the root node returning the last node
+     * **/
+    @Override
+    public Node traversePostOrder() {
+        return traversePostOrder(root, null);
+    }
+
+
+    private Node traverseInOrder(Node node, Node previous) {
+        Node lastNode;
+        if(node != null){
+            lastNode = traverseInOrder(node.left, node);
+            System.out.print(" "+node.value);
+            lastNode = traverseInOrder(node.right, node);
+        }
+        else{
+            lastNode = previous;
+        }
+        return lastNode;
+    }
+
+
+    private Node traversePreOrder(Node node, Node previous) {
+        Node lastNode;
+        if (node!=null){
+            System.out.println(" " +node.value);
+            lastNode = traversePreOrder(node.left, node);
+            lastNode = traversePreOrder(node.right, node);
+        }
+        else{
+            lastNode = previous;
+        }
+        return lastNode;
+    }
+
+
+    private Node traversePostOrder(Node node, Node previous) {
+        Node lastNode;
+        if (node !=null){
+            lastNode = traversePostOrder(node.left, node);
+            lastNode = traversePostOrder(node.right, node);
+            System.out.println(" "+node.value);
+        }
+        else{
+            lastNode = previous;
+        }
+        return lastNode;
+    }
+
+
+
+
 }

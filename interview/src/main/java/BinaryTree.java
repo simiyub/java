@@ -7,9 +7,25 @@
 public interface BinaryTree {
 
     Node insert(int value);
+
     Node find(int value);
+
     boolean delete(int value);
-    void traverseInOrder(Node node);
-    void traversePreOrder(Node node);
+
+    /**
+     * Depth first traversal starting with the left branch, then root and finally right.
+     * */
+    Node traverseInOrder();
+
+    /**
+     * Depth first traversal starting with the root, then left branch and finally right.
+     * */
+    Node traversePreOrder();
+
+    /***
+     * Depth first traversal starting with left branch, then right branch and finally the root
+     * **/
+    Node traversePostOrder();
+
 
 }
