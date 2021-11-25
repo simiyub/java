@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * This implementation uses recursion to implement the binary tree
  * **/
@@ -77,6 +80,35 @@ public class BinaryTreeImpl implements BinaryTree {
     @Override
     public Node traversePostOrder() {
         return traversePostOrder(root, null);
+    }
+
+    @Override
+    public Node traverseLevelOrder() {
+        return traverseLevelOrder(root);
+    }
+
+    private Node traverseLevelOrder(Node root) {
+
+        if(root==null) return null;
+
+        Node lastNode = root;
+
+        Queue<Node> nodes = new LinkedList<>();
+        nodes.add(root);
+
+        while (!nodes.isEmpty()){
+            Node node = nodes.remove();
+            System.out.println(" "+node.value);
+            if(node.left != null) {
+                nodes.add(node.left);
+                lastNode = node.left;
+            }
+            if(node.right !=null) {
+                nodes.add(node.right);
+                lastNode = node.right;
+            }
+        }
+        return lastNode;
     }
 
 
