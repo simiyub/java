@@ -10,7 +10,7 @@ public interface BinaryTree {
 
     Node find(int value);
 
-    boolean delete(int value);
+    Node delete(int value);
 
     /**
      * Depth first traversal starting with the left branch, then root and finally right.

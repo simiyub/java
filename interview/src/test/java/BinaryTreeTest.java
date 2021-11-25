@@ -29,6 +29,11 @@ class BinaryTreeTest {
 
     @Test
     void delete() {
+
+        int[] values = new int[]{12,15,3,7,13,5};
+        BinaryTree tree = new BinaryTreeImpl();
+        Arrays.stream(values).forEach( value-> tree.insert(value));
+        assertEquals(12,tree.delete(7).value);
     }
 
     @Test

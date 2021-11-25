@@ -41,17 +41,16 @@ public class BinaryTreeImpl implements BinaryTree {
         return findRecursively(root,value);
     }
 
-    private Node findRecursively(Node current, int value) {
-        if (current == null) return null;
-        if (value == current.value) return current;
-        return (value < current.value) ?
-                 findRecursively(current.left, value)
-                : findRecursively(current.right, value);
-    }
+/**
+ * Deletes a node such that:
+ * A node without children will be deleted directly
+ * For a node with one child, we link the child with the node's parent.
+ * For a node with two children, we reorganize the tree
+ * */
 
     @Override
-    public boolean delete(int value) {
-        return false;
+    public Node delete(int value) {
+        return deleteRecursively(root, value);
     }
 
     /**
@@ -82,10 +81,50 @@ public class BinaryTreeImpl implements BinaryTree {
         return traversePostOrder(root, null);
     }
 
+
+    /**
+     * Traverses the tree one level at a time and returns the last node in the tree
+     * */
     @Override
     public Node traverseLevelOrder() {
         return traverseLevelOrder(root);
     }
+
+    private int findSmallestValue(Node root){
+        return root.left == null ? root.value : findSmallestValue(root.left);
+    }
+
+    private Node deleteRecursively(Node current ,int value) {
+        if(current == null) return null;
+        if(current.value == value){
+
+            if(current.left == null && current.right == null) return null;
+            if(current.right == null) return current.left;
+            if(current.left == null) return current.right;
+
+            int smallestValue = findSmallestValue(current.right);
+            current.value = smallestValue;
+            current.right = deleteRecursively(current.right, smallestValue);
+
+            return current;
+
+        }
+        if(value <current.value) {
+            current.left = deleteRecursively(current.left, value);
+            return current;
+        }
+        else{
+            current.right = deleteRecursively(current.right, value);
+            return current;
+        }}
+    private Node findRecursively(Node current, int value) {
+        if (current == null) return null;
+        if (value == current.value) return current;
+        return (value < current.value) ?
+                findRecursively(current.left, value)
+                : findRecursively(current.right, value);
+    }
+
 
     private Node traverseLevelOrder(Node root) {
 
