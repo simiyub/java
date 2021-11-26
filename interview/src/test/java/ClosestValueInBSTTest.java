@@ -11,12 +11,14 @@ class ClosestValueInBSTTest {
 
     @Test
     void closest() {
-//        int expectedValue =2;
-//        BinaryTree tree = new BinaryTree()
-//        ClosestValueInBST.BST bst=new ClosestValueInBST.BST(5);
-//        b
-//
-//        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(bst,5));
+        int expectedValue =2;
+        BinaryTree tree = new BinaryTree();
+        int[] values = new int[]{2};
+        for (int i=0;i<=values.length-1;i++){
+            tree.add(values[i]);
+        }
+
+        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),5));
     }
 
     @Test
