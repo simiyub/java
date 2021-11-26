@@ -1,3 +1,5 @@
+package closetvalueinbst;
+
 /**
  * Worst O(n) T O(n) S where there's only one branch of the tree.
  * Average O(log(n)) T and O(log(n) S because of the stack in the recursion)
@@ -22,7 +24,7 @@ public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
     }
 
     public int closest(BinaryTree.BST tree, int target){
-        int currentClosest=Integer.MAX_VALUE;
+        int currentClosest=tree.value;
         if(tree!=null) {
             currentClosest = closestRecursively(tree, target, currentClosest);
         }

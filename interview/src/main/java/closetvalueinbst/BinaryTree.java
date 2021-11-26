@@ -1,3 +1,5 @@
+package closetvalueinbst;
+
 public class BinaryTree {
     private BST root;
 

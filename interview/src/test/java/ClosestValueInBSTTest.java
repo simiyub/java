@@ -1,3 +1,7 @@
+import closetvalueinbst.BinaryTree;
+import closetvalueinbst.ClosestValueInBST;
+import closetvalueinbst.ClosestValueInBSTIterativeImpl;
+import closetvalueinbst.ClosestValueInBSTRecursiveImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -50,8 +54,6 @@ class ClosestValueInBSTTest {
     void closestIterative() {
         runTest(new ClosestValueInBSTIterativeImpl());
     }
-
-
 
     @Test
     void addRoot(){

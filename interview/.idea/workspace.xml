@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClosestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestValueInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTIterativeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTIterativeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTRecursiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClosestValueInBSTRecursiveImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,13 +142,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ClosestValueInBSTTest.closestLarger">
-    <configuration name="ClosestValueInBSTTest.addEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ClosestValueInBSTTest">
+    <configuration name="ClosestValueInBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.addEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -164,33 +164,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ClosestValueInBSTTest.addLargerAndSmaller" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClosestValueInBSTTest.closestIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.addLargerAndSmaller&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ClosestValueInBSTTest.closest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.closest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.closestIterative&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -227,12 +206,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ClosestValueInBSTTest.closestSmall" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClosestValueInBSTTest.closestRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.closestSmall&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.closestRecursive&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ClosestValueInBSTTest.closestSmallerRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ClosestValueInBSTTest.closestSmallerRecursive&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -250,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ClosestValueInBSTTest" />
+        <item itemvalue="Gradle.ClosestValueInBSTTest.closestIterative" />
+        <item itemvalue="Gradle.ClosestValueInBSTTest.closestRecursive" />
+        <item itemvalue="Gradle.ClosestValueInBSTTest.closestSmallerRecursive" />
         <item itemvalue="Gradle.ClosestValueInBSTTest.closestLarger" />
-        <item itemvalue="Gradle.ClosestValueInBSTTest.closestSmall" />
-        <item itemvalue="Gradle.ClosestValueInBSTTest.closest" />
-        <item itemvalue="Gradle.ClosestValueInBSTTest.addEqual" />
-        <item itemvalue="Gradle.ClosestValueInBSTTest.addLargerAndSmaller" />
       </list>
     </recent_temporary>
   </component>
@@ -320,12 +320,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java</url>
-          <line>50</line>
+          <line>66</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java</url>
-          <line>80</line>
+          <line>96</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
