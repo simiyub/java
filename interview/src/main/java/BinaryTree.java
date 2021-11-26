@@ -3,9 +3,9 @@ public class BinaryTree {
 
 
     class BST {
-        public int value;
-        public BST left;
-        public BST right;
+         int value;
+         BST left;
+         BST right;
 
         public BST(int value) {
             this.value = value;
@@ -15,7 +15,10 @@ public class BinaryTree {
     }
 
     private BST add(BST bst, int newValue) {
+
         if (bst == null) return new BST(newValue);
+        if(newValue <= bst.value) bst.left = add(bst.left, newValue);
+        if(newValue > bst.value) bst.right = add(bst.right,newValue);
         //  if(bst.left == null && bst.right == null) bst.value =newValue;
 
         //if(value < value) add(left,value);
@@ -23,8 +26,14 @@ public class BinaryTree {
     }
 
     public BST add(int value){
-
+        if (root == null) {
+            root = new BST(value);
+            return root;
+        }
         return add(root,value);
     }
 
+    public BST getRoot() {
+        return root;
+    }
 }
