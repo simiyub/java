@@ -10,15 +10,29 @@ class ClosestValueInBSTTest {
     }
 
     @Test
-    void closest() {
-        int expectedValue =2;
+    void closestSmall() {
+        int expectedValue =3;
+        int target = 5;
         BinaryTree tree = new BinaryTree();
-        int[] values = new int[]{2};
+        int[] values = new int[]{2,3};
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
         }
 
-        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),5));
+        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),target));
+    }
+
+    @Test
+    void closestLarger() {
+        int expectedValue =17;
+        int target = 19;
+        BinaryTree tree = new BinaryTree();
+        int[] values = new int[]{2,3,12,1, 15, 17, 22};
+        for (int i=0;i<=values.length-1;i++){
+            tree.add(values[i]);
+        }
+
+        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),target));
     }
 
     @Test

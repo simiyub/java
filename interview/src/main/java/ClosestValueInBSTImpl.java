@@ -1,17 +1,32 @@
+/**
+ * O(log(n)) T and O(log(n) S because of the stack in the recursion)
+ *
+ * This implementation uses recursion to determine the closest value to the target.
+ * Completed with a bit of online help as I was it was taking long to deal with edge cases
+ * */
+
 public class ClosestValueInBSTImpl implements ClosestValueInBST{
-    @Override
-    public int closest(BinaryTree.BST tree, int target) {
-        int diff = Math.abs(target - tree.value);
-        BinaryTree.BST closest = tree;
-        if (tree.left == null && tree.right == null) {
-            System.out.printf("Closest to %d is %d with a difference of %d ",target, tree.value, diff);
-            return tree.value;
+
+    public int closestRecursively(BinaryTree.BST tree, int target,int closest) {
+
+
+        if (tree==null) return closest;
+        if(Math.abs(target - closest) > Math.abs(target - tree.value)) closest = tree.value;
+
+        if (tree.value < target) return closestRecursively(tree.right,target, closest);
+
+        if (tree.value > target)  return closestRecursively(tree.left, target, closest);
+
+        return closest;
+    }
+
+    public int closest(BinaryTree.BST tree, int target){
+        int currentClosest=Integer.MAX_VALUE;
+        if(tree!=null) {
+            currentClosest = closestRecursively(tree, target, currentClosest);
         }
-//        if (tree.left == null) {
-//            if(diff < Math.abs(target - tree.right.value)
-//            closest(tree, target);
-//        }
-        return target;
+        System.out.printf("closest to %d is %d ", target, currentClosest);
+        return currentClosest;
     }
 
 }
