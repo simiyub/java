@@ -1,11 +1,23 @@
-package closetvalueinbst;
+package util;
 
 public class BinaryTree {
     private BST root;
 
 
-    class BST {
-         int value;
+    public class BST {
+        public int getValue() {
+            return value;
+        }
+
+        public BST getLeft() {
+            return left;
+        }
+
+        public BST getRight() {
+            return right;
+        }
+
+        int value;
          BST left;
          BST right;
 

@@ -1,4 +1,4 @@
-import closetvalueinbst.BinaryTree;
+import util.BinaryTree;
 import closetvalueinbst.ClosestValueInBST;
 import closetvalueinbst.ClosestValueInBSTIterativeImpl;
 import closetvalueinbst.ClosestValueInBSTRecursiveImpl;
@@ -58,7 +58,7 @@ class ClosestValueInBSTTest {
     @Test
     void addRoot(){
         BinaryTree tree = new BinaryTree();
-        assertEquals(5, tree.add(5).value);
+        assertEquals(5, tree.add(5).getValue());
     }
 
     @Test
@@ -68,7 +68,7 @@ class ClosestValueInBSTTest {
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
         }
-        assertEquals(2, tree.getRoot().left.left.value);
+        assertEquals(2, tree.getRoot().getLeft().getLeft().getValue());
     }
 
     @Test
@@ -78,7 +78,7 @@ class ClosestValueInBSTTest {
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
         }
-        assertEquals(9, tree.getRoot().right.right.value);
+        assertEquals(9, tree.getRoot().getRight().getRight().getValue());
     }
 
     @Test
@@ -88,7 +88,7 @@ class ClosestValueInBSTTest {
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
         }
-        assertEquals(8, tree.getRoot().right.right.left.value);
+        assertEquals(8, tree.getRoot().getRight().getRight().getLeft().getValue());
     }
 
     @Test
@@ -98,6 +98,6 @@ class ClosestValueInBSTTest {
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
         }
-        assertEquals(7, tree.getRoot().right.left.value);
+        assertEquals(7, tree.getRoot().getRight().getLeft().getValue());
     }
 }
