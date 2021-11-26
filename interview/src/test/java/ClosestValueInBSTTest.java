@@ -5,35 +5,53 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ClosestValueInBSTTest {
 
+    private int expectedValueClosestIsSmaller;
+    private int targetValueClosestIsSmaller;
+    private int[] valuesClosestIsSmaller;
+    private int expectedValueClosestIsLarger;
+    private int targetValueClosestIsLarger;
+    private int[] valuesClosestIsLarger;
     @BeforeEach
     void setUp() {
+        expectedValueClosestIsSmaller =3;
+        targetValueClosestIsSmaller = 5;
+        valuesClosestIsSmaller = new int[]{2,3};
+        expectedValueClosestIsLarger = 17;
+        targetValueClosestIsLarger = 19;
+        valuesClosestIsLarger = new int[]{2,3,12,1, 15, 17, 22};
+
     }
 
-    @Test
-    void closestSmall() {
-        int expectedValue =3;
-        int target = 5;
-        BinaryTree tree = new BinaryTree();
-        int[] values = new int[]{2,3};
-        for (int i=0;i<=values.length-1;i++){
-            tree.add(values[i]);
+    private void runTest(ClosestValueInBST impl){
+
+        BinaryTree smallTree = new BinaryTree();
+
+        for (int i=0;i<=  valuesClosestIsSmaller.length-1;i++){
+            smallTree.add(valuesClosestIsSmaller[i]);
         }
+        assertEquals(expectedValueClosestIsSmaller, impl.closest(smallTree.getRoot(),targetValueClosestIsSmaller));
 
-        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),target));
-    }
 
-    @Test
-    void closestLarger() {
-        int expectedValue =17;
-        int target = 19;
-        BinaryTree tree = new BinaryTree();
+        BinaryTree largeTree = new BinaryTree();
         int[] values = new int[]{2,3,12,1, 15, 17, 22};
         for (int i=0;i<=values.length-1;i++){
-            tree.add(values[i]);
+            largeTree.add(values[i]);
         }
 
-        assertEquals(expectedValue, new ClosestValueInBSTImpl().closest(tree.getRoot(),target));
+        assertEquals(expectedValueClosestIsLarger, new ClosestValueInBSTRecursiveImpl().closest(largeTree.getRoot(),targetValueClosestIsLarger));
     }
+
+    @Test
+    void closestRecursive() {
+        runTest(new ClosestValueInBSTRecursiveImpl());
+    }
+
+    @Test
+    void closestIterative() {
+        runTest(new ClosestValueInBSTIterativeImpl());
+    }
+
+
 
     @Test
     void addRoot(){

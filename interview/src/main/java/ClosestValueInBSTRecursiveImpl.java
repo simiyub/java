@@ -1,11 +1,12 @@
 /**
- * O(log(n)) T and O(log(n) S because of the stack in the recursion)
+ * Worst O(n) T O(n) S where there's only one branch of the tree.
+ * Average O(log(n)) T and O(log(n) S because of the stack in the recursion)
  *
  * This implementation uses recursion to determine the closest value to the target.
  * Completed with a bit of online help as I was it was taking long to deal with edge cases
  * */
 
-public class ClosestValueInBSTImpl implements ClosestValueInBST{
+public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
 
     public int closestRecursively(BinaryTree.BST tree, int target,int closest) {
 
