@@ -17,15 +17,15 @@ class BinaryTreeTest {
     void insert() {
         int[] values = new int[]{6,4,8,3,5, 7, 9};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
-        assertTrue(tree.find(8).getLeft().getValue() ==7);
+        Arrays.stream(values).forEach(tree::insert);
+        assertEquals(7, tree.find(8).getLeft().getValue());
     }
 
     @Test
     void find() {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach( tree::insert);
         assertNotNull(tree.find(15));
     }
 
@@ -34,7 +34,7 @@ class BinaryTreeTest {
 
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach(tree::insert);
         assertEquals(12,tree.delete(7).getValue());
     }
 
@@ -42,7 +42,7 @@ class BinaryTreeTest {
     void traverseInOrder() {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach(tree::insert);
         assertEquals(15,tree.traverseInOrder().getValue());
     }
 
@@ -50,7 +50,7 @@ class BinaryTreeTest {
     void traversePreOrder() {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach(tree::insert);
         assertEquals(15,tree.traversePreOrder().getValue());
     }
 
@@ -58,15 +58,25 @@ class BinaryTreeTest {
     void traversePostOrder() {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach(tree::insert);
         assertEquals(15,tree.traversePostOrder().getValue());
     }
 
     @Test
-    void traverseLevelOrder() {
+    void traverseLevelOrder1() {
         int[] values = new int[]{12,15,3,7,13,5};
         BinaryTree tree = new BinaryTreeImpl();
-        Arrays.stream(values).forEach( value-> tree.insert(value));
+        Arrays.stream(values).forEach( tree::insert);
         assertEquals(5,tree.traverseLevelOrder().getValue());
     }
+
+    @Test
+    void traverseLevelOrder2() {
+        int[] values = new int[]{1,2,3,4,5,6,7,8,9,10};
+        BinaryTree tree = new BinaryTreeImpl();
+        Arrays.stream(values).forEach(tree::insert);
+        assertEquals(10,tree.traverseLevelOrder().getValue());
+    }
+
+
 }

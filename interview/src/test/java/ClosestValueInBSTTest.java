@@ -14,7 +14,7 @@ class ClosestValueInBSTTest {
     private int[] valuesClosestIsSmaller;
     private int expectedValueClosestIsLarger;
     private int targetValueClosestIsLarger;
-    private int[] valuesClosestIsLarger;
+
     @BeforeEach
     void setUp() {
         expectedValueClosestIsSmaller =3;
@@ -22,7 +22,6 @@ class ClosestValueInBSTTest {
         valuesClosestIsSmaller = new int[]{2,3};
         expectedValueClosestIsLarger = 17;
         targetValueClosestIsLarger = 19;
-        valuesClosestIsLarger = new int[]{2,3,12,1, 15, 17, 22};
 
     }
 
