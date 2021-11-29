@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import util.BST;
-import util.BreadthFirstBinaryTree;
+import implementbinarytree.BreadthFirstBinaryTree;
 import util.Node;
 
 import java.util.Arrays;

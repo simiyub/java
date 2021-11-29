@@ -1,7 +1,9 @@
-package util;
+package implementbinarytree;
 
 import implementbinarytree.BinaryTree;
 import implementbinarytree.BinaryTreeImpl;
+import util.BST;
+import util.Node;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -27,6 +29,10 @@ public class BreadthFirstBinaryTree {
         }
         return breadthFirstTree;
     }
+
+    /**
+     * Potential util class for creating trees. Will move it when I have a chance
+     * */
     public static BinaryTree tree (int[] values){
 
         BinaryTree tree = new BinaryTreeImpl();

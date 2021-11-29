@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BreadthFirstBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BreadthFirstBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -158,7 +168,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ClosestValueInBSTTest">
+  <component name="RunManager" selected="Gradle.SumOfBSTBranchesTest.sumOfBranchesRoot">
     <configuration name="ClosestValueInBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,33 +190,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SortedSquareArrayFromSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SumOfBSTBranchesTest.sumOfBranchesRoot" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SortedSquareArrayFromSortedArrayTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SumOfBSTBranchesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SumOfBSTBranchesTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SumOfBSTBranchesTest.sumOfBranchesRoot&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -228,6 +217,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;SumTwoNumbersInArrayToTargetSumTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -266,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SumOfBSTBranchesTest.sumOfBranchesRoot" />
+        <item itemvalue="Gradle.Tests in 'easy.test'" />
         <item itemvalue="Gradle.ClosestValueInBSTTest" />
         <item itemvalue="Gradle.TournamentWinnerTest" />
         <item itemvalue="Gradle.SumTwoNumbersInArrayToTargetSumTest" />
-        <item itemvalue="Gradle.SumOfBSTBranchesTest" />
-        <item itemvalue="Gradle.SortedSquareArrayFromSortedArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +363,21 @@
           <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
           <line>27</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
