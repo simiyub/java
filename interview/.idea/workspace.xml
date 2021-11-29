@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTBranches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTIterativeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTIterativeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTRecursiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTRecursiveImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContractImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BreadthFirstBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BreadthFirstBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -337,32 +344,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java</url>
-          <line>70</line>
+          <line>69</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
+          <line>29</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/util/BinaryTree.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContractImpl.java</url>
           <line>140</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
+          <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>

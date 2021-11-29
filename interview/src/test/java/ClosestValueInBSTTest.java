@@ -1,4 +1,4 @@
-import util.BinaryTree;
+import util.BST;
 import closetvalueinbst.ClosestValueInBST;
 import closetvalueinbst.ClosestValueInBSTIterativeImpl;
 import closetvalueinbst.ClosestValueInBSTRecursiveImpl;
@@ -27,7 +27,7 @@ class ClosestValueInBSTTest {
 
     private void runTest(ClosestValueInBST impl){
 
-        BinaryTree smallTree = new BinaryTree();
+        BST smallTree = new BST();
 
         for (int i=0;i<=  valuesClosestIsSmaller.length-1;i++){
             smallTree.add(valuesClosestIsSmaller[i]);
@@ -35,7 +35,7 @@ class ClosestValueInBSTTest {
         assertEquals(expectedValueClosestIsSmaller, impl.closest(smallTree.getRoot(),targetValueClosestIsSmaller));
 
 
-        BinaryTree largeTree = new BinaryTree();
+        BST largeTree = new BST();
         int[] values = new int[]{2,3,12,1, 15, 17, 22};
         for (int i=0;i<=values.length-1;i++){
             largeTree.add(values[i]);
@@ -56,13 +56,13 @@ class ClosestValueInBSTTest {
 
     @Test
     void addRoot(){
-        BinaryTree tree = new BinaryTree();
+        BST tree = new BST();
         assertEquals(5, tree.add(5).getValue());
     }
 
     @Test
     void addSmaller(){
-        BinaryTree tree = new BinaryTree();
+        BST tree = new BST();
         int[] values = new int[]{5,3,2, 7};
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
@@ -72,7 +72,7 @@ class ClosestValueInBSTTest {
 
     @Test
     void addLarger(){
-        BinaryTree tree = new BinaryTree();
+        BST tree = new BST();
         int[] values = new int[]{5,7, 9};
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
@@ -82,7 +82,7 @@ class ClosestValueInBSTTest {
 
     @Test
     void addLargerAndSmaller(){
-        BinaryTree tree = new BinaryTree();
+        BST tree = new BST();
         int[] values = new int[]{5,7,9, 8};
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);
@@ -92,7 +92,7 @@ class ClosestValueInBSTTest {
 
     @Test
     void addEqual(){
-        BinaryTree tree = new BinaryTree();
+        BST tree = new BST();
         int[] values = new int[]{5,7,7,9, 8};
         for (int i=0;i<=values.length-1;i++){
             tree.add(values[i]);

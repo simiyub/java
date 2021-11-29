@@ -1,6 +1,6 @@
 package closetvalueinbst;
 
-import util.BinaryTree;
+import util.BST;
 
 /**
  * Worst O(n) T O(n) S where there's only one branch of the tree.
@@ -12,7 +12,7 @@ import util.BinaryTree;
 
 public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
 
-    public int closestRecursively(BinaryTree.BST tree, int target, int closest) {
+    public int closestRecursively(BST.Node tree, int target, int closest) {
 
 
         if (tree==null) return closest;
@@ -25,12 +25,13 @@ public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
         return closest;
     }
 
-    public int closest(BinaryTree.BST tree, int target){
+    public int closest(BST.Node tree, int target){
 
         if(tree!=null) {
 
             int closest = closestRecursively(tree, target, tree.getValue());
             System.out.printf("closest to %d is %d ", target, closest);
+            return closest;
         }
         System.out.println("tree is null ");
         return -1;

@@ -1,9 +1,9 @@
-import util.BinaryTree;
+import util.BST;
 
 public class
 SumOfBSTBranchesImpl implements SumOfBSTBranches {
     @Override
-    public int[] sumOfBranches(BinaryTree tree) {
+    public int[] sumOfBranches(BST tree) {
         return new int[0];
     }
 }
