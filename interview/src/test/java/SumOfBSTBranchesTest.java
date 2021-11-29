@@ -2,6 +2,7 @@ import implementbinarytree.Node;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import util.BinaryTree;
+import util.BreadthFirstBinaryTree;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -17,19 +18,8 @@ class SumOfBSTBranchesTest {
 
     @Test
     void sumOfBranches() {
-        BinaryTree tree = new BinaryTree();
         int[] values = new int[]{15,16,18,10,11};
-        Arrays.stream(values).forEach(tree::add);
-        Queue<BinaryTree.BST> wip = new LinkedList<>();
-        Queue<BinaryTree.BST> breadthFirstTree = new LinkedList<>();
-        System.out.println(tree);
-        wip.add(tree.getRoot());
-        while (!wip.isEmpty()){
-            BinaryTree.BST node = wip.remove();
-            breadthFirstTree.add(node);
-            if(node.getLeft()!=null) wip.add(node.getLeft());
-            if(node.getRight()!=null)wip.add(node.getRight());
-        }
+        Queue<BinaryTree.BST> breadthFirstTree = BreadthFirstBinaryTree.tree(values);
 
         int[] actual = new int[values.length];
         int count = 0;
