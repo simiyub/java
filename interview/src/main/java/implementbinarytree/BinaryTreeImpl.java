@@ -113,12 +113,12 @@ public class BinaryTreeImpl implements BinaryTree {
         }
         if(value <current.value) {
             current.left = deleteRecursively(current.left, value);
-            return current;
         }
         else{
             current.right = deleteRecursively(current.right, value);
-            return current;
-        }}
+        }
+        return current;
+    }
     private Node findRecursively(Node current, int value) {
         if (current == null) return null;
         if (value == current.value) return current;

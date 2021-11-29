@@ -5,5 +5,5 @@ import util.BinaryTree;
  * and return an array of the sums.
  * */
 public interface SumOfBSTBranches {
-    public int[] sumOfBranches(BinaryTree tree);
+     int[] sumOfBranches(BinaryTree tree);
 }

@@ -26,12 +26,14 @@ public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
     }
 
     public int closest(BinaryTree.BST tree, int target){
-        int currentClosest=tree.getValue();
+
         if(tree!=null) {
-            currentClosest = closestRecursively(tree, target, currentClosest);
+
+            int closest = closestRecursively(tree, target, tree.getValue());
+            System.out.printf("closest to %d is %d ", target, closest);
         }
-        System.out.printf("closest to %d is %d ", target, currentClosest);
-        return currentClosest;
+        System.out.println("tree is null ");
+        return -1;
     }
 
 }
