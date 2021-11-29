@@ -1,6 +1,7 @@
 package closetvalueinbst;
 
 import util.BST;
+import util.Node;
 
 /**
  * Determine the integer value that is closest to a given value in a binary search tree.
@@ -9,5 +10,5 @@ import util.BST;
 public interface ClosestValueInBST {
 
 
-    int closest(BST.Node tree, int target);
+    int closest(Node tree, int target);
 }

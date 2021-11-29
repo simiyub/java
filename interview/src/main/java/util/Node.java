@@ -1,4 +1,4 @@
-package implementbinarytree;
+package util;
 
 public class Node {
     int value;
@@ -21,5 +21,17 @@ public class Node {
 
     public Node getRight() {
         return right;
+    }
+
+    public void setLeft(Node node) {
+        left = node;
+    }
+
+    public void setRight(Node node) {
+        right = node;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 }

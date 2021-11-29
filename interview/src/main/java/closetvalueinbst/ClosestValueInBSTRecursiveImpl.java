@@ -1,6 +1,6 @@
 package closetvalueinbst;
 
-import util.BST;
+import util.Node;
 
 /**
  * Worst O(n) T O(n) S where there's only one branch of the tree.
@@ -12,7 +12,7 @@ import util.BST;
 
 public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
 
-    public int closestRecursively(BST.Node tree, int target, int closest) {
+    public int closestRecursively(Node tree, int target, int closest) {
 
 
         if (tree==null) return closest;
@@ -25,7 +25,7 @@ public class ClosestValueInBSTRecursiveImpl implements ClosestValueInBST{
         return closest;
     }
 
-    public int closest(BST.Node tree, int target){
+    public int closest(Node tree, int target){
 
         if(tree!=null) {
 

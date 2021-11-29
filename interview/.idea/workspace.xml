@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTBranches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTBranchesImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTIterativeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTIterativeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTRecursiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/closetvalueinbst/ClosestValueInBSTRecursiveImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContractImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/BreadthFirstBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BreadthFirstBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/implementbinarytree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,70 +158,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SumOfBSTBranchesTest.sumOfBranches">
-    <configuration name="BinaryTreeTest.traverseLevelOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinaryTreeTest.traverseLevelOrder&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BinaryTreeTest.traverseLevelOrder1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinaryTreeTest.traverseLevelOrder1&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BinaryTreeTest.traverseLevelOrder2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinaryTreeTest.traverseLevelOrder2&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ClosestValueInBSTTest">
     <configuration name="ClosestValueInBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -251,12 +180,75 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SumOfBSTBranchesTest.sumOfBranches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortedSquareArrayFromSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SumOfBSTBranchesTest.sumOfBranches&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SortedSquareArrayFromSortedArrayTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SumOfBSTBranchesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SumOfBSTBranchesTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SumTwoNumbersInArrayToTargetSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SumTwoNumbersInArrayToTargetSumTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TournamentWinnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TournamentWinnerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -274,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SumOfBSTBranchesTest.sumOfBranches" />
-        <item itemvalue="Gradle.BinaryTreeTest.traverseLevelOrder1" />
-        <item itemvalue="Gradle.BinaryTreeTest.traverseLevelOrder2" />
-        <item itemvalue="Gradle.BinaryTreeTest.traverseLevelOrder" />
         <item itemvalue="Gradle.ClosestValueInBSTTest" />
+        <item itemvalue="Gradle.TournamentWinnerTest" />
+        <item itemvalue="Gradle.SumTwoNumbersInArrayToTargetSumTest" />
+        <item itemvalue="Gradle.SumOfBSTBranchesTest" />
+        <item itemvalue="Gradle.SortedSquareArrayFromSortedArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,8 +345,8 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeContractImpl.java</url>
-          <line>140</line>
+          <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java</url>
+          <line>142</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

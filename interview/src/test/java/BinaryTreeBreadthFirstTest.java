@@ -2,6 +2,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import util.BST;
 import util.BreadthFirstBinaryTree;
+import util.Node;
 
 import java.util.Arrays;
 import java.util.Queue;
@@ -17,7 +18,7 @@ class BinaryTreeBreadthFirstTest {
     @Test
     void orderTest() {
         int[] values = new int[]{15,16,18,10,11};
-        Queue<BST.Node> breadthFirstTree = BreadthFirstBinaryTree.breadthFirstBinaryTree(values);
+        Queue<Node> breadthFirstTree = BreadthFirstBinaryTree.breadthFirstBinaryTree(values);
 
         int[] actual = new int[values.length];
         int count = 0;

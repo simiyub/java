@@ -1,5 +1,7 @@
 package implementbinarytree;
 
+import util.Node;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -25,11 +27,11 @@ public class BinaryTreeImpl implements BinaryTree {
         if(current == null){
             return new Node(value);
         }
-        if(value< current.value){
-            current.left = addRecursively(current.left, value);
+        if(value< current.getValue()){
+            current.setLeft(addRecursively(current.getLeft(), value));
         }
-        else if(value > current.value){
-            current.right = addRecursively(current.right, value);
+        else if(value > current.getValue()){
+            current.setRight(addRecursively(current.getRight(), value));
         }
         else {
             return current;
@@ -93,38 +95,38 @@ public class BinaryTreeImpl implements BinaryTree {
     }
 
     private int findSmallestValue(Node root){
-        return root.left == null ? root.value : findSmallestValue(root.left);
+        return root.getLeft() == null ? root.getValue() : findSmallestValue(root.getLeft());
     }
 
     private Node deleteRecursively(Node current ,int value) {
         if(current == null) return null;
-        if(current.value == value){
+        if(current.getValue() == value){
 
-            if(current.left == null && current.right == null) return null;
-            if(current.right == null) return current.left;
-            if(current.left == null) return current.right;
+            if(current.getLeft() == null && current.getRight() == null) return null;
+            if(current.getRight() == null) return current.getLeft();
+            if(current.getLeft() == null) return current.getRight();
 
-            int smallestValue = findSmallestValue(current.right);
-            current.value = smallestValue;
-            current.right = deleteRecursively(current.right, smallestValue);
+            int smallestValue = findSmallestValue(current.getRight());
+            current.setValue(smallestValue);
+            current.setRight(deleteRecursively(current.getRight(), smallestValue));
 
             return current;
 
         }
-        if(value <current.value) {
-            current.left = deleteRecursively(current.left, value);
+        if(value <current.getValue()) {
+            current.setLeft(deleteRecursively(current.getLeft(), value));
         }
         else{
-            current.right = deleteRecursively(current.right, value);
+            current.setRight(deleteRecursively(current.getRight(), value));
         }
         return current;
     }
     private Node findRecursively(Node current, int value) {
         if (current == null) return null;
-        if (value == current.value) return current;
-        return (value < current.value) ?
-                findRecursively(current.left, value)
-                : findRecursively(current.right, value);
+        if (value == current.getValue()) return current;
+        return (value < current.getValue()) ?
+                findRecursively(current.getLeft(), value)
+                : findRecursively(current.getRight(), value);
     }
 
 
@@ -139,14 +141,14 @@ public class BinaryTreeImpl implements BinaryTree {
 
         while (!nodes.isEmpty()){
             Node node = nodes.remove();
-            System.out.println(" "+node.value);
-            if(node.left != null) {
-                nodes.add(node.left);
-                lastNode = node.left;
+            System.out.println(" "+node.getValue());
+            if(node.getLeft() != null) {
+                nodes.add(node.getLeft());
+                lastNode = node.getLeft();
             }
-            if(node.right !=null) {
-                nodes.add(node.right);
-                lastNode = node.right;
+            if(node.getRight() !=null) {
+                nodes.add(node.getRight());
+                lastNode = node.getRight();
             }
         }
         return lastNode;
@@ -156,9 +158,9 @@ public class BinaryTreeImpl implements BinaryTree {
     private Node traverseInOrder(Node node, Node previous) {
         Node lastNode;
         if(node != null){
-            lastNode = traverseInOrder(node.left, node);
-            System.out.print(" "+node.value);
-            lastNode = traverseInOrder(node.right, node);
+            lastNode = traverseInOrder(node.getLeft(), node);
+            System.out.print(" "+node.getValue());
+            lastNode = traverseInOrder(node.getRight(), node);
         }
         else{
             lastNode = previous;
@@ -170,9 +172,9 @@ public class BinaryTreeImpl implements BinaryTree {
     private Node traversePreOrder(Node node, Node previous) {
         Node lastNode;
         if (node!=null){
-            System.out.println(" " +node.value);
-            lastNode = traversePreOrder(node.left, node);
-            lastNode = traversePreOrder(node.right, node);
+            System.out.println(" " +node.getValue());
+            lastNode = traversePreOrder(node.getLeft(), node);
+            lastNode = traversePreOrder(node.getRight(), node);
         }
         else{
             lastNode = previous;
@@ -184,9 +186,9 @@ public class BinaryTreeImpl implements BinaryTree {
     private Node traversePostOrder(Node node, Node previous) {
         Node lastNode;
         if (node !=null){
-            lastNode = traversePostOrder(node.left, node);
-            lastNode = traversePostOrder(node.right, node);
-            System.out.println(" "+node.value);
+            lastNode = traversePostOrder(node.getLeft(), node);
+            lastNode = traversePostOrder(node.getRight(), node);
+            System.out.println(" "+node.getValue());
         }
         else{
             lastNode = previous;
