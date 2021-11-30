@@ -1,3 +1,5 @@
+package sumofbstdepths;
+
 import util.Node;
 
 /**

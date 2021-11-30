@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sumofbstdepths.SumOfBSTDepthsIterativeImpl;
+import sumofbstdepths.SumOfBSTDepthsRecursiveImpl;
 import util.BST;
 
 import java.util.Arrays;

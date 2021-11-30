@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTDepthsIterativeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SumOfBSTDepthsRecursiveImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTDepthsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTDepths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sumofbstdepths/SumOfBSTDepths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTDepthsIterativeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sumofbstdepths/SumOfBSTDepthsIterativeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SumOfBSTDepthsRecursiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sumofbstdepths/SumOfBSTDepthsRecursiveImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SumOfBSTDepthsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTDepthsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,6 +156,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sumofbstdepths" />
       <recent name="sumofbstbranches" />
       <recent name="util" />
       <recent name="" />
@@ -370,7 +368,7 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SumOfBSTDepthsRecursiveImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/sumofbstdepths/SumOfBSTDepthsRecursiveImpl.java</url>
           <line>15</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>

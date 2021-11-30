@@ -1,4 +1,5 @@
-import util.BST;
+package sumofbstdepths;
+
 import util.Node;
 
 /**
