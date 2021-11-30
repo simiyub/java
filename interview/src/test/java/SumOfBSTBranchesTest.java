@@ -1,14 +1,12 @@
-import implementbinarytree.BinaryTree;
-import implementbinarytree.BinaryTreeImpl;
-import implementbinarytree.BreadthFirstBinaryTree;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sumofbstbranches.SumOfBSTBranchesImpl;
 import util.BST;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.Arrays;
-import java.util.Queue;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SumOfBSTBranchesTest {
 
@@ -22,27 +20,8 @@ class SumOfBSTBranchesTest {
 
         BST tree = new BST();
         Arrays.stream(values).forEach(tree::add);
-        int[] expected =new int[]{28,33,34};
-        assertArrayEquals(expected, new SumOfBSTBranchesImpl().sumOfBranches(tree));
+        List<Integer> expected =List.of(10,33,34);
+        assertEquals(expected, new SumOfBSTBranchesImpl().sumOfBranches(tree));
     }
 
-    @Test
-    void sumOfOneBranch(){
-
-    }
-
-    @Test
-    void sumOfTwoBranches(){
-
-    }
-
-    @Test
-    void sumOfThreeBranches(){
-
-    }
-
-    @Test
-    void sumOfFourBranches(){
-
-    }
 }
