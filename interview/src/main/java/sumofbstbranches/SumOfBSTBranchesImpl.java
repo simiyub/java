@@ -13,14 +13,14 @@ import java.util.List;
  * */
 public class SumOfBSTBranchesImpl implements SumOfBSTBranches {
 
-    private static List<Integer> nodeValue(Node node, int sum,List<Integer> sums){
+    private static List<Integer> sum(Node node, int sum, List<Integer> sums){
         if(node!=null) {
             sum += node.getValue();
 
             if (node.getLeft() == null && node.getRight() == null) sums.add(sum);
             else {
-                nodeValue(node.getLeft(), sum, sums);
-                nodeValue(node.getRight(), sum, sums);
+                sum(node.getLeft(), sum, sums);
+                sum(node.getRight(), sum, sums);
             }
         }
         return sums;
@@ -29,6 +29,6 @@ public class SumOfBSTBranchesImpl implements SumOfBSTBranches {
     @Override
     public List<Integer> sumOfBranches(BST tree) {
         List<Integer> sum = new ArrayList<>();
-        return nodeValue(tree.getRoot(),0,sum);
+        return sum(tree.getRoot(),0,sum);
     }
 }
