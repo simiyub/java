@@ -4,6 +4,9 @@ import util.Node;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * O( vertices + edges) T and O(v) S
+ * */
 public class DepthFirstSearchImpl implements DepthFirstSearch {
 
     @Override
