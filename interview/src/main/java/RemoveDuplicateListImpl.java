@@ -6,18 +6,19 @@
 public class RemoveDuplicateListImpl implements RemoveDuplicatesFromLinkedList {
     @Override
     public LinkedListRecord removeDuplicates(LinkedListRecord list) {
-        if(list!=null && list.next!=null){
-            if(list.value == list.next.value) list.next = list.next.next;
-            removeDuplicates(list.next);
+        LinkedListRecord current = list;
+        while(current!=null){
+            if (current.next != null) {
+                LinkedListRecord temp = current.next;
+                if (current.value == current.next.value) {
+                    current.next =temp.next;
+                }
+                    current = current.next;
+            }
+
         }
+
         return list;
     }
 
-    public LinkedListRecord removeDuplicate(LinkedListRecord list) {
-        if(list!=null){
-            if(list.value == list.next.value) list.next = list.next.next;
-            removeDuplicates(list.next);
-        }
-        return list;
-    }
 }

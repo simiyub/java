@@ -64,6 +64,7 @@ class RemoveDuplicatesFromLinkedListTest {
         three.next = four;
         four.next = five;
         five.next = six;
-        assertEquals(expected, new RemoveDuplicateListImpl().removeDuplicates(one));
+        RemoveDuplicatesFromLinkedList.LinkedListRecord response = new RemoveDuplicateListImpl().removeDuplicates(one);
+        assertEquals(expected, response);
     }
 }
