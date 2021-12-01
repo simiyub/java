@@ -7,12 +7,7 @@
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SumOfBSTDepthsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumOfBSTDepthsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumWaitingTimeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MinimumWaitingTimeImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +169,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
+  <component name="RunManager" selected="Gradle.MinimumWaitingTimeTest.minimumWaitingTime">
     <configuration name="DepthFirstSearchTest.depthFirstSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,12 +191,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SumOfBSTDepthsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MinimumWaitingTimeTest.minimumWaitingTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SumOfBSTDepthsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MinimumWaitingTimeTest.minimumWaitingTime&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -212,7 +207,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -271,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinimumWaitingTimeTest.minimumWaitingTime" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
         <item itemvalue="Gradle.DepthFirstSearchTest.depthFirstSearchTest" />
         <item itemvalue="JUnit.DepthFirstSearchTest.depthFirstSearchTest" />
         <item itemvalue="Gradle.SumOfBSTDepthsTest.depthsRecursive" />
-        <item itemvalue="Gradle.SumOfBSTDepthsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -388,6 +383,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MinimumWaitingTimeImpl.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
