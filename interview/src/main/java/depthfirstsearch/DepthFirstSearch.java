@@ -1,3 +1,5 @@
+package depthfirstsearch;
+
 import util.BST;
 
 import java.util.List;

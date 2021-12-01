@@ -1,3 +1,5 @@
+package depthfirstsearch;
+
 import util.BST;
 import util.Node;
 
@@ -11,7 +13,7 @@ public class DepthFirstSearchImpl implements DepthFirstSearch {
 
     @Override
     public List<Integer> list(BST tree) {
-        return listRecursively(tree.getRoot(), new ArrayList<Integer>());
+        return listRecursively(tree.getRoot(), new ArrayList<>());
     }
 
     private List<Integer> listRecursively(Node node, ArrayList<Integer> nodeNames) {
