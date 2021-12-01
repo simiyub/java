@@ -174,7 +174,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DepthFirstSearchTest.depthFirstSearchTest">
+  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
     <configuration name="DepthFirstSearchTest.depthFirstSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -271,8 +271,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DepthFirstSearchTest.depthFirstSearchTest" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
+        <item itemvalue="Gradle.DepthFirstSearchTest.depthFirstSearchTest" />
         <item itemvalue="JUnit.DepthFirstSearchTest.depthFirstSearchTest" />
         <item itemvalue="Gradle.SumOfBSTDepthsTest.depthsRecursive" />
         <item itemvalue="Gradle.SumOfBSTDepthsTest" />
