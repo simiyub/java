@@ -1,3 +1,5 @@
+package classphoto;
+
 /**
  * Taking a class photo where children are either in a jumper of not.
  * Requirements:

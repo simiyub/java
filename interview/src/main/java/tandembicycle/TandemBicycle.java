@@ -1,3 +1,5 @@
+package tandembicycle;
+
 /**
  * Pair up cyclists from two teams to determine
  * the fastest and slowest speed that you can achieve between the two teams.

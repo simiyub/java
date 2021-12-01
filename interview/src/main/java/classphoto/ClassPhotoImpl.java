@@ -1,3 +1,5 @@
+package classphoto;
+
 import java.util.Arrays;
 
 /**
