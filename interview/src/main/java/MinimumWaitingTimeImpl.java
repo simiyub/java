@@ -4,6 +4,9 @@ import util.Node;
 import java.util.Arrays;
 
 /**
+ * O(nlogn) T O(1) S because of the sorting and the array is the same.
+ *  The iteration uses n time, so overall the complexity is nlogn
+ * Sort the array
  * Go through the array and add up the execution times of previous functions
  * to determine the waiting time of current function.
  * */
@@ -11,17 +14,14 @@ import java.util.Arrays;
 public class MinimumWaitingTimeImpl implements MinimumWaitingTime{
     @Override
     public int minimumWaitingTime(int[] listOfFunctionExecutionTimes) {
-        BST tree = new BST();
-        Arrays.stream(listOfFunctionExecutionTimes).forEach(tree::add);
-        return recursivelyCalculateMinimumWaitingTime(tree.getRoot(), 0);
+        Arrays.sort(listOfFunctionExecutionTimes);
+        int remainingCount = listOfFunctionExecutionTimes.length-1;
+        int minimumTime = 0;
+        for (int i=0; i<=listOfFunctionExecutionTimes.length-1;i++){
+            minimumTime += listOfFunctionExecutionTimes[i] * remainingCount;
+            remainingCount --;
+        }
+        return minimumTime;
     }
 
-    private int recursivelyCalculateMinimumWaitingTime(Node node, int executionTime) {
-    if(node!=null){
-        executionTime += node.getValue();
-        recursivelyCalculateMinimumWaitingTime(node.getLeft(), executionTime);
-        recursivelyCalculateMinimumWaitingTime(node.getRight(), executionTime);
-    }
-    return executionTime;
-    }
 }
