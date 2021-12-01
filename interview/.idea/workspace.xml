@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TandemBicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TandemBicycleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,34 +171,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TandemBicycleTest.speed">
+  <component name="RunManager" selected="Gradle.TandemBicycleTest.speedTest2">
     <configuration name="ClassPhotosTest.feasible" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ClassPhotosTest.feasible&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DepthFirstSearchTest.depthFirstSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DepthFirstSearchTest.depthFirstSearchTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -255,6 +235,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TandemBicycleTest.speedTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TandemBicycleTest.speedTest2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -278,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TandemBicycleTest.speedTest2" />
         <item itemvalue="Gradle.TandemBicycleTest.speed" />
         <item itemvalue="Gradle.ClassPhotosTest.feasible" />
         <item itemvalue="Gradle.MinimumWaitingTimeTest.minimumWaitingTime" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
-        <item itemvalue="Gradle.DepthFirstSearchTest.depthFirstSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,12 +404,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java</url>
-          <line>20</line>
+          <line>30</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java</url>
-          <line>18</line>
+          <line>28</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
