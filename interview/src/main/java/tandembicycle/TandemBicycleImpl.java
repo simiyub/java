@@ -17,9 +17,7 @@ public class TandemBicycleImpl implements TandemBicycle{
     private int higher(int first,int second ){
         return first > second ? first : second;
     }
-//    private int lower(int first, int second){
-//        return first < second ? first : second;
-//    }
+
     @Override
     public int speed(int[] teamA, int[] teamB, boolean fastest) {
         Arrays.sort(teamA);

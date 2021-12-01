@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicatesFromLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TandemBicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TandemBicycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycleImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -161,11 +161,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tandembicycle" />
+      <recent name="classphoto" />
       <recent name="minimumwaitingtime" />
       <recent name="depthfirstsearch" />
       <recent name="sumofbstbranches" />
-      <recent name="util" />
-      <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -403,12 +403,12 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycleImpl.java</url>
           <line>30</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TandemBicycleImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycleImpl.java</url>
           <line>28</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
