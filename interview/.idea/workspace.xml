@@ -7,8 +7,6 @@
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +169,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicates">
+  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2">
     <configuration name="ClassPhotosTest.feasible" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,12 +191,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MinimumWaitingTimeTest.minimumWaitingTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MinimumWaitingTimeTest.minimumWaitingTime&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicates&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -214,12 +212,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicates&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -279,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" />
         <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicates" />
         <item itemvalue="Gradle.TandemBicycleTest.speedTest2" />
         <item itemvalue="Gradle.TandemBicycleTest.speed" />
         <item itemvalue="Gradle.ClassPhotosTest.feasible" />
-        <item itemvalue="Gradle.MinimumWaitingTimeTest.minimumWaitingTime" />
       </list>
     </recent_temporary>
   </component>
@@ -411,6 +409,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/tandembicycle/TandemBicycleImpl.java</url>
           <line>28</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
