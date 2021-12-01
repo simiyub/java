@@ -1,3 +1,5 @@
+package minimumwaitingtime;
+
 /**
  * Greedy algorithm
  * Calculate the amount of time it takes to get to a function in a list of functions.

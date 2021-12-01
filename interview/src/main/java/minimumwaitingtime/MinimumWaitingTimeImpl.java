@@ -1,5 +1,4 @@
-import util.BST;
-import util.Node;
+package minimumwaitingtime;
 
 import java.util.Arrays;
 
