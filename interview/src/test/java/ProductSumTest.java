@@ -12,7 +12,7 @@ class ProductSumTest {
     @Test
     void productSum() {
 
-        Object[] array =new Object[]{5,2,new int[]{7,-1},3,new Object[]{6, new int[]{-13,8},4}};
+        Object[] array =new Object[]{5,2,new Object[]{7,-1},3,new Object[]{6, new Object[]{-13,8},4}};
         assertEquals(12,new ProductSumImpl().productSum(array));
     }
 }

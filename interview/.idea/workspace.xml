@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fibonacci/FibonacciIterativeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fibonacci/FibonacciIterativeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fibonacci/FibonacciRecursiveWithMemoizationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fibonacci/FibonacciRecursiveWithMemoizationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductSumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductSumImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
+  <component name="RunManager" selected="Gradle.ProductSumTest.productSum">
     <configuration name="FibonacciTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,12 +217,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FibonacciTest.fibonacciRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacciRecursiveWithMemoization" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciRecursive&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciRecursiveWithMemoization&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -236,12 +238,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FibonacciTest.fibonacciRecursiveWithMemoization" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductSumTest.productSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciRecursiveWithMemoization&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ProductSumTest.productSum&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -280,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductSumTest.productSum" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
         <item itemvalue="Gradle.FibonacciTest.fibonacciIterative" />
         <item itemvalue="Gradle.FibonacciTest" />
         <item itemvalue="Gradle.FibonacciTest.fibonacciRecursiveWithMemoization" />
-        <item itemvalue="Gradle.FibonacciTest.fibonacciRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +421,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/fibonacci/FibonacciRecursiveImpl.java</url>
           <line>15</line>
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ProductSumImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
