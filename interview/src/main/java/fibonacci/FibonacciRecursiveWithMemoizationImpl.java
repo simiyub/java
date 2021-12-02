@@ -1,15 +1,17 @@
+package fibonacci;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * O(2^n) T as each recursion calls a multiple of fib and O(n) S
  * for the stack waiting for response from the fib calls
- * Fibonacci implementation using recursion naively
+ * fibonacci.Fibonacci implementation using recursion naively
  * */
 public class FibonacciRecursiveWithMemoizationImpl implements Fibonacci{
     @Override
     public int fibonacci(int n) {
-        return fibonacci(n, new HashMap<Integer,Integer>());
+        return fibonacci(n, new HashMap<>());
     }
 
     public int fibonacci(int n, Map<Integer, Integer> memo){

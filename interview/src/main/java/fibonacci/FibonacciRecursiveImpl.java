@@ -1,10 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
+package fibonacci;
 
 /**
  * O(2^n) T as each recursion calls a multiple of fib and O(n) S
  * for the stack waiting for response from the fib calls
- * Fibonacci implementation using recursion naively
+ * fibonacci.Fibonacci implementation using recursion naively
  * */
 public class FibonacciRecursiveImpl implements Fibonacci{
     @Override

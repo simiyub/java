@@ -178,7 +178,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FibonacciTest">
+  <component name="RunManager" selected="Gradle.FibonacciTest.fibonacciIterative">
     <configuration name="FibonacciTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -286,8 +286,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FibonacciTest" />
         <item itemvalue="Gradle.FibonacciTest.fibonacciIterative" />
+        <item itemvalue="Gradle.FibonacciTest" />
         <item itemvalue="Gradle.FibonacciTest.fibonacciRecursiveWithMemoization" />
         <item itemvalue="Gradle.FibonacciTest.fibonacciRecursive" />
         <item itemvalue="Gradle.FibonacciTest.fibonacci" />

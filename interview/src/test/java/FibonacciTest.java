@@ -1,3 +1,6 @@
+import fibonacci.FibonacciIterativeImpl;
+import fibonacci.FibonacciRecursiveImpl;
+import fibonacci.FibonacciRecursiveWithMemoizationImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
