@@ -2,7 +2,7 @@ package fibonacci;
 
 /**
  * O(n) T O(1) S
- * Using iteration we go through the while loop one to the nth number
+ * Using iteration we go through the while loop once to the nth number
  *
  * * */
 public class FibonacciIterativeImpl implements Fibonacci {

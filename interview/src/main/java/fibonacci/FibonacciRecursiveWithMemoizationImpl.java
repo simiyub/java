@@ -4,9 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * O(2^n) T as each recursion calls a multiple of fib and O(n) S
- * for the stack waiting for response from the fib calls
- * fibonacci.Fibonacci implementation using recursion naively
+ * O(n) T and O(n) S for the storage in the map
+ * Fibonacci implementation using recursion and memoization
  * */
 public class FibonacciRecursiveWithMemoizationImpl implements Fibonacci{
     @Override
