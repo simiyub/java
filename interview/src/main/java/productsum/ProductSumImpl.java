@@ -1,3 +1,9 @@
+package productsum;
+
+/**
+ * O(n) T where n is the total number of elements including those in sub arrays.
+ * O(d) S where d is the depth we can go to in working out the sum.
+ * */
 public class ProductSumImpl implements ProductSum{
 
     @Override
