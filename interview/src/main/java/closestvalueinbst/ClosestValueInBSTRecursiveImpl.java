@@ -1,4 +1,4 @@
-package closetvalueinbst;
+package closestvalueinbst;
 
 import util.Node;
 

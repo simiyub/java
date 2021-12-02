@@ -1,6 +1,5 @@
-package closetvalueinbst;
+package closestvalueinbst;
 
-import util.BST;
 import util.Node;
 
 /**

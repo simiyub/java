@@ -1,7 +1,7 @@
 import util.BST;
-import closetvalueinbst.ClosestValueInBST;
-import closetvalueinbst.ClosestValueInBSTIterativeImpl;
-import closetvalueinbst.ClosestValueInBSTRecursiveImpl;
+import closestvalueinbst.ClosestValueInBST;
+import closestvalueinbst.ClosestValueInBSTIterativeImpl;
+import closestvalueinbst.ClosestValueInBSTRecursiveImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

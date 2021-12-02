@@ -1,3 +1,5 @@
+package removeduplicatesfromlinkedlist;
+
 /**
  * O(n) T and O(1) S as we iterate through the linked list once
  * Given a linkedList that is sorted we walk through the list passing through the algorithm

@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import removeduplicatesfromlinkedlist.RemoveDuplicateListImpl;
+import removeduplicatesfromlinkedlist.RemoveDuplicatesFromLinkedList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -56,14 +58,7 @@ class RemoveDuplicatesFromLinkedListTest {
         six.next = sixDup1;
 
         RemoveDuplicatesFromLinkedList.LinkedListRecord expected = new RemoveDuplicatesFromLinkedList.LinkedListRecord(1);
-        RemoveDuplicatesFromLinkedList.LinkedListRecord twoExpected = new RemoveDuplicatesFromLinkedList.LinkedListRecord(2);
-        RemoveDuplicatesFromLinkedList.LinkedListRecord threeExpected = new RemoveDuplicatesFromLinkedList.LinkedListRecord(3);
-        RemoveDuplicatesFromLinkedList.LinkedListRecord fourExpected = new RemoveDuplicatesFromLinkedList.LinkedListRecord(4);
         expected.next = oneDup1;
-        oneDup2.next = three;
-        three.next = four;
-        four.next = five;
-        five.next = six;
         RemoveDuplicatesFromLinkedList.LinkedListRecord response = new RemoveDuplicateListImpl().removeDuplicates(one);
         assertEquals(expected, response);
     }
