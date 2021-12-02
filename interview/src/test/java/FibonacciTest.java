@@ -11,6 +11,6 @@ class FibonacciTest {
 
     @Test
     void fibonacci() {
-        assertEquals(5,new FibonacciImpl().fibonacci(6));
+        assertEquals(5,new FibonacciImpl().fibonacci(7));
     }
 }
