@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,6 +158,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="removeduplicatesfromlinkedlist" />
       <recent name="sumofbstbranches" />
       <recent name="util" />
       <recent name="" />
@@ -169,7 +168,28 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2">
+  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
+    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,12 +211,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SumOfBSTDepthsTest.depthsRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SumOfBSTDepthsTest.depthsRecursive&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -207,7 +227,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -233,16 +253,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DepthFirstSearchTest.depthFirstSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepthFirstSearchTest" />
-      <option name="METHOD_NAME" value="depthFirstSearchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="easy_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -255,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'easy.test'" />
+        <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1" />
         <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" />
         <item itemvalue="Gradle.interview [build]" />
         <item itemvalue="JUnit.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" />
-        <item itemvalue="JUnit.DepthFirstSearchTest.depthFirstSearchTest" />
-        <item itemvalue="Gradle.SumOfBSTDepthsTest.depthsRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -377,17 +387,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
-          <line>66</line>
+          <line>61</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
-          <line>67</line>
+          <line>62</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/src/main/java/removeduplicatesfromlinkedlist/RemoveDuplicateListImpl.java</url>
+          <line>13</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
