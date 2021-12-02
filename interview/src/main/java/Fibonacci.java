@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Implement a function such that given a number n >2,
  * the next number in the sequence will be the sum of the last two numbers in the sequence
@@ -7,4 +10,5 @@
 public interface Fibonacci {
 
     int fibonacci(int n);
+
 }

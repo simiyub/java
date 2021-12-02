@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FibonacciIterativeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FibonacciRecursiveImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FibonacciRecursiveWithMemoizationImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FibonacciImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FibonacciImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FibonacciImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FibonacciTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,8 +173,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="util" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.FibonacciTest.fibonacci">
+  <component name="RunManager" selected="Gradle.FibonacciTest">
     <configuration name="FibonacciTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,12 +221,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacciIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciIterative&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -235,12 +242,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacciRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciRecursive&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -256,12 +263,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacciRecursiveWithMemoization" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;FibonacciTest.fibonacciRecursiveWithMemoization&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -279,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FibonacciTest.fibonacci" />
         <item itemvalue="Gradle.FibonacciTest" />
-        <item itemvalue="Gradle.Tests in 'easy.test'" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest1" />
-        <item itemvalue="Gradle.RemoveDuplicatesFromLinkedListTest.removeDuplicatesTest2" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacciIterative" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacciRecursiveWithMemoization" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacciRecursive" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -415,8 +422,8 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FibonacciImpl.java</url>
-          <line>7</line>
+          <url>file://$PROJECT_DIR$/src/main/java/FibonacciRecursiveImpl.java</url>
+          <line>15</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
