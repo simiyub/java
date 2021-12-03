@@ -24,4 +24,12 @@ class FindThreeLargestNumbersTest {
 
         assertArrayEquals(expected, new FindThreeLargestNumbersImpl().find(array));
     }
+
+    @Test
+    void findWithNegativeNumbers() {
+        int[] array = new int[]{-1, -2, -3, -7, -17, -27, -18, -541, -8, -7, 7};
+        int[] expected = new int[]{-2, -1, 7};
+
+        assertArrayEquals(expected, new FindThreeLargestNumbersImpl().find(array));
+    }
 }

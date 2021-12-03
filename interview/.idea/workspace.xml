@@ -189,13 +189,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindThreeLargestNumbersTest.find">
-    <configuration name="BinarySearchTest.indexOf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FindThreeLargestNumbersTest">
+    <configuration name="BinarySearchTest.indexOfIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinarySearchTest.indexOf&quot;" />
+        <option name="scriptParameters" value="--tests &quot;BinarySearchTest.indexOfIterative&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -211,12 +211,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.indexOfIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindThreeLargestNumbersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinarySearchTest.indexOfIterative&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FindThreeLargestNumbersTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -253,33 +253,55 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.indexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTest" />
-      <option name="METHOD_NAME" value="indexOf" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="FindThreeLargestNumbersTest.findWithDuplicates" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FindThreeLargestNumbersTest.findWithDuplicates&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="ProductSumTest.productSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductSumTest" />
-      <option name="METHOD_NAME" value="productSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="FindThreeLargestNumbersTest.findWithNegativeNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FindThreeLargestNumbersTest.findWithNegativeNumbers&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindThreeLargestNumbersTest" />
+        <item itemvalue="Gradle.FindThreeLargestNumbersTest.findWithNegativeNumbers" />
+        <item itemvalue="Gradle.FindThreeLargestNumbersTest.findWithDuplicates" />
         <item itemvalue="Gradle.FindThreeLargestNumbersTest.find" />
         <item itemvalue="Gradle.BinarySearchTest.indexOfIterative" />
-        <item itemvalue="Gradle.BinarySearchTest.indexOf" />
-        <item itemvalue="JUnit.BinarySearchTest.indexOf" />
-        <item itemvalue="JUnit.ProductSumTest.productSum" />
       </list>
     </recent_temporary>
   </component>
@@ -428,13 +450,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="78" />
+          <line>12</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java</url>
           <line>9</line>
-          <option name="timeStamp" value="80" />
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

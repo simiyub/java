@@ -4,10 +4,11 @@ public class FindThreeLargestNumbersImpl implements FindThreeLargestNumbers {
     @Override
     public int[] find(int[] array) {
 
-        int required =3;
-        int[] highest =  new int[3];
+        int[] highest =  new int[]{Integer.MIN_VALUE,Integer.MIN_VALUE,Integer.MIN_VALUE};
 
-        for(int i=0;i<=array.length-1;i++) if (highest[0] < array[i]) highest = shift(highest,array[i]);
+        for(int i=0;i<=array.length-1;i++) {
+            if (highest[0] < array[i]) highest = shift(highest,array[i]);
+        }
 
         return highest;
     }
