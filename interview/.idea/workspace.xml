@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindThreeLargestNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FindThreeLargestNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindThreeLargestNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -185,7 +189,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest.indexOfIterative">
+  <component name="RunManager" selected="Gradle.FindThreeLargestNumbersTest.find">
     <configuration name="BinarySearchTest.indexOf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,12 +232,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProductSumTest.productSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindThreeLargestNumbersTest.find" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ProductSumTest.productSum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FindThreeLargestNumbersTest.find&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -244,7 +248,7 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -271,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindThreeLargestNumbersTest.find" />
         <item itemvalue="Gradle.BinarySearchTest.indexOfIterative" />
         <item itemvalue="Gradle.BinarySearchTest.indexOf" />
         <item itemvalue="JUnit.BinarySearchTest.indexOf" />
         <item itemvalue="JUnit.ProductSumTest.productSum" />
-        <item itemvalue="Gradle.ProductSumTest.productSum" />
       </list>
     </recent_temporary>
   </component>
@@ -421,6 +425,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/binarysearch/BinarySearchRecursiveImp.java</url>
           <line>12</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FindThreeLargestNumbersImpl.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
