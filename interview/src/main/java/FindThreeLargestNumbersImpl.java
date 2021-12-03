@@ -9,7 +9,6 @@ public class FindThreeLargestNumbersImpl implements FindThreeLargestNumbers {
 
         for(int i=0;i<=array.length-1;i++) if (highest[0] < array[i]) highest = shift(highest,array[i]);
 
-
         return highest;
     }
 

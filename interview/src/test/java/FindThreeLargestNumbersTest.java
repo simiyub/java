@@ -20,7 +20,7 @@ class FindThreeLargestNumbersTest {
     @Test
     void findWithDuplicates() {
         int[] array = new int[]{1,2, 5, 7, 6, 4, 9, 5,0, 3, 9, 11};
-        int[] expected = new int[]{7,9,11};
+        int[] expected = new int[]{9,9,11};
 
         assertArrayEquals(expected, new FindThreeLargestNumbersImpl().find(array));
     }
