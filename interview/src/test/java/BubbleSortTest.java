@@ -16,5 +16,10 @@ class BubbleSortTest {
         assertArrayEquals(expected, new BubbleSortImpl().sort(array));
     }
 
-
+    @Test
+    void sortWithDuplicate() {
+        int[] expected = new int[]{1,2,3,3,5,6,6,7,8,9};
+        int[] array = new int[]{6, 7,5, 3, 2,6, 1, 8, 9,3};
+        assertArrayEquals(expected, new BubbleSortImpl().sort(array));
+    }
 }
