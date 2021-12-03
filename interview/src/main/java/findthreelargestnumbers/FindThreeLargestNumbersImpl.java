@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package findthreelargestnumbers;
 
 public class FindThreeLargestNumbersImpl implements FindThreeLargestNumbers {
     @Override
@@ -6,14 +6,12 @@ public class FindThreeLargestNumbersImpl implements FindThreeLargestNumbers {
 
         int[] highest =  new int[]{Integer.MIN_VALUE,Integer.MIN_VALUE,Integer.MIN_VALUE};
 
-        for(int i=0;i<=array.length-1;i++) {
-            if (highest[0] < array[i]) highest = shift(highest,array[i]);
-        }
+        for(int i=0;i<=array.length-1;i++)  if (highest[0] < array[i]) shift(highest,array[i]);
 
         return highest;
     }
 
-    private int[] shift(int[] highest, int value) {
+    private void shift(int[] highest, int value) {
         int newIndex = -1;
         for(int i=0; i<= highest.length-1;i++){
             if (newIndex>=0 && highest[i-1]<value) {
@@ -23,6 +21,6 @@ public class FindThreeLargestNumbersImpl implements FindThreeLargestNumbers {
             newIndex ++;
         }
         highest[newIndex] = value;
-        return highest;
+
     }
 }
