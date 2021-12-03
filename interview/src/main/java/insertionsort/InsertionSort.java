@@ -1,3 +1,5 @@
+package insertionsort;
+
 /**
  * Given an array, return it sorted using the insertion sort algorithm
  * */

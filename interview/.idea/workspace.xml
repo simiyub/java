@@ -7,8 +7,9 @@
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insertionsort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,11 +175,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="insertionsort" />
       <recent name="bubblesort" />
       <recent name="findthreelargestnumbers" />
       <recent name="binarysearch" />
       <recent name="productsum" />
-      <recent name="fibonacci" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -188,7 +189,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionSortTest">
+  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
     <configuration name="BubbleSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -296,8 +297,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
+        <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.BubbleSortTest" />
         <item itemvalue="Gradle.BubbleSortTest.sortWithDuplicate" />
         <item itemvalue="Gradle.BubbleSortTest.sort" />
@@ -453,7 +454,7 @@
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/InsertionSortImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java</url>
           <line>8</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
