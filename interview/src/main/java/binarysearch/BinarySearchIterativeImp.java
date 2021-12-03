@@ -1,7 +1,7 @@
 package binarysearch;
 
 /**
- * O(logn) T and O(logn) S as we split the array in two at each iteration and we are adding frames on the call stack
+ * O(logn) T and O(1) S as we split the array in two at each iteration and no need for additional data structure
  * Iterative implementation
  * */
 public class BinarySearchIterativeImp implements BinarySearch{

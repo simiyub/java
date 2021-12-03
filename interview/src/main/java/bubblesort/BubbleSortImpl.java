@@ -1,3 +1,9 @@
+package bubblesort;
+
+/**
+ * O(n^2) T and O(1) in worst case and average as we are looping through until the array is sorted.
+ * No additional space required as we sorted in place
+ * */
 public class BubbleSortImpl implements BubbleSort{
     @Override
     public int[] sort(int[] array) {
