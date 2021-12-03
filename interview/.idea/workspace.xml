@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BubbleSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -187,13 +185,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindThreeLargestNumbersTest">
-    <configuration name="BinarySearchTest.indexOfIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BubbleSortTest.sort">
+    <configuration name="BubbleSortTest.sort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BinarySearchTest.indexOfIterative&quot;" />
+        <option name="scriptParameters" value="--tests &quot;BubbleSortTest.sort&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -295,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BubbleSortTest.sort" />
         <item itemvalue="Gradle.FindThreeLargestNumbersTest" />
         <item itemvalue="Gradle.FindThreeLargestNumbersTest.findWithDuplicates" />
         <item itemvalue="Gradle.FindThreeLargestNumbersTest.findWithNegativeNumbers" />
         <item itemvalue="Gradle.FindThreeLargestNumbersTest.find" />
-        <item itemvalue="Gradle.BinarySearchTest.indexOfIterative" />
       </list>
     </recent_temporary>
   </component>

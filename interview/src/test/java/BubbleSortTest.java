@@ -15,4 +15,6 @@ class BubbleSortTest {
         int[] array = new int[]{6, 7,5, 3, 2,1, 8, 9};
         assertArrayEquals(expected, new BubbleSortImpl().sort(array));
     }
+
+
 }
