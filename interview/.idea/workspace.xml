@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinarySearchIterativeImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchRecursiveImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -177,18 +177,15 @@
       <recent name="sumofbstbranches" />
       <recent name="util" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="util" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest.indexOf">
+  <component name="RunManager" selected="Gradle.BinarySearchTest.indexOfIterative">
     <configuration name="BinarySearchTest.indexOf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -210,12 +207,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProductSumTest.productSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinarySearchTest.indexOfIterative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ProductSumTest.productSum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;BinarySearchTest.indexOfIterative&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -226,17 +223,17 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductSumTest.productSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;ProductSumTest.productSum&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -274,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTest.indexOfIterative" />
         <item itemvalue="Gradle.BinarySearchTest.indexOf" />
         <item itemvalue="JUnit.BinarySearchTest.indexOf" />
         <item itemvalue="JUnit.ProductSumTest.productSum" />
         <item itemvalue="Gradle.ProductSumTest.productSum" />
-        <item itemvalue="Gradle.Tests in 'easy.test'" />
       </list>
     </recent_temporary>
   </component>
