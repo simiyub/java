@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bubblesort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BubbleSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bubblesort/BubbleSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearchIterativeImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarysearch/BinarySearchIterativeImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
+  <component name="RunManager" selected="Gradle.InsertionSortTest">
     <configuration name="BubbleSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -255,12 +255,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FindThreeLargestNumbersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FindThreeLargestNumbersTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;InsertionSortTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -299,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
         <item itemvalue="Gradle.BubbleSortTest" />
         <item itemvalue="Gradle.BubbleSortTest.sortWithDuplicate" />
         <item itemvalue="Gradle.BubbleSortTest.sort" />
-        <item itemvalue="Gradle.FindThreeLargestNumbersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,6 +454,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/bubblesort/BubbleSortImpl.java</url>
           <line>11</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/InsertionSortImpl.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
