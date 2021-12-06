@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeCheckImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PalindromeCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,11 +173,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="selectionsort" />
       <recent name="" />
       <recent name="insertionsort" />
       <recent name="bubblesort" />
       <recent name="findthreelargestnumbers" />
-      <recent name="binarysearch" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -467,12 +468,12 @@
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SelectionSortImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>12</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SelectionSortImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>10</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
