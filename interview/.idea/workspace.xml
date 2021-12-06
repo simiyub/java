@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PalindromeCheckImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PalindromeCheckImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +186,28 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PalindromeCheckTest.isPalindrome1">
+  <component name="RunManager" selected="Gradle.PalindromeCheckTest">
+    <configuration name="PalindromeCheckTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PalindromeCheckTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PalindromeCheckTest.isPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -249,27 +271,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelectionSortTest.sortTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest2&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SelectionSortTest.sortTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -293,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PalindromeCheckTest.isPalindrome1" />
+        <item itemvalue="Gradle.PalindromeCheckTest" />
         <item itemvalue="Gradle.PalindromeCheckTest.isPalindrome2" />
+        <item itemvalue="Gradle.PalindromeCheckTest.isPalindrome1" />
         <item itemvalue="Gradle.PalindromeCheckTest.isPalindrome" />
         <item itemvalue="Gradle.SelectionSortTest.sortTest3" />
-        <item itemvalue="Gradle.SelectionSortTest.sortTest2" />
       </list>
     </recent_temporary>
   </component>
