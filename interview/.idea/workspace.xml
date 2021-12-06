@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelectionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +469,12 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SelectionSortImpl.java</url>
           <line>12</line>
-          <option name="timeStamp" value="99" />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SelectionSortImpl.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,3 +1,5 @@
+package selectionsort;
+
 /**
  *O(n^2) T O(1) S as we have to iterate through the array several times to sort the elements.
  * There's no additional space required as we sort the array in place.
@@ -19,7 +21,7 @@ public class SelectionSortImpl implements SelectionSort {
                 array[currentSmallestIndex] = smallerNumber;
             }
             currentSmallestIndex ++;
-            smallerNumberIndex = currentSmallestIndex;
+            smallerNumberIndex ++;
             unsortedStartIndex ++;
         }
         return array;

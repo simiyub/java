@@ -1,3 +1,5 @@
+package selectionsort;
+
 /**
  * Given an array, return it having sorted it using the selection sort algorithm
  * */
