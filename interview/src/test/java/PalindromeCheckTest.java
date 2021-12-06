@@ -5,8 +5,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class PalindromeCheckTest {
 
     @Test
-    void isPalindrome() {
-        String value = "";
+    void isPalindrome1() {
+        String value = "abcdefghhgfedcba";
         assertTrue(new PalindromeCheckImpl().isPalindrome(value));
+    }
+
+    @Test
+    void isPalindrome2() {
+        String value = "abcdefghihgfeddcba";
+        assertFalse(new PalindromeCheckImpl().isPalindrome(value));
     }
 }
