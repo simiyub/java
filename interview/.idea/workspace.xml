@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insertionsort/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InsertionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InsertionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SelectionSortImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelectionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,11 +174,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="insertionsort" />
       <recent name="bubblesort" />
       <recent name="findthreelargestnumbers" />
       <recent name="binarysearch" />
-      <recent name="productsum" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -189,13 +188,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'easy.test'">
-    <configuration name="BubbleSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SelectionSortTest.sortTest3">
+    <configuration name="SelectionSortTest.sort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BubbleSortTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sort&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -211,12 +210,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSortTest.sort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelectionSortTest.sortTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BubbleSortTest.sort&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest1&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -232,12 +231,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSortTest.sortWithDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelectionSortTest.sortTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BubbleSortTest.sortWithDuplicate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -253,12 +252,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelectionSortTest.sortTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;InsertionSortTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -297,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelectionSortTest.sortTest3" />
+        <item itemvalue="Gradle.SelectionSortTest.sortTest2" />
+        <item itemvalue="Gradle.SelectionSortTest.sortTest1" />
+        <item itemvalue="Gradle.SelectionSortTest.sort" />
         <item itemvalue="Gradle.Tests in 'easy.test'" />
-        <item itemvalue="Gradle.InsertionSortTest" />
-        <item itemvalue="Gradle.BubbleSortTest" />
-        <item itemvalue="Gradle.BubbleSortTest.sortWithDuplicate" />
-        <item itemvalue="Gradle.BubbleSortTest.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -385,6 +384,17 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -457,6 +467,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java</url>
           <line>8</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SelectionSortImpl.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
