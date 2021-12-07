@@ -16,13 +16,12 @@ public class FirstNonRepeatingCharacterImpl implements FirstNonRepeatingCharacte
         Map<Character,Boolean> characterUnique = new HashMap<>();
         for (int i=0;i<=string.length()-1;i++){
             char character = string.charAt(i);
-            boolean present = characterUnique.getOrDefault(character,false);
-            boolean unique = present ? false: true;
-            characterUnique.put(character, unique );
+            if(characterUnique.get(character) ==null) characterUnique.put(character, true );
+            else characterUnique.put(character,false);
+
         }
-        for(int i=0;i<=string.length()-1;i++){
-            if (characterUnique.get(string.charAt(i)) == true) return i;
-        }
+        for(int i=0;i<=string.length()-1;i++) if (characterUnique.get(string.charAt(i)) == true) return i;
+
         return -1;
     }
 }
