@@ -547,7 +547,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/GenerateDocumentImpl.java</url>
-          <line>17</line>
+          <line>30</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
