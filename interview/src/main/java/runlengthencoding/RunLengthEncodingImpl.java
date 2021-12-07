@@ -1,7 +1,15 @@
+package runlengthencoding;
+
 /**
- * O(n) T O(n) S as we iterate through the input array and encode the values as we do.
+ * O(n) T O(n) S
+ * We encode the values as we iterate through the input array. We also take O(n)
+ * to convert the characters in the array to a string, which is O(n) making 2 O(n). We drop the
+ * constant and end up with O(n).
+ * The space complexity is actually 2n as we add the int to encode the count of the characters.
+ * However, as 2 is a constant, we are still left with n.
+ *
  * We implement the run length encoding by iterating through the string
- * encoding whenever the sequence of similar characters break.
+ * encoding whenever the sequence of similar characters exceeds 9, so we only use the integers 1-9 only once.
  * */
 public class RunLengthEncodingImpl implements RunLengthEncoding {
     @Override

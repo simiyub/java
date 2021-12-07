@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import runlengthencoding.RunLengthEncodingImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
