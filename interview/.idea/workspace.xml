@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RunLengthEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RunLengthEncodingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunLengthEncodingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaesarCipherEncryptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CaesarCipherEncryptorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CaesarCipherEncryptorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/CaesarCipherEncryptorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CaesarCipherEncryptorTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CaesarCipherEncryptorTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RunLengthEncodingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunLengthEncodingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunLengthEncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunLengthEncodingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

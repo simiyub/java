@@ -6,8 +6,8 @@ class RunLengthEncodingTest {
 
     @Test
     void encode() {
-        String expected = "9A4A2B4C2D";
-        String string = "AAAAAAAAAAAAABBCCCCDD";
+        String expected = "9A4A2B4C1E2D";
+        String string = "AAAAAAAAAAAAABBCCCCEDD";
         assertEquals(expected, new RunLengthEncodingImpl().encode(string));
     }
 }
