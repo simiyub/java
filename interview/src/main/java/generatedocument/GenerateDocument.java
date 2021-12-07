@@ -1,3 +1,5 @@
+package generatedocument;
+
 /**
  * This function should take two strings, one containing characters available to create a document
  * and the second is the document we actually want to create.

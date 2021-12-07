@@ -1,3 +1,5 @@
+package generatedocument;
+
 import java.util.HashMap;
 import java.util.Map;
 /**
