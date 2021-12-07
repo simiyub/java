@@ -6,7 +6,7 @@ class GenerateDocumentTest {
 
     @Test
     void canGenerate() {
-        String characters ="Bste!hetsi ogEAxpelrt x";
+        String characters ="Bste!hetsi ogEAxpelrt x ";
                 String documentRequired = "AlgoExpert is the Best";
         assertTrue(new GenerateDocumentImpl().canGenerate(characters,documentRequired));
     }

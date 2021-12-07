@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RunLengthEncodingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunLengthEncodingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenerateDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenerateDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenerateDocumentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenerateDocumentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GenerateDocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GenerateDocumentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,11 +226,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="runlengthencoding" />
       <recent name="caesarcipherencryptor" />
       <recent name="palindrome" />
       <recent name="selectionsort" />
       <recent name="" />
-      <recent name="insertionsort" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -233,13 +240,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RunLengthEncodingTest">
-    <configuration name="RunLengthEncodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GenerateDocumentTest.canGenerate">
+    <configuration name="GenerateDocumentTest.canGenerate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RunLengthEncodingTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GenerateDocumentTest.canGenerate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -255,12 +262,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RunLengthEncodingTest.encode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RunLengthEncodingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RunLengthEncodingTest.encode&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RunLengthEncodingTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -341,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GenerateDocumentTest.canGenerate" />
         <item itemvalue="Gradle.RunLengthEncodingTest" />
         <item itemvalue="Gradle.RunLengthEncodingTest.encodeTest4" />
         <item itemvalue="Gradle.RunLengthEncodingTest.encodeTest2" />
         <item itemvalue="Gradle.RunLengthEncodingTest.encodeTest3" />
-        <item itemvalue="Gradle.RunLengthEncodingTest.encode" />
       </list>
     </recent_temporary>
   </component>
@@ -537,6 +544,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>10</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/GenerateDocumentImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
