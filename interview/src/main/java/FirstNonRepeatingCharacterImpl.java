@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * How it works
  * ------------
@@ -10,6 +13,16 @@
 public class FirstNonRepeatingCharacterImpl implements FirstNonRepeatingCharacter {
     @Override
     public int firstNonRepeatingCharacterIndex(String string) {
-        return 0;
+        Map<Character,Boolean> characterUnique = new HashMap<>();
+        for (int i=0;i<=string.length()-1;i++){
+            char character = string.charAt(i);
+            boolean present = characterUnique.getOrDefault(character,false);
+            boolean unique = present ? false: true;
+            characterUnique.put(character, unique );
+        }
+        for(int i=0;i<=string.length()-1;i++){
+            if (characterUnique.get(string.charAt(i)) == true) return i;
+        }
+        return -1;
     }
 }
