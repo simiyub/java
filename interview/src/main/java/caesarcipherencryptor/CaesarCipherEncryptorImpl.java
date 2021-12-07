@@ -1,8 +1,7 @@
-import java.util.HashMap;
-import java.util.Map;
+package caesarcipherencryptor;
 
 /**
- * O(n) T O(n) S as we iterate through the characters in the string to map them to their new value
+ * O(n) T O(n) S as we iterate through the characters in the string to map them to their new value,
  * and we return a new string.
  * Using the unicode values of the alpha characters
  * to map to new character after shifting by the key provided.
