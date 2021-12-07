@@ -1,7 +1,12 @@
+package firstnonrepeatingcharacter;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * O(n) T and O(1) S. We do two iterations making the time complexity 2 n,
+ * dropping the constant gives us O(n)
+ *
  * How it works
  * ------------
  * My first implementation uses a map to store character:boolean value mapping
@@ -20,7 +25,7 @@ public class FirstNonRepeatingCharacterImpl implements FirstNonRepeatingCharacte
             else characterUnique.put(character,false);
 
         }
-        for(int i=0;i<=string.length()-1;i++) if (characterUnique.get(string.charAt(i)) == true) return i;
+        for(int i=0;i<=string.length()-1;i++) if (characterUnique.get(string.charAt(i))) return i;
 
         return -1;
     }
