@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * This function will take an array of integers and will find
  * all combinations of three numbers that would sum up to a given target number.
@@ -6,5 +8,5 @@
  * this function will return [[1,2,3],[-2,1,5]]
  * **/
 public interface ThreeNumberSum {
-    int[][] sum(int[] array, int targetSum);
+    List<Integer[]> sum(int[] array, int targetSum);
 }

@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * O(n^2) T and O(1) S . This is because we iterate through the array once but during that iteration,
  * we are going through the iteration with a while loop to find combinations that will add up to
@@ -31,7 +35,28 @@
 
 public class ThreeNumberSumImpl implements ThreeNumberSum {
     @Override
-    public int[][] sum(int[] array, int targetSum) {
-        return new int[0][];
+    public List<Integer[]> sum(int[] array, int targetSum) {
+        Arrays.sort(array);
+        List<Integer[]> result = new ArrayList<>();
+
+        for(int i=0; i<=array.length-3;i++){
+            int baseNumber = array[i];
+            int leftPointerIndex = i+1;
+            int rightPointerIndex = array.length-1;
+            while(leftPointerIndex<rightPointerIndex){
+                int leftPotentialNumber = array[leftPointerIndex];
+                int rightPotentialNumber = array[rightPointerIndex];
+                int currentSum = baseNumber + leftPotentialNumber + rightPotentialNumber;
+                if(currentSum == targetSum){
+                    result.add(new Integer[]{baseNumber,leftPotentialNumber,rightPotentialNumber});
+                    leftPointerIndex ++;
+                    rightPointerIndex --;
+                }
+                else if (currentSum > targetSum) rightPointerIndex --;
+                else leftPointerIndex ++;
+            }
+        }
+
+        return result;
     }
 }
