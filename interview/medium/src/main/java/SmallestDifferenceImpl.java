@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
 /**
- *O(nlogn + mlogm) T and O(1). We sort each array
+ *O(n^2) T and O(1). We sort each array
  * then we walk through one finding the values we want from the second
- * with no need for additional space.
+ * with no need for additional space. This solution uses two loops with potentially worst case of O(n^2)
  * How it works?
  * -------------
  * We start by sorting the two arrays.

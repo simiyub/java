@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/SmallestDifferencePointerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/SmallestDifferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/SmallestDifferenceTest.java" afterDir="false" />
@@ -234,22 +235,22 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmallestDifferenceTest.differenceTest2">
-    <configuration name="SmallestDifferenceTest.difference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
-      <option name="METHOD_NAME" value="difference" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SmallestDifferenceTest.differenceTest23">
     <configuration name="SmallestDifferenceTest.differenceTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
       <option name="METHOD_NAME" value="differenceTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestDifferenceTest.differenceTest12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
+      <option name="METHOD_NAME" value="differenceTest12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,21 +266,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestDifferenceTest.differenceTestZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallestDifferenceTest.differenceTest23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
-      <option name="METHOD_NAME" value="differenceTestZero" />
+      <option name="METHOD_NAME" value="differenceTest23" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeNumberSumTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallestDifferenceTest.differenceTestZero2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreeNumberSumTest" />
-      <option name="METHOD_NAME" value="sum" />
+      <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
+      <option name="METHOD_NAME" value="differenceTestZero2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest23" />
+        <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest12" />
+        <item itemvalue="JUnit.SmallestDifferenceTest.differenceTestZero2" />
         <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest2" />
         <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest1" />
-        <item itemvalue="JUnit.SmallestDifferenceTest.differenceTestZero" />
-        <item itemvalue="JUnit.SmallestDifferenceTest.difference" />
-        <item itemvalue="JUnit.ThreeNumberSumTest.sum" />
       </list>
     </recent_temporary>
   </component>
@@ -491,8 +492,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java</url>
-          <line>50</line>
+          <line>51</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferencePointerImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="132" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
