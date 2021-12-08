@@ -1,3 +1,5 @@
+package threenumbersum;
+
 import java.util.List;
 
 /**

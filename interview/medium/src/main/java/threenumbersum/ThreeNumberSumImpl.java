@@ -1,9 +1,12 @@
+package threenumbersum;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * O(n^2) T and O(1) S . This is because we iterate through the array once but during that iteration,
+ * O(n^2) T and O(n) S . This is because even though the sort takes nlogn, The actual search takes O(n^2) as
+ * we iterate through the array once but during that iteration,
  * we are going through the iteration with a while loop to find combinations that will add up to
  * the target sum.
  *
@@ -22,7 +25,7 @@ import java.util.List;
  * select the first number in the array.
  * Set a left pointer to the number after and a right pointer to the last number in the array
  * Add them up and check if they add up to the target sum.
- * It they do, add the three to the array to be returned and then shift both pointers one step forward.
+ * If they do, add the three to the array to be returned and then shift both pointers one step forward.
  * If the sum is less than the target sum, then shift the left pointer right to increase the sum
  * If the sum is greater, then shift the right pointer to reduce the sum.
  * We continue with this iteration finding combinations of three numbers that meet our requirement

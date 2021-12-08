@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ThreeNumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ThreeNumberSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/ThreeNumberSumImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ThreeNumberSumImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/ThreeNumberSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ThreeNumberSumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -521,11 +519,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocumentImpl.java</url>
           <line>30</line>
           <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/ThreeNumberSumImpl.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="125" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
