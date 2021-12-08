@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * O(n) T O(1) S as we will iterate through the array once
  * finding instances of the given number to move.
@@ -16,6 +18,40 @@
 public class MoveToTheEndImpl implements MoveToTheEnd{
     @Override
     public int[] move(int[] array, int numberToMove) {
-        return new int[0];
+        int frontIndex = 0;
+        int lastMovedIndex = array.length;
+
+        while(frontIndex<lastMovedIndex){
+             if(array[frontIndex] == numberToMove){
+                 while(array[lastMovedIndex-1] == numberToMove) lastMovedIndex --;
+                 if(frontIndex!=lastMovedIndex) {
+                     int tempHolder = array[lastMovedIndex - 1];
+                     array[lastMovedIndex - 1] = array[frontIndex];
+                     array[frontIndex] = tempHolder;
+                     lastMovedIndex--;
+                 }
+            }
+            frontIndex ++;
+        }
+        return array;
+    }
+
+    public List<Integer> move(List<Integer> array, int numberToMove) {
+        int frontIndex = 0;
+        int lastMovedIndex = array.size();
+
+        while(frontIndex<lastMovedIndex){
+            if(array.get(frontIndex) == numberToMove){
+                while(array.get(lastMovedIndex-1) == numberToMove) lastMovedIndex --;
+                if(frontIndex!=lastMovedIndex) {
+                    int tempHolder = array.get(lastMovedIndex - 1);
+                    array.set(lastMovedIndex - 1,array.get(frontIndex));
+                    array.set(frontIndex,tempHolder);
+                    lastMovedIndex--;
+                }
+            }
+            frontIndex ++;
+        }
+        return array;
     }
 }
