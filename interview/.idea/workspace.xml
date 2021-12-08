@@ -234,7 +234,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmallestDifferenceTest.differenceTest1">
+  <component name="RunManager" selected="JUnit.SmallestDifferenceTest.differenceTest2">
     <configuration name="SmallestDifferenceTest.difference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -255,21 +255,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmallestDifferenceTest.differenceTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
+      <option name="METHOD_NAME" value="differenceTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallestDifferenceTest.differenceTestZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
       <option name="METHOD_NAME" value="differenceTestZero" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeNumberSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreeNumberSumTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -286,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest2" />
         <item itemvalue="JUnit.SmallestDifferenceTest.differenceTest1" />
         <item itemvalue="JUnit.SmallestDifferenceTest.differenceTestZero" />
         <item itemvalue="JUnit.SmallestDifferenceTest.difference" />
         <item itemvalue="JUnit.ThreeNumberSumTest.sum" />
-        <item itemvalue="JUnit.ThreeNumberSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +491,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>

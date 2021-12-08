@@ -19,4 +19,12 @@ class SmallestDifferenceTest {
         int [] secondArray = new int[]{26,134,135,15,17};
         assertArrayEquals(expected,new SmallestDifferenceImpl().difference(firstArray,secondArray));
     }
+
+    @Test
+    void differenceTest2() {
+        int[] expected = new int[]{-123, -124};
+        int[] firstArray = new int[]{10, 1000, 9124, 2142, 59, 24, 596, 591, 124, -123};
+        int [] secondArray = new int[]{-1441, -124, -25, 1014, 1500, 660, 410, 245, 530};
+        assertArrayEquals(expected,new SmallestDifferenceImpl().difference(firstArray,secondArray));
+    }
 }

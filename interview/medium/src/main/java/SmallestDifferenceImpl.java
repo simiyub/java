@@ -29,6 +29,7 @@ public class SmallestDifferenceImpl implements SmallestDifference {
     public int[] difference(int[] firstArray, int[] secondArray) {
         Arrays.sort(firstArray);
         Arrays.sort(secondArray);
+        boolean swapped = false;
         int[] primaryArray, secondaryArray;
 
 
@@ -37,6 +38,7 @@ public class SmallestDifferenceImpl implements SmallestDifference {
             secondaryArray = secondArray;
         }
         else {
+            swapped = true;
             primaryArray = secondArray;
             secondaryArray = firstArray;
         }
@@ -64,6 +66,6 @@ public class SmallestDifferenceImpl implements SmallestDifference {
             }
 
         }
-        return new int[]{currentSmallestPrimary,currentSmallestSecondary};
+        return swapped ? new int[]{currentSmallestSecondary, currentSmallestPrimary} : new int[]{currentSmallestPrimary,currentSmallestSecondary};
     }
 }
