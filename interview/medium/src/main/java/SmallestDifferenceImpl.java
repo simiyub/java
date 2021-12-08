@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  *O(nlogn + mlogm) T and O(1). We sort each array
  * then we walk through one finding the values we want from the second
@@ -25,6 +27,43 @@
 public class SmallestDifferenceImpl implements SmallestDifference {
     @Override
     public int[] difference(int[] firstArray, int[] secondArray) {
-        return new int[0];
+        Arrays.sort(firstArray);
+        Arrays.sort(secondArray);
+        int[] primaryArray, secondaryArray;
+
+
+        if (firstArray[0] <= secondArray[0]){
+            primaryArray = firstArray;
+            secondaryArray = secondArray;
+        }
+        else {
+            primaryArray = secondArray;
+            secondaryArray = firstArray;
+        }
+
+
+        int currentSmallestPrimary = Integer.MIN_VALUE;
+        int currentSmallestSecondary = Integer.MIN_VALUE;
+        int difference = Integer.MAX_VALUE;
+        for(int i=0;i<=primaryArray.length-1;i++){
+
+            for(int j=0;j<=secondaryArray.length-1;j++){
+                int currentDifference = primaryArray[i] - secondaryArray[j];
+                if (currentDifference == 0) return new int[]{primaryArray[i],secondaryArray[j]};
+                else {
+
+                    if(Math.abs(currentDifference)<Math.abs(difference)){
+                        difference = currentDifference;
+                        currentSmallestPrimary = primaryArray[i];
+                        currentSmallestSecondary = secondaryArray[j];
+                    }
+                    if (secondaryArray[j] > primaryArray[i] && currentDifference>difference) break;
+
+                }
+
+            }
+
+        }
+        return new int[]{currentSmallestPrimary,currentSmallestSecondary};
     }
 }
