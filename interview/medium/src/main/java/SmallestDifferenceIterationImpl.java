@@ -24,7 +24,7 @@ import java.util.Arrays;
  * input - [-1, 5, 10, 20, 28 ,3], [26, 134, 135, 15, 17]
  * output - [28,26] - difference of 2
  * */
-public class SmallestDifferenceImpl implements SmallestDifference {
+public class SmallestDifferenceIterationImpl implements SmallestDifference {
     @Override
     public int[] difference(int[] firstArray, int[] secondArray) {
         Arrays.sort(firstArray);

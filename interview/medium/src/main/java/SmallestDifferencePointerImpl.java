@@ -26,20 +26,17 @@ public class SmallestDifferencePointerImpl implements SmallestDifference {
 
         int firstArrayValueIndex = 0;
         int secondArrayValueIndex = 0;
-//        int firstArrayValue = firstArray[firstArrayValueIndex];
-//        int secondArrayValue = secondArray[secondArrayValueIndex];
         int difference = Integer.MAX_VALUE;
         int currentSmallestFirstArray = Integer.MIN_VALUE;
         int currentSmallestSecondArray = Integer.MIN_VALUE;
-
         int[] result = new int[2];
-        int currentDifference =difference;
+
 
         while(firstArrayValueIndex<firstArray.length && secondArrayValueIndex<secondArray.length){
 
             int firstArrayValue = firstArray[firstArrayValueIndex];
             int secondArrayValue = secondArray[secondArrayValueIndex];
-
+            int currentDifference;
 
 
             if(secondArrayValue > firstArrayValue) {
