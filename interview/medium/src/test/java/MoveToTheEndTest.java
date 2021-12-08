@@ -12,5 +12,12 @@ class MoveToTheEndTest {
         assertArrayEquals(expected, new MoveToTheEndImpl().move(array,toMove));
     }
 
+    @Test
+    void moveToTheEndTest2(){
+        int[] expected = new int[]{3,3,3,3,3};
+        int[] array = new int[]{3,3,3,3,3};
+        int toMove =3;
+        assertArrayEquals(expected, new MoveToTheEndImpl().move(array,toMove));
+    }
 
 }

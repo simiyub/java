@@ -23,7 +23,7 @@ public class MoveToTheEndImpl implements MoveToTheEnd{
 
         while(frontIndex<lastMovedIndex){
              if(array[frontIndex] == numberToMove){
-                 while(array[lastMovedIndex-1] == numberToMove) lastMovedIndex --;
+                 while(frontIndex<lastMovedIndex && array[lastMovedIndex-1] == numberToMove) lastMovedIndex --;
                  if(frontIndex!=lastMovedIndex) {
                      int tempHolder = array[lastMovedIndex - 1];
                      array[lastMovedIndex - 1] = array[frontIndex];
