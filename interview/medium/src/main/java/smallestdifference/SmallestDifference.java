@@ -1,3 +1,5 @@
+package smallestdifference;
+
 /**
  * This function will take two arrays and return an array that contains
  * two numbers with a difference that is closest to zero.

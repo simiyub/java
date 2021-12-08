@@ -1,5 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import smallestdifference.SmallestDifference;
+import smallestdifference.SmallestDifferenceIterationImpl;
+import smallestdifference.SmallestDifferencePointerImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 

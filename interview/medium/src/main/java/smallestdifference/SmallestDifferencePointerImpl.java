@@ -1,3 +1,5 @@
+package smallestdifference;
+
 import java.util.Arrays;
 
 /**
