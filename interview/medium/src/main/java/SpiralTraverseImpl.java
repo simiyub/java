@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *O(N) T O(N) S We iterate through each of the arrays within the array provided once,
  * and we store all the elements in a new array to return.
@@ -34,8 +37,7 @@ public class SpiralTraverseImpl implements SpiralTraverse{
         }
         int[] result = new int[totalElements];
         int index =0;
-     //   int x = 0;
-    //    int y = 0;
+
         while (xStart <= xEnd && yStart <= yEnd) {
 
             for (int x=xStart; x<= xEnd;x ++) {
@@ -43,12 +45,14 @@ public class SpiralTraverseImpl implements SpiralTraverse{
                 index++;
             }
             yStart+=1;
+            if (yStart>yEnd) break;
 
             for( int y=yStart; y<= yEnd; y++) {
                 result[index] = array[y][xEnd];
                 index ++;
             }
             xEnd-=1;
+
 
             for (int x=xEnd; x>= xStart;x--) {
                 result[index] = array[yEnd][x];
@@ -61,16 +65,48 @@ public class SpiralTraverseImpl implements SpiralTraverse{
                 index ++;
             }
             xStart+=1;
+            if (xStart>yEnd) break;
 
-//            while (x >= xStart) {
-//                System.out.println(array[y][x]);
-//                x--;
-//            }
-//
-//            while (y >= yStart) {
-//                System.out.println(array[y][x]);
-//                y--;
-//            }
+
+        }
+        return result;
+    }
+
+
+    public List<Integer> traverseList(int[][] array) {
+        int xStart = 0;
+        int xEnd = array[0].length - 1;
+        int yStart = 0;
+        int yEnd = array.length - 1;
+        List<Integer> result = new ArrayList<>();
+        int index =0;
+
+        while (xStart <= xEnd && yStart <= yEnd) {
+
+            for (int x=xStart; x<= xEnd;x ++) {
+                result.add(array[yStart][x]);
+                index++;
+            }
+            yStart+=1;
+
+            for( int y=yStart; y<= yEnd; y++) {
+                result.add(array[y][xEnd]);
+                index ++;
+            }
+            xEnd-=1;
+
+            for (int x=xEnd; x>= xStart;x--) {
+                result.add(array[yEnd][x]);
+                index++;
+            }
+            yEnd-=1;
+
+            for( int y=yEnd; y>= yStart; y--) {
+                result.add(array[y][xStart]);
+                index ++;
+            }
+            xStart+=1;
+
 
         }
         return result;

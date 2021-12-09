@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/SpiralTraverseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/SpiralTraverseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/SpiralTraverseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/SpiralTraverseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+            <state relative-caret-position="164">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="119" selection-start-line="10" selection-start-column="119" selection-end-line="10" selection-end-column="119" />
+            <state relative-caret-position="240">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -85,6 +85,16 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>result[index] =</find>
+      <find>result.set(index,</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>result.set(index,</replace>
+      <replace>result.add(</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -208,7 +218,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639068081878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639073166895" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -252,40 +262,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpiralTraverseTest.traverse">
-    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpiralTraverseTest">
+    <configuration name="SpiralTraverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonotonicArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonicTestWithDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonicTestWithDirection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonicTestWithoutDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonicTestWithoutDirection" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,13 +282,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralTraverseTest.traverseTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
+      <option name="METHOD_NAME" value="traverseTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTraverseTest.traverseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
+      <option name="METHOD_NAME" value="traverseTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTraverseTest.traverseTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
+      <option name="METHOD_NAME" value="traverseTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiralTraverseTest" />
+        <item itemvalue="JUnit.SpiralTraverseTest.traverseTest2" />
+        <item itemvalue="JUnit.SpiralTraverseTest.traverseTest3" />
+        <item itemvalue="JUnit.SpiralTraverseTest.traverseTest1" />
         <item itemvalue="JUnit.SpiralTraverseTest.traverse" />
-        <item itemvalue="JUnit.All in medium" />
-        <item itemvalue="JUnit.MonotonicArrayTest" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithoutDirection" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithDirection" />
       </list>
     </recent_temporary>
   </component>
@@ -325,42 +337,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoveToTheEndTest_moveToTheEndTest2 - 2021.12.08 at 18h 36m 05s.xml">
-      <configuration name="MoveToTheEndTest.moveToTheEndTest2" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 17h 51m 11s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveToTheEndTest_moveToTheEndTest2 - 2021.12.08 at 18h 36m 41s.xml">
-      <configuration name="MoveToTheEndTest.moveToTheEndTest2" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 17h 54m 28s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoveToTheEndTest_moveToTheEndTest2 - 2021.12.08 at 18h 38m 55s.xml">
-      <configuration name="MoveToTheEndTest.moveToTheEndTest2" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 17h 58m 43s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 21m 34s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 17h 59m 01s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 24m 10s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 18h 00m 54s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 33m 10s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 18h 01m 07s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 34m 49s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 03m 20s.xml">
+      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 39m 22s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 05m 03s.xml">
+      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 40m 54s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 05m 26s.xml">
+      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverse - 2021.12.09 at 16h 43m 42s.xml">
-      <configuration name="SpiralTraverseTest.traverse" configurationId="JUnit" />
+    <history-entry file="SpiralTraverseTest_traverseTest2 - 2021.12.09 at 18h 06m 00s.xml">
+      <configuration name="SpiralTraverseTest.traverseTest2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.3828756" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.3828756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,12 +381,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.3987034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.16531605" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -389,6 +401,36 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.3828756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.3987034" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.16531605" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32901135" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -546,10 +588,28 @@
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java</url>
           <line>40</line>
           <properties />
-          <option name="timeStamp" value="149" />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -785,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/MoveToTheEndTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -809,17 +862,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="119" selection-start-line="10" selection-start-column="119" selection-end-line="10" selection-end-column="119" />
+        <state relative-caret-position="100">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state relative-caret-position="164">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
