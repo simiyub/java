@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayNoDirectionFlagImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,16 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonic2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonic2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MonotonicArrayTest.isMonotonic3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -217,21 +209,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonic5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonotonicArrayTest.isMonotonic7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonic5" />
+      <option name="METHOD_NAME" value="isMonotonic7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonic6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonotonicArrayTest.isMonotonicTestWithDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonic6" />
+      <option name="METHOD_NAME" value="isMonotonicTestWithDirection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonotonicArrayTest.isMonotonicTestWithoutDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="METHOD_NAME" value="isMonotonicTestWithoutDirection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,10 +242,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MonotonicArrayTest" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithoutDirection" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithDirection" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic7" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic3" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic6" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic5" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic2" />
       </list>
     </recent_temporary>
   </component>
@@ -452,13 +454,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="136" />
+          <line>20</line>
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

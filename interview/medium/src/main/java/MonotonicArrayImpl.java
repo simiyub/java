@@ -2,8 +2,8 @@
  * O(n) T O(1) S as we will walk through the array once to determine if it is entirely monotonic.
  * How it works
  * ------------
- * We first determine if the value of the integers ini the array is increasing based
- * We base this on the first two integers.
+ * We first determine if the value of the integers in the array is increasing
+ * We base this on the first two integers or the first difference.
  * Then we check if the rest of the elements follow the same trend.
  * If we come across a different trend, we return a false straight away.
  * **/
