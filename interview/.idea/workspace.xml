@@ -7,7 +7,6 @@
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,9 +240,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MonotonicArrayTest" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic3" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic6" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic5" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic3" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic2" />
       </list>
     </recent_temporary>
@@ -458,7 +457,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
