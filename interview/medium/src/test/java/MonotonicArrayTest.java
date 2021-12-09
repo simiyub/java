@@ -1,3 +1,6 @@
+import monotonicarray.MonotonicArray;
+import monotonicarray.MonotonicArrayNoDirectionFlagImpl;
+import monotonicarray.MonotonicArrayWithDirectionFlagImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -26,7 +29,7 @@ class MonotonicArrayTest {
 
     @Test
     void isMonotonicTestWithDirection() {
-        runTests(new MonotonicArrayImpl());
+        runTests(new MonotonicArrayWithDirectionFlagImpl());
     }
 
     @Test

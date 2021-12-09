@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayNoDirectionFlagImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayNoDirectionFlagImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayNoDirectionFlagImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,22 +188,20 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MonotonicArrayTest">
+  <component name="RunManager" selected="JUnit.All in medium">
+    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonotonicArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonic3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonic3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.MonotonicArrayTest" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithoutDirection" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonicTestWithDirection" />
         <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic7" />
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic3" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +451,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>

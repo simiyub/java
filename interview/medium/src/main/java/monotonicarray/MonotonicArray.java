@@ -1,3 +1,5 @@
+package monotonicarray;
+
 /**
  * This function will receive an array of integers and
  * will determine whether the integers are entirely non-increasing or entirely non-decreasing.

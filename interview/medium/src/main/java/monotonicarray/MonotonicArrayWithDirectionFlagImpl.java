@@ -1,3 +1,5 @@
+package monotonicarray;
+
 /**
  * O(n) T O(1) S as we will walk through the array once to determine if it is entirely monotonic.
  * How it works
@@ -7,14 +9,13 @@
  * Then we check if the rest of the elements follow the same trend.
  * If we come across a different trend, we return a false straight away.
  * **/
-public class MonotonicArrayImpl implements MonotonicArray {
+public class MonotonicArrayWithDirectionFlagImpl implements MonotonicArray {
     @Override
     public boolean isMonotonic(int[] array) {
         if (array.length > 1) {
 
         int index = 1;
         int increasing = 0;
-
 
         while (index <= array.length - 1) {
 
@@ -26,7 +27,6 @@ public class MonotonicArrayImpl implements MonotonicArray {
             else if (increasing <0 && array[index] > array[index - 1]) return false;
 
             index++;
-
         }
     }
         return true;

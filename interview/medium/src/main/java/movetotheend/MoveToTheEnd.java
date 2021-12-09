@@ -1,3 +1,5 @@
+package movetotheend;
+
 /**
  * This function will receive an array of integers and a number to search for
  * in the array.
