@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MonotonicArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,74 +188,51 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MonotonicArrayTest.isMonotonic">
-    <configuration name="SelectionSortTest.sortTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest2&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'easy'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MonotonicArrayTest.isMonotonic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MonotonicArrayTest">
+    <configuration name="MonotonicArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
-      <option name="METHOD_NAME" value="isMonotonic" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonotonicArrayTest.isMonotonic2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="METHOD_NAME" value="isMonotonic2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveToTheEndTest.moveToTheEndTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonotonicArrayTest.isMonotonic3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveToTheEndTest" />
-      <option name="METHOD_NAME" value="moveToTheEndTest" />
+      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="METHOD_NAME" value="isMonotonic3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveToTheEndTest.moveToTheEndTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MonotonicArrayTest.isMonotonic5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoveToTheEndTest" />
-      <option name="METHOD_NAME" value="moveToTheEndTest2" />
+      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="METHOD_NAME" value="isMonotonic5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonotonicArrayTest.isMonotonic6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MonotonicArrayTest" />
+      <option name="METHOD_NAME" value="isMonotonic6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic" />
-        <item itemvalue="Gradle.SelectionSortTest.sortTest2" />
-        <item itemvalue="Gradle.Tests in 'easy'" />
-        <item itemvalue="JUnit.MoveToTheEndTest.moveToTheEndTest2" />
-        <item itemvalue="JUnit.MoveToTheEndTest.moveToTheEndTest" />
+        <item itemvalue="JUnit.MonotonicArrayTest" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic6" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic5" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic3" />
+        <item itemvalue="JUnit.MonotonicArrayTest.isMonotonic2" />
       </list>
     </recent_temporary>
   </component>
@@ -474,8 +453,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/MonotonicArrayImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

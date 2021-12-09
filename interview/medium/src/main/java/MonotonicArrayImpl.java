@@ -11,14 +11,34 @@ public class MonotonicArrayImpl implements MonotonicArray {
     @Override
     public boolean isMonotonic(int[] array) {
         if (array.length == 0 || array.length == 1) return true;
-        boolean increasing = array[1] > array[0];
-        for (int i=1; i<array.length-1;i++){
-            if(increasing){
+
+        int startingIndex = 1;
+        int increasing = 0;
+
+
+        while(startingIndex<=array.length - 1){
+            if (array[startingIndex] == array[startingIndex-1]) startingIndex ++;
+
+            else if (array[startingIndex] > array[startingIndex-1]){
+                increasing = 1;
+                break;
+            }
+            else if(array[startingIndex] < array[startingIndex-1]){
+                increasing = -1;
+                break;
+            }
+
+        }
+
+        if (increasing == 0) return true;
+
+
+        for (int i=1; i<=array.length-1;i++){
+            if(increasing == 1){
                 if(array[i] < array[i-1]) return false;
             }
-            else {
-                if(array[i] > array[i-1]) return false;
-            }
+            else if(array[i] > array[i-1]) return false;
+
         }
         return true;
     }
