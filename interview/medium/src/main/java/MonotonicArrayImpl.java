@@ -12,20 +12,20 @@ public class MonotonicArrayImpl implements MonotonicArray {
     public boolean isMonotonic(int[] array) {
         if (array.length > 1) {
 
-        int startingIndex = 1;
+        int index = 1;
         int increasing = 0;
 
 
-        while (startingIndex <= array.length - 1) {
+        while (index <= array.length - 1) {
 
             if (increasing == 0 ){
-                increasing = array[startingIndex] - array[startingIndex - 1];
+                increasing = array[index] - array[index - 1];
             }
 
-            if (increasing >0 && array[startingIndex] < array[startingIndex - 1]) return false;
-            else if (increasing <0 && array[startingIndex] > array[startingIndex - 1]) return false;
+            if (increasing >0 && array[index] < array[index - 1]) return false;
+            else if (increasing <0 && array[index] > array[index - 1]) return false;
 
-            startingIndex++;
+            index++;
 
         }
     }
