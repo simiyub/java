@@ -42,10 +42,26 @@ public class SpiralTraverseImpl implements SpiralTraverse{
                 result[index] = array[yStart][x];
                 index++;
             }
+            yStart+=1;
+
             for( int y=yStart; y<= yEnd; y++) {
                 result[index] = array[y][xEnd];
                 index ++;
             }
+            xEnd-=1;
+
+            for (int x=xEnd; x>= xStart;x--) {
+                result[index] = array[yEnd][x];
+                index++;
+            }
+            yEnd-=1;
+
+            for( int y=yEnd; y>= yStart; y--) {
+                result[index] = array[y][xStart];
+                index ++;
+            }
+            xStart+=1;
+
 //            while (x >= xStart) {
 //                System.out.println(array[y][x]);
 //                x--;
@@ -57,6 +73,6 @@ public class SpiralTraverseImpl implements SpiralTraverse{
 //            }
 
         }
-        return new int[0];
+        return result;
     }
 }
