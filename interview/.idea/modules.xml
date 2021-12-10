@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_main.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_test.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/medium/medium.iml" filepath="$PROJECT_DIR$/medium/medium.iml" />
