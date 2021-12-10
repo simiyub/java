@@ -18,14 +18,42 @@ public class LongestPeakPeakFirstImpl implements LongestPeak{
     @Override
     public int longestPeak(int[] array) {
 
+        if (array.length ==0) return 0;
+
         if(array.length>=3) {
 
             int longestPeak = -1;
 
             for (int i = 1; i <= array.length - 2; i++) {
                 if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
+                    int leftIndex = i-1;
+                    int rightIndex = i+1;
+                    int newPeak = 1;
 
-                    System.out.println(array[i]);
+
+
+                    while( leftIndex >= 0|| rightIndex <= array.length-1){
+
+                        boolean endOfArray = rightIndex > array.length-1;
+                        boolean beginningOfArray = leftIndex < 0;
+                        boolean canGoRight = !endOfArray && array[rightIndex] < array[rightIndex-1];
+                        boolean canGoLeft = !beginningOfArray && array[leftIndex] < array[leftIndex+1];
+
+                       if ((beginningOfArray || !canGoLeft) && (endOfArray || !canGoRight)) break;
+
+
+
+                        if (canGoLeft) {
+                            newPeak ++;
+                            leftIndex--;
+                        }
+
+                        if(canGoRight){
+                            newPeak ++;
+                            rightIndex ++;
+                        }
+                    }
+                    if(newPeak > longestPeak) longestPeak = newPeak;
                 }
             }
 
