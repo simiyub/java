@@ -1,3 +1,5 @@
+package longestpeak;
+
 /**
  * This function will receive an array of integers and return the length of the logest peak.
  * This is the length a set of at least 3 adjacent integers in the array that strictly

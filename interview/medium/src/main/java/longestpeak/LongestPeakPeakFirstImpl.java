@@ -1,3 +1,5 @@
+package longestpeak;
+
 /**
  * Solution based on suggestion from algoexpert.io
  * O(n) T O(n) S

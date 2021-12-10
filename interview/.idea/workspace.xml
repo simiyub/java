@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakTrendingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakTrendingImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,11 +202,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="longestpeak" />
       <recent name="spiraltraversal" />
       <recent name="monotonicarray" />
       <recent name="movetotheend" />
       <recent name="threenumbersum" />
-      <recent name="firstnonrepeatingcharacter" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -215,22 +216,20 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPeakTest.longestPeakPeakFirstTest6">
+  <component name="RunManager" selected="JUnit.All in medium">
+    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPeakTest.longestPeakPeakFirstTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
-      <option name="METHOD_NAME" value="longestPeakPeakFirstTest3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest6" />
+        <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.LongestPeakTest" />
+        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest6" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest5" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest4" />
-        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -515,18 +514,18 @@
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>27</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
+          <line>34</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
+          <line>39</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
       </breakpoints>

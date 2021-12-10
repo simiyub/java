@@ -1,3 +1,4 @@
+import longestpeak.LongestPeakPeakFirstImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,7 +9,7 @@ class LongestPeakTest {
 //    void longestPeakTrendingTest() {
 //        int expected = 6;
 //        int[] array = new int[]{1,2,3,3,4, 0,10,6, 5, -1, -3, 2, 3};
-//        assertEquals(expected,new LongestPeakTrendingImpl().longestPeak(array));
+//        assertEquals(expected,new longestpeak.LongestPeakTrendingImpl().longestPeak(array));
 //    }
 
     @Test

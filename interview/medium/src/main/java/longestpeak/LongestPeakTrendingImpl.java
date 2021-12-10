@@ -1,3 +1,5 @@
+package longestpeak;
+
 /**
  * TODO: Code this out when you have some free time.
  * O(n) T and O(1) S as we traverse through the array once identifying the peaks
