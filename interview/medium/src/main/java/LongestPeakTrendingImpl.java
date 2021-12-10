@@ -1,4 +1,5 @@
 /**
+ * TODO: Code this out when you have some free time.
  * O(n) T and O(1) S as we traverse through the array once identifying the peaks
  * and do not require any additional space.
  *
@@ -24,9 +25,9 @@
  * TODO: ?Do we need to track the tip?
  * If
  * */
-public class LongestPeakImpl implements LongestPeak {
+public class LongestPeakTrendingImpl implements LongestPeak {
     @Override
     public int longestPeak(int[] array) {
-        return 0;
+        throw new UnsupportedOperationException("To be implemented");
     }
 }

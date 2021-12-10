@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="" />
+    <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPeakTrendingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,12 +216,32 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPeakTest.longestPeak">
+  <component name="RunManager" selected="JUnit.LongestPeakTest.longestPeakPeakFirstTest">
     <configuration name="LongestPeakTest.longestPeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
       <option name="METHOD_NAME" value="longestPeak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPeakTest.longestPeakPeakFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
+      <option name="METHOD_NAME" value="longestPeakPeakFirstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPeakTest.longestPeakTrendingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
+      <option name="METHOD_NAME" value="longestPeakTrendingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,16 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralTraverseTest.traverseTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
-      <option name="METHOD_NAME" value="traverseTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpiralTraverseTest.traverseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -251,23 +266,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralTraverseTest.traverseTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
-      <option name="METHOD_NAME" value="traverseTest3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest" />
+        <item itemvalue="JUnit.LongestPeakTest.longestPeakTrendingTest" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeak" />
         <item itemvalue="JUnit.SpiralTraverseTest" />
         <item itemvalue="JUnit.SpiralTraverseTest.traverseTest2" />
-        <item itemvalue="JUnit.SpiralTraverseTest.traverseTest3" />
-        <item itemvalue="JUnit.SpiralTraverseTest.traverseTest1" />
       </list>
     </recent_temporary>
   </component>
