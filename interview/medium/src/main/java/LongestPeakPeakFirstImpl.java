@@ -17,6 +17,20 @@
 public class LongestPeakPeakFirstImpl implements LongestPeak{
     @Override
     public int longestPeak(int[] array) {
-        return 0;
+
+        if(array.length>=3) {
+
+            int longestPeak = -1;
+
+            for (int i = 1; i <= array.length - 2; i++) {
+                if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
+
+                    System.out.println(array[i]);
+                }
+            }
+
+            return longestPeak;
+        }
+        return -1;
     }
 }
