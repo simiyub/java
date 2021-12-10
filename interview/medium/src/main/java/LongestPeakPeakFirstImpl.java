@@ -22,15 +22,13 @@ public class LongestPeakPeakFirstImpl implements LongestPeak{
 
         if(array.length>=3) {
 
-            int longestPeak = -1;
+            int longestPeak = 0;
 
             for (int i = 1; i <= array.length - 2; i++) {
                 if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
                     int leftIndex = i-1;
                     int rightIndex = i+1;
                     int newPeak = 1;
-
-
 
                     while( leftIndex >= 0|| rightIndex <= array.length-1){
 
@@ -41,13 +39,10 @@ public class LongestPeakPeakFirstImpl implements LongestPeak{
 
                        if ((beginningOfArray || !canGoLeft) && (endOfArray || !canGoRight)) break;
 
-
-
                         if (canGoLeft) {
                             newPeak ++;
                             leftIndex--;
                         }
-
                         if(canGoRight){
                             newPeak ++;
                             rightIndex ++;

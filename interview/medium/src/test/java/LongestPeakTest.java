@@ -45,4 +45,13 @@ class LongestPeakTest {
         int[] array = new int[]{5, 4, 3, 2, 1, 2, 1};
         assertEquals(expected,new LongestPeakPeakFirstImpl().longestPeak(array));
     }
+
+    @Test
+    void longestPeakPeakFirstTest6() {
+        int expected = 0;
+        int[] array = new int[]{5, 4, 3, 2, 1, 2, 10, 12};
+        assertEquals(expected,new LongestPeakPeakFirstImpl().longestPeak(array));
+    }
+
+
 }

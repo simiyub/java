@@ -215,22 +215,12 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPeakTest">
+  <component name="RunManager" selected="JUnit.LongestPeakTest.longestPeakPeakFirstTest6">
     <configuration name="LongestPeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPeakTest.longestPeakPeakFirstTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
-      <option name="METHOD_NAME" value="longestPeakPeakFirstTest2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,13 +255,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestPeakTest.longestPeakPeakFirstTest6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
+      <option name="METHOD_NAME" value="longestPeakPeakFirstTest6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest6" />
         <item itemvalue="JUnit.LongestPeakTest" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest5" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest4" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest3" />
-        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest2" />
       </list>
     </recent_temporary>
   </component>
