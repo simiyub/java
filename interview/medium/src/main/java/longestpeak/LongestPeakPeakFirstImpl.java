@@ -2,7 +2,7 @@ package longestpeak;
 
 /**
  * Solution based on suggestion from algoexpert.io
- * O(n) T O(n) S
+ * O(n) T O(1) S
  * How it works
  * ------------
  * We iterate through the array searching for tips of peaks starting from index 1.

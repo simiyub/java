@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakPeakFirstImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPeakTrendingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakTrendingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ArrayOfProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/ArrayOfProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,11 +216,20 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in medium">
+  <component name="RunManager" selected="JUnit.ArrayOfProductsTest">
     <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayOfProductsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayOfProductsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,16 +239,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPeakTest.longestPeakPeakFirstTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
-      <option name="METHOD_NAME" value="longestPeakPeakFirstTest4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayOfProductsTest" />
         <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.LongestPeakTest" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest6" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest5" />
-        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest4" />
       </list>
     </recent_temporary>
   </component>
