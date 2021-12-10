@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/SpiralTraverseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/SpiralTraverseImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,11 +197,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="spiraltraversal" />
       <recent name="monotonicarray" />
       <recent name="movetotheend" />
       <recent name="threenumbersum" />
       <recent name="firstnonrepeatingcharacter" />
-      <recent name="generatedocument" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -218,22 +211,22 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpiralTraverseTest">
+  <component name="RunManager" selected="JUnit.LongestPeakTest.longestPeak">
+    <configuration name="LongestPeakTest.longestPeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
+      <option name="METHOD_NAME" value="longestPeak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpiralTraverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpiralTraverseTest.traverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpiralTraverseTest" />
-      <option name="METHOD_NAME" value="traverse" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPeakTest.longestPeak" />
         <item itemvalue="JUnit.SpiralTraverseTest" />
         <item itemvalue="JUnit.SpiralTraverseTest.traverseTest2" />
         <item itemvalue="JUnit.SpiralTraverseTest.traverseTest3" />
         <item itemvalue="JUnit.SpiralTraverseTest.traverseTest1" />
-        <item itemvalue="JUnit.SpiralTraverseTest.traverse" />
       </list>
     </recent_temporary>
   </component>
