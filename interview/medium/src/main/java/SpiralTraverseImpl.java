@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *O(N) T O(N) S We iterate through each of the arrays within the array provided once,
@@ -10,7 +8,7 @@ import java.util.List;
  * moving on to all the elements in the last array in reverse order
  * and finally coming back to where we started by selecting the first element in each array
  * stopping before the first array.
- * Effectively, we would have go around the perimeter of the array of arrays.
+ * Effectively, we go around the perimeter of the array of arrays.
  * We then repeat the process, this time inside the perimeter we covered the first time.
  * We continue with this process until we have covered all the elements then return the array
  * of all the elements obtained.
@@ -27,10 +25,10 @@ import java.util.List;
 public class SpiralTraverseImpl implements SpiralTraverse{
     @Override
     public int[] traverse(int[][] array) {
-        int xStart = 0;
-        int xEnd = array[0].length - 1;
-        int yStart = 0;
-        int yEnd = array.length - 1;
+        int firstElement = 0;
+        int lastElement = array[0].length - 1;
+        int firstArray = 0;
+        int lastArray = array.length - 1;
         int totalElements = 0;
         for(int i=0;i<=array.length-1;i++){
             totalElements += array[i].length;
@@ -38,77 +36,39 @@ public class SpiralTraverseImpl implements SpiralTraverse{
         int[] result = new int[totalElements];
         int index =0;
 
-        while (xStart <= xEnd && yStart <= yEnd) {
+        while (firstElement <= lastElement && firstArray <= lastArray) {
 
-            for (int x=xStart; x<= xEnd;x ++) {
-                result[index] = array[yStart][x];
+            for (int x=firstElement; x<= lastElement;x ++) {
+                result[index] = array[firstArray][x];
                 index++;
             }
-            yStart+=1;
-            if (yStart>yEnd) break;
+            firstArray+=1;
+            if (firstArray>lastArray) break;
 
-            for( int y=yStart; y<= yEnd; y++) {
-                result[index] = array[y][xEnd];
+            for( int y=firstArray; y<= lastArray; y++) {
+                result[index] = array[y][lastElement];
                 index ++;
             }
-            xEnd-=1;
+            lastElement-=1;
+            if (lastElement<firstElement) break;
 
 
-            for (int x=xEnd; x>= xStart;x--) {
-                result[index] = array[yEnd][x];
+            for (int x=lastElement; x>= firstElement;x--) {
+                result[index] = array[lastArray][x];
                 index++;
             }
-            yEnd-=1;
+            lastArray-=1;
 
-            for( int y=yEnd; y>= yStart; y--) {
-                result[index] = array[y][xStart];
+            for( int y=lastArray; y>= firstArray; y--) {
+                result[index] = array[y][firstElement];
                 index ++;
             }
-            xStart+=1;
-            if (xStart>yEnd) break;
+            firstElement+=1;
+
 
 
         }
         return result;
     }
 
-
-    public List<Integer> traverseList(int[][] array) {
-        int xStart = 0;
-        int xEnd = array[0].length - 1;
-        int yStart = 0;
-        int yEnd = array.length - 1;
-        List<Integer> result = new ArrayList<>();
-        int index =0;
-
-        while (xStart <= xEnd && yStart <= yEnd) {
-
-            for (int x=xStart; x<= xEnd;x ++) {
-                result.add(array[yStart][x]);
-                index++;
-            }
-            yStart+=1;
-
-            for( int y=yStart; y<= yEnd; y++) {
-                result.add(array[y][xEnd]);
-                index ++;
-            }
-            xEnd-=1;
-
-            for (int x=xEnd; x>= xStart;x--) {
-                result.add(array[yEnd][x]);
-                index++;
-            }
-            yEnd-=1;
-
-            for( int y=yEnd; y>= yStart; y--) {
-                result.add(array[y][xStart]);
-                index ++;
-            }
-            xStart+=1;
-
-
-        }
-        return result;
-    }
 }
