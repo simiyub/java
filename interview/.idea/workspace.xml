@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/FirstDuplicateValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/FirstDuplicateValueImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/FirstDuplicateValueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/FirstDuplicateValueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MergeOverlappingIntervalsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/MergeOverlappingIntervalsImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +64,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,21 +76,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="115">
+              <caret line="378" selection-start-line="378" selection-end-line="378" />
             </state>
           </provider>
         </entry>
@@ -260,7 +251,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639412940069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639418019985" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -376,34 +367,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpiralTraverseTest_traverseTest3 - 2021.12.09 at 18h 01m 07s.xml">
-      <configuration name="SpiralTraverseTest.traverseTest3" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 35m 21s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 03m 20s.xml">
-      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 36m 51s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 05m 03s.xml">
-      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 39m 44s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest - 2021.12.09 at 18h 05m 26s.xml">
-      <configuration name="SpiralTraverseTest" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 42m 04s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpiralTraverseTest_traverseTest2 - 2021.12.09 at 18h 06m 00s.xml">
-      <configuration name="SpiralTraverseTest.traverseTest2" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 43m 39s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstDuplicateValueTest_firstDuplicate - 2021.12.13 at 15h 51m 47s.xml">
-      <configuration name="FirstDuplicateValueTest.firstDuplicate" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 51m 03s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstDuplicateValueTest_firstDuplicate - 2021.12.13 at 15h 54m 12s.xml">
-      <configuration name="FirstDuplicateValueTest.firstDuplicate" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 51m 26s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstDuplicateValueTest_firstDuplicate - 2021.12.13 at 15h 54m 27s.xml">
-      <configuration name="FirstDuplicateValueTest.firstDuplicate" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 52m 33s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstDuplicateValueTest - 2021.12.13 at 15h 58m 01s.xml">
-      <configuration name="FirstDuplicateValueTest" configurationId="JUnit" />
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 53m 28s.xml">
+      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 16h 29m 08s.xml">
+    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 59m 17s.xml">
       <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -420,8 +411,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3987034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -656,6 +647,12 @@
           <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -875,13 +872,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverse.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="377" selection-start-line="377" selection-end-line="377" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" />
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -939,10 +929,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="378" selection-start-line="378" selection-end-line="378" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -955,12 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
