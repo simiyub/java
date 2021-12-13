@@ -1,3 +1,5 @@
+package firstduplicate;
+
 /***
  * O(n) T and O(1) S because we iterate through the array once and do not require additional
  * space as we use the array itself to work through our solution rather than use an additional
