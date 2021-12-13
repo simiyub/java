@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/medium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/medium/medium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ArrayOfProductsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ArrayOfProductsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/ArrayOfProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ArrayOfProductsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -206,11 +203,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="arrayofproducts" />
       <recent name="longestpeak" />
       <recent name="spiraltraversal" />
       <recent name="monotonicarray" />
       <recent name="movetotheend" />
-      <recent name="threenumbersum" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -220,7 +217,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayOfProductsTest">
+  <component name="RunManager" selected="JUnit.FirstDuplicateValueTest.firstDuplicate">
     <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -238,21 +235,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstDuplicateValueTest.firstDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstDuplicateValueTest" />
+      <option name="METHOD_NAME" value="firstDuplicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPeakTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPeakTest.longestPeakPeakFirstTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPeakTest" />
-      <option name="METHOD_NAME" value="longestPeakPeakFirstTest5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstDuplicateValueTest.firstDuplicate" />
         <item itemvalue="JUnit.ArrayOfProductsTest" />
         <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.LongestPeakTest" />
         <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest6" />
-        <item itemvalue="JUnit.LongestPeakTest.longestPeakPeakFirstTest5" />
       </list>
     </recent_temporary>
   </component>
@@ -532,8 +529,8 @@
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/ArrayOfProductsImpl.java</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/arrayofproducts/ArrayOfProductsImpl.java</url>
+          <line>14</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
