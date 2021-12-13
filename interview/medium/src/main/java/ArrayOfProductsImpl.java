@@ -6,13 +6,18 @@ public class ArrayOfProductsImpl implements ArrayOfProducts{
     @Override
     public int[] products(int[] array) {
         int[] results = new int[array.length];
-        int leftPointer = 0;
-        int rightPointer = array.length-1;
-        int[] leftResults = new int[];
-        int []rightResults = new int[];
-        while(leftPointer!=rightPointer){
-
+        int runningProduct = 1;
+        for (int i=0; i<=array.length-1;i++){
+            results[i] = runningProduct;
+            runningProduct *= array[i];
         }
-        return new int[0];
+        int runningProductReturn = 1;
+        for (int i=array.length-1; i>=0;i--){
+            results[i] *= runningProductReturn;
+            runningProductReturn *= array[i];
+        }
+
+
+        return results;
     }
 }
