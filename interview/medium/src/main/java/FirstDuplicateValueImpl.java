@@ -13,11 +13,19 @@
  * For every number in the array, we determine the index by subracting 1 from it and the result
  * is the index of our number. We check if the number in that index is negative. If not, then we
  * make it negative and then move on in our iteration. If the number is negative, then we return
- * the value of the number we had found in our iteration.
+ * the value of the number we had found in our iteration as this means we had previously
+ * found a number with the same value and performed the negation function.
  * */
 public class FirstDuplicateValueImpl implements FirstDuplicateValue {
     @Override
     public int firstDuplicate(int[] array) {
-        return 0;
+
+
+        for (int i=0; i<=array.length-1;i++){
+            int newIndex = Math.abs(array[i]) - 1;
+            if (array[newIndex] < 0) return Math.abs(array[i]);
+            array[newIndex] *= -1;
+        }
+        return -1;
     }
 }
