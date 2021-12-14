@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /***
@@ -20,6 +22,7 @@ public class MergeOverlappingIntervalsImpl implements MergeOverlappingIntervals{
     public int[][] mergeOverlappingIntervals(int[][] array) {
         List<int[]> list = new ArrayList<>();
         int resultIndex=0;
+        Arrays.sort(array, Comparator.comparingInt(x -> x[0]));
         list.add( array[0]);
         for(int i=1; i<=array.length-1;i++){
 

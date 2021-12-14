@@ -11,5 +11,14 @@ class MergeOverlappingIntervalsTest {
         assertArrayEquals(expected, new MergeOverlappingIntervalsImpl().mergeOverlappingIntervals(array));
     }
 
+    @Test
+    void testMergeOverlappingInterval2(){
+        int[][] expected = new int[][]{new int[]{-50,20}, new int[]{70,95}};
+        int[][] array = new  int[][]{new int[]{89, 90},new int[]{-10,20}, new int[]{-50,0}, new int[]{70,90}, new int[]{90,91}, new int[]{90, 95}};
+        int[][] actual = new MergeOverlappingIntervalsImpl().mergeOverlappingIntervals(array);
+
+        assertArrayEquals(expected, actual);
+    }
+
 
 }
