@@ -11,16 +11,16 @@ class BSTTest {
 
     @Test
     void insert() {
-        int expected = 5;
-        BST actual = new BST(5);
-        assertEquals(expected, actual.getValue());
+        int five=5;
+        BST actual = new BST(five);
+        assertTrue(actual.contains(five));
     }
 
     @Test
     void insertSmaller() {
-        int expected = 5;
-        BST actual = new BST(5);
-        assertEquals(expected, actual.getValue());
+        int five = 5;
+        BST actual = new BST(five);
+        assertTrue(actual.contains(five));
 
         int smaller = 2;
         actual.insert(smaller);
@@ -29,9 +29,9 @@ class BSTTest {
 
     @Test
     void insertBigger() {
-        int expected = 2;
-        BST actual = new BST(2);
-        assertEquals(expected, actual.getValue());
+        int two = 2;
+        BST actual = new BST(two);
+        assertTrue(actual.contains(two));
 
         int bigger = 5;
         actual.insert(bigger);
@@ -41,9 +41,10 @@ class BSTTest {
 
     @Test
     void insertMultiple() {
+        int two = 2;
         int expected = 2;
-        BST actual = new BST(2);
-        assertEquals(expected, actual.getValue());
+        BST actual = new BST(two);
+        assertTrue(actual.contains(two));
 
         int five = 5;
         actual.insert(five);

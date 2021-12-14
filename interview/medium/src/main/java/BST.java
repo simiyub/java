@@ -37,27 +37,15 @@ public class BST implements BSTContract {
     @Override
     public boolean contains(int value) {
         if(this.value == value) return true;
+
         if(value<this.value){
             if (this.left==null) return false;
             else return this.left.contains(value);
-
         }
         else {
             if (this.right==null) return false;
             else return this.right.contains(value);
-
         }
     }
 
-    public int getValue() {
-        return value;
-    }
-
-    public BST getLeft() {
-        return left;
-    }
-
-    public BST getRight() {
-        return right;
-    }
 }

@@ -223,13 +223,12 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTest.insertMultiple">
-    <configuration name="BSTTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BSTTest">
+    <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="METHOD_NAME" value="contains" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BSTTest" />
         <item itemvalue="JUnit.BSTTest.insertMultiple" />
-        <item itemvalue="JUnit.BSTTest.insertBigger" />
-        <item itemvalue="JUnit.BSTTest.insertSmaller" />
         <item itemvalue="JUnit.BSTTest.insert" />
-        <item itemvalue="JUnit.BSTTest.contains" />
+        <item itemvalue="JUnit.BSTTest.insertSmaller" />
+        <item itemvalue="JUnit.BSTTest.insertBigger" />
       </list>
     </recent_temporary>
   </component>
@@ -582,6 +581,11 @@
           <url>file://$PROJECT_DIR$/medium/src/main/java/BST.java</url>
           <line>38</line>
           <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
