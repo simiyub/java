@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,12 +225,22 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTest">
+  <component name="RunManager" selected="JUnit.BSTTest.contains">
     <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BSTTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
+      <option name="METHOD_NAME" value="contains" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,21 +255,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BSTTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeOverlappingIntervalsTest" />
-      <option name="METHOD_NAME" value="testMergeOverlappingInterval1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeOverlappingIntervalsTest" />
-      <option name="METHOD_NAME" value="testMergeOverlappingInterval2" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BSTTest" />
+        <item itemvalue="JUnit.BSTTest.contains" />
         <item itemvalue="JUnit.BSTTest.insert" />
+        <item itemvalue="JUnit.BSTTest.remove" />
+        <item itemvalue="JUnit.BSTTest" />
         <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval3" />
-        <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval2" />
-        <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" />
       </list>
     </recent_temporary>
   </component>
@@ -570,6 +568,11 @@
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

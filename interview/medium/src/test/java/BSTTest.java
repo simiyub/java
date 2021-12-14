@@ -12,13 +12,14 @@ class BSTTest {
     @Test
     void insert() {
         int expected = 5;
-        assertEquals(expected, new BSTImpl().insert(5));
+        BST actual = new BST().insert(5);
+        assertEquals(expected, actual.getValue());
     }
 
     @Test
     void remove() {
         int value = 4;
-        BST bst = new BSTImpl();
+        BST bst = new BST();
         bst.insert(value);
         assertTrue(bst.contains(value));
         bst.remove(value);
@@ -28,7 +29,7 @@ class BSTTest {
     @Test
     void contains() {
         int value = 3;
-        BST bst = new BSTImpl();
+        BST bst = new BST();
         bst.insert(value);
         assertTrue(bst.contains(value));
     }
