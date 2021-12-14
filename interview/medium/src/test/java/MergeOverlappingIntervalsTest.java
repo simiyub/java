@@ -20,5 +20,13 @@ class MergeOverlappingIntervalsTest {
         assertArrayEquals(expected, actual);
     }
 
+    @Test
+    void testMergeOverlappingInterval3(){
+        int[][] expected = new int[][]{new int[]{9,90}, new int[]{91,93}};
+        int[][] array = new  int[][]{new int[]{43, 49},new int[]{9,12}, new int[]{12,54}, new int[]{45,90}, new int[]{91,93}};
+        int[][] actual = new MergeOverlappingIntervalsImpl().mergeOverlappingIntervals(array);
+
+        assertArrayEquals(expected, actual);
+    }
 
 }

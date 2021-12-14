@@ -26,7 +26,7 @@ public class MergeOverlappingIntervalsImpl implements MergeOverlappingIntervals{
         list.add( array[0]);
         for(int i=1; i<=array.length-1;i++){
 
-            if(list.get(resultIndex)[0] <= array[i][0] && list.get(resultIndex)[0] <=array[i][1] && array[i][0] <= list.get(resultIndex)[1] && array[i][1] >= list.get(resultIndex)[1]){
+            if(list.get(resultIndex)[0] <= array[i][0] && list.get(resultIndex)[0] <=array[i][1] && array[i][0] <= list.get(resultIndex)[1]){
                     list.set(resultIndex, new int[]{Math.min(list.get(resultIndex)[0], array[i][0]), Math.max(list.get(resultIndex)[1], array[i][1])});
                 }
             else{
