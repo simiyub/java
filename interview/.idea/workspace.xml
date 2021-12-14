@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,11 +213,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mergeoverlap" />
       <recent name="firstduplicate" />
       <recent name="arrayofproducts" />
       <recent name="longestpeak" />
       <recent name="spiraltraversal" />
-      <recent name="monotonicarray" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -221,21 +227,21 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval3">
-    <configuration name="FirstDuplicateValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BSTTest">
+    <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstDuplicateValueTest" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstDuplicateValueTest.firstDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BSTTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstDuplicateValueTest" />
-      <option name="METHOD_NAME" value="firstDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BSTTest" />
+        <item itemvalue="JUnit.BSTTest.insert" />
         <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval3" />
         <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval2" />
         <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" />
-        <item itemvalue="JUnit.FirstDuplicateValueTest" />
-        <item itemvalue="JUnit.FirstDuplicateValueTest.firstDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -547,22 +553,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>37</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>26</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
       </breakpoints>

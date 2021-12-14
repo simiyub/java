@@ -1,3 +1,5 @@
+package mergeoverlap;
+
 /**
  * This function takes in a non-empty array of intervals and finds
  * overlapping intervals, merging them and returning the array with
