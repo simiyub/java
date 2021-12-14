@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,16 +223,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTest.contains">
-    <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BSTTest.insertMultiple">
     <configuration name="BSTTest.contains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -255,21 +244,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSTTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BSTTest.insertBigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="METHOD_NAME" value="remove" />
+      <option name="METHOD_NAME" value="insertBigger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BSTTest.insertMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MergeOverlappingIntervalsTest" />
-      <option name="METHOD_NAME" value="testMergeOverlappingInterval3" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
+      <option name="METHOD_NAME" value="insertMultiple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTTest.insertSmaller" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BSTTest" />
+      <option name="METHOD_NAME" value="insertSmaller" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BSTTest.contains" />
+        <item itemvalue="JUnit.BSTTest.insertMultiple" />
+        <item itemvalue="JUnit.BSTTest.insertBigger" />
+        <item itemvalue="JUnit.BSTTest.insertSmaller" />
         <item itemvalue="JUnit.BSTTest.insert" />
-        <item itemvalue="JUnit.BSTTest.remove" />
-        <item itemvalue="JUnit.BSTTest" />
-        <item itemvalue="JUnit.MergeOverlappingIntervalsTest.testMergeOverlappingInterval3" />
+        <item itemvalue="JUnit.BSTTest.contains" />
       </list>
     </recent_temporary>
   </component>
@@ -570,9 +569,19 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/BST.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="197" />
+          <line>26</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/BST.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="203" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
