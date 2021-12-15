@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTRecursiveImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,42 +224,12 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTest">
+  <component name="RunManager" selected="JUnit.ValidateBSTTest">
     <configuration name="BSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BSTTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTTest.insertMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="METHOD_NAME" value="insertMultiple" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="METHOD_NAME" value="remove" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTTest.remove1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTest" />
-      <option name="METHOD_NAME" value="remove1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,13 +244,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateBSTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBSTTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateBSTTest" />
+      <option name="METHOD_NAME" value="isValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateBSTTest.isValid2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidateBSTTest" />
+      <option name="METHOD_NAME" value="isValid2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidateBSTTest" />
+        <item itemvalue="JUnit.ValidateBSTTest.isValid2" />
+        <item itemvalue="JUnit.ValidateBSTTest.isValid" />
         <item itemvalue="JUnit.BSTTest" />
         <item itemvalue="JUnit.BSTTest.remove2" />
-        <item itemvalue="JUnit.BSTTest.remove1" />
-        <item itemvalue="JUnit.BSTTest.remove" />
-        <item itemvalue="JUnit.BSTTest.insertMultiple" />
       </list>
     </recent_temporary>
   </component>
@@ -581,6 +581,11 @@
           <url>file://$PROJECT_DIR$/medium/src/main/java/BSTRecursiveImpl.java</url>
           <line>79</line>
           <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
