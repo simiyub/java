@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTRecursiveImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -574,11 +574,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
-          <line>62</line>
+          <line>61</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/BST.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/BSTRecursiveImpl.java</url>
           <line>79</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>

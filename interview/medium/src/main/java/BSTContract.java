@@ -9,9 +9,9 @@
  *
  * */
 public interface BSTContract {
-    BST insert(int value);
+    BSTRecursiveImpl insert(int value);
 
-    BST remove(int value);
+    BSTRecursiveImpl remove(int value);
 
     boolean contains(int value);
 }

@@ -12,14 +12,14 @@ class BSTTest {
     @Test
     void insert() {
         int five=5;
-        BST actual = new BST(five);
+        BSTRecursiveImpl actual = new BSTRecursiveImpl(five);
         assertTrue(actual.contains(five));
     }
 
     @Test
     void insertSmaller() {
         int five = 5;
-        BST actual = new BST(five);
+        BSTRecursiveImpl actual = new BSTRecursiveImpl(five);
         assertTrue(actual.contains(five));
 
         int smaller = 2;
@@ -30,7 +30,7 @@ class BSTTest {
     @Test
     void insertBigger() {
         int two = 2;
-        BST actual = new BST(two);
+        BSTRecursiveImpl actual = new BSTRecursiveImpl(two);
         assertTrue(actual.contains(two));
 
         int bigger = 5;
@@ -42,7 +42,7 @@ class BSTTest {
     @Test
     void insertMultiple() {
         int two = 2;
-        BST actual = new BST(two);
+        BSTRecursiveImpl actual = new BSTRecursiveImpl(two);
         assertTrue(actual.contains(two));
 
         int five = 5;
@@ -68,7 +68,7 @@ class BSTTest {
     void remove1() {
         int root = 1;
         int value = 4;
-        BST bst = new BST(root);
+        BSTRecursiveImpl bst = new BSTRecursiveImpl(root);
         bst.insert(value);
         assertTrue(bst.contains(value));
         bst.remove(value);
@@ -79,7 +79,7 @@ class BSTTest {
     void remove2() {
         int root = 15;
         int value = 19;
-        BST bst = new BST(root);
+        BSTRecursiveImpl bst = new BSTRecursiveImpl(root);
         bst.insert(10);
         bst.insert(17);
         bst.insert(22);
@@ -95,7 +95,7 @@ class BSTTest {
     @Test
     void contains() {
         int value = 3;
-        BST bst = new BST(1);
+        BSTRecursiveImpl bst = new BSTRecursiveImpl(1);
         bst.insert(value);
         assertTrue(bst.contains(value));
     }

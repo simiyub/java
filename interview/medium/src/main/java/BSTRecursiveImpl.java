@@ -1,12 +1,12 @@
 /**
  * BST implementation with O(n) T and O(n) S in worst case
  * */
-public class BST implements BSTContract {
+public class BSTRecursiveImpl implements BSTContract {
     private int value;
-    private BST left;
-    private BST right;
+    private BSTRecursiveImpl left;
+    private BSTRecursiveImpl right;
 
-    public BST(int value) {
+    public BSTRecursiveImpl(int value) {
         this.value =value;
     }
 
@@ -15,16 +15,16 @@ public class BST implements BSTContract {
      * or to the right of this BST if it is greater than the value of this BST
      * */
     @Override
-    public BST insert(int value) {
+    public BSTRecursiveImpl insert(int value) {
         if(value<this.value) {
             if(this.left == null) {
-                this.left = new BST(value);
+                this.left = new BSTRecursiveImpl(value);
             }
            else left.insert(value);
         }
         else {
             if(this.right == null) {
-                this.right = new BST(value);
+                this.right = new BSTRecursiveImpl(value);
             }
             else this.right.insert(value);
         }
@@ -36,11 +36,11 @@ public class BST implements BSTContract {
      * children accordingly
      * */
 
-    public BST remove(int value) {
+    public BSTRecursiveImpl remove(int value) {
         remove(null, value);
         return  this;
     }
-        public void remove(BST parent, int value) {
+        public void remove(BSTRecursiveImpl parent, int value) {
 
             if (left != null && value < this.value) left.remove(this, value);
             else if (right != null && value > this.value) right.remove(this, value);
