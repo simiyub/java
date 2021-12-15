@@ -42,7 +42,6 @@ class BSTTest {
     @Test
     void insertMultiple() {
         int two = 2;
-        int expected = 2;
         BST actual = new BST(two);
         assertTrue(actual.contains(two));
 
@@ -66,7 +65,7 @@ class BSTTest {
 
 
     @Test
-    void remove() {
+    void remove1() {
         int root = 1;
         int value = 4;
         BST bst = new BST(root);
@@ -76,6 +75,23 @@ class BSTTest {
         assertFalse(bst.contains(value));
     }
 
+    @Test
+    void remove2() {
+        int root = 15;
+        int value = 19;
+        BST bst = new BST(root);
+        bst.insert(10);
+        bst.insert(17);
+        bst.insert(22);
+        bst.insert(16);
+        bst.insert(18);
+        bst.insert(20);
+        bst.insert(value);
+        bst.insert(24);
+        assertTrue(bst.contains(value));
+        bst.remove(value);
+        assertFalse(bst.contains(value));
+    }
     @Test
     void contains() {
         int value = 3;
