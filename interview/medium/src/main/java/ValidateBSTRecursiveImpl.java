@@ -1,5 +1,9 @@
-
-public class ValidateBSTImpl implements ValidateBST{
+/**
+ * O(N) T O(D) S as we run through the tree once and space
+ * required to store the stack going to the depth of the tree.
+ *
+ * */
+public class ValidateBSTRecursiveImpl implements ValidateBST{
     @Override
     public boolean isValid(BST tree) {
         return isValid(tree,Integer.MIN_VALUE,Integer.MAX_VALUE);

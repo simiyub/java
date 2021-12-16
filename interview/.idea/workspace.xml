@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ReconstructBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTIterativeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ValidateBSTRecursiveImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
