@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BSTContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BSTRecursiveImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BSTTraversal$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BSTTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BSTTraversalImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MinHeightBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/MinHeightBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/ValidateBST$BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/ValidateBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/ValidateBSTIterativeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/ValidateBSTRecursiveImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/BSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/BSTTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/BSTTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/BSTTraversalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/ValidateBSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/ValidateBSTTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,67 +59,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/ValidateBSTIterativeImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="-93">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+            <state relative-caret-position="153">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValue.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+            <state relative-caret-position="-39">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,6 +162,11 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" />
       </list>
     </option>
   </component>
@@ -266,7 +249,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639674016847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639676824338" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -277,25 +260,25 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bstconstruction" />
+      <recent name="bsttraversal" />
+      <recent name="validatebst" />
       <recent name="mergeoverlap" />
       <recent name="firstduplicate" />
-      <recent name="arrayofproducts" />
-      <recent name="longestpeak" />
-      <recent name="spiraltraversal" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BSTTraversalTest.traverseInOrder">
+  <component name="RunManager" selected="JUnit.MinHeightBSTTest.minHeightBSTTest">
     <configuration name="BSTTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -350,22 +333,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinHeightBSTTest.minHeightBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidateBSTTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="MinHeightBSTTest" />
+      <option name="METHOD_NAME" value="minHeightBSTTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinHeightBSTTest.minHeightBSTTest" />
         <item itemvalue="JUnit.BSTTraversalTest.traverseInOrder" />
         <item itemvalue="JUnit.BSTTraversalTest.traversePostOrder" />
         <item itemvalue="JUnit.BSTTraversalTest.traversePreOrder" />
         <item itemvalue="JUnit.BSTTraversalTest" />
-        <item itemvalue="JUnit.ValidateBSTTest" />
       </list>
     </recent_temporary>
   </component>
@@ -384,18 +368,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 53m 28s.xml">
-      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeOverlappingIntervalsTest_testMergeOverlappingInterval1 - 2021.12.13 at 17h 59m 17s.xml">
-      <configuration name="MergeOverlappingIntervalsTest.testMergeOverlappingInterval1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTraversalTest_traverseInOrder - 2021.12.16 at 16h 42m 27s.xml">
-      <configuration name="BSTTraversalTest.traverseInOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BSTTraversalTest_traverseInOrder - 2021.12.16 at 16h 47m 04s.xml">
-      <configuration name="BSTTraversalTest.traverseInOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BSTTraversalTest_traverseInOrder - 2021.12.16 at 16h 48m 57s.xml">
       <configuration name="BSTTraversalTest.traverseInOrder" configurationId="JUnit" />
     </history-entry>
@@ -414,9 +386,21 @@
     <history-entry file="BSTTraversalTest_traversePostOrder - 2021.12.16 at 16h 57m 10s.xml">
       <configuration name="BSTTraversalTest.traversePostOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BSTTraversalTest_traverseInOrder - 2021.12.16 at 16h 58m 13s.xml">
+      <configuration name="BSTTraversalTest.traverseInOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinHeightBSTTest_minHeightBSTTest - 2021.12.16 at 17h 42m 25s.xml">
+      <configuration name="MinHeightBSTTest.minHeightBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinHeightBSTTest_minHeightBSTTest - 2021.12.16 at 17h 43m 54s.xml">
+      <configuration name="MinHeightBSTTest.minHeightBSTTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MinHeightBSTTest_minHeightBSTTest - 2021.12.16 at 17h 46m 36s.xml">
+      <configuration name="MinHeightBSTTest.minHeightBSTTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.19224556" />
@@ -428,8 +412,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.32901135" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.3987034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -690,72 +674,50 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
-          <line>26</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
-          <line>61</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/BSTRecursiveImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java</url>
           <line>79</line>
           <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="224" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClosestValueInBST.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClosestValueInBSTImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -964,17 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/ValidateBSTIterativeImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/validatebst/ValidateBSTIterativeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -985,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -999,20 +947,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="-10">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" selection-start-line="31" selection-start-column="8" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="378" selection-start-line="378" selection-end-line="378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+        <state relative-caret-position="153">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
