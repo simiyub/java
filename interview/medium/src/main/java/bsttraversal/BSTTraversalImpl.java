@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package bsttraversal;
+
 import java.util.List;
 
 /**
@@ -15,8 +16,7 @@ public class BSTTraversalImpl implements BSTTraversal {
             values.add(tree.value);
             if (tree.right != null) traverseInOrder(tree.right, values);
 
-
-        return values;
+            return values;
     }
 
     @Override

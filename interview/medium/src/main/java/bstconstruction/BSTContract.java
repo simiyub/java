@@ -1,3 +1,5 @@
+package bstconstruction;
+
 /**
  *This interface provides the methods implemented by a BST implementation.
  * The class supports inserting,

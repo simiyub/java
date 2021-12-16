@@ -1,3 +1,5 @@
+package validatebst;
+
 /**
  * O(N) T O(D) S as we run through the tree once and space
  * required to store the stack going to the depth of the tree.

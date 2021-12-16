@@ -1,3 +1,5 @@
+package bstconstruction;
+
 /**
  * BST implementation with O(n) T and O(n) S in worst case
  * */

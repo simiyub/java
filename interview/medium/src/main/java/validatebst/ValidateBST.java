@@ -1,3 +1,5 @@
+package validatebst;
+
 /**
  * This function checks if a BST is valid meaning
  * for every node, the nodes to it's left have a value strictly less than its value
