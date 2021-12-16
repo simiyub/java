@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -590,6 +588,11 @@
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="220" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
