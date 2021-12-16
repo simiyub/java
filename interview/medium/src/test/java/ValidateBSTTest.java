@@ -15,7 +15,7 @@ class ValidateBSTTest {
     void isValid() {
         ValidateBST.BST bst = new ValidateBST.BST(10);
         int[] values = new int[]{5,15,2,5,13,22,1,14};
-        Arrays.stream(values).forEach(value -> bst.insert(value));
+        Arrays.stream(values).forEach(bst::insert);
         assertTrue(new ValidateBSTImpl().isValid(bst));
     }
 
@@ -23,7 +23,7 @@ class ValidateBSTTest {
     void isValid2() {
         ValidateBST.BST bst = new ValidateBST.BST(10);
         int[] values = new int[]{10,15,5,10};
-        Arrays.stream(values).forEach(value -> bst.insert(value));
+        Arrays.stream(values).forEach(bst::insert);
         assertTrue(new ValidateBSTImpl().isValid(bst));
     }
 }
