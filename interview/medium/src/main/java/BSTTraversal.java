@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Three functions that access a given BST and return an array of the node values
  * using three traversal methods:
@@ -7,9 +9,9 @@
  * */
 public interface BSTTraversal {
 
-    int[] traverseInOrder(BST tree, int[] values);
-    int[] traversePreOrder(BST tree, int[] values);
-    int[] traversePostOrder(BST tree, int[] values);
+    List<Integer> traverseInOrder(BST tree, List<Integer> values);
+    List<Integer> traversePreOrder(BST tree, List<Integer> values);
+    List<Integer> traversePostOrder(BST tree, List<Integer> values);
 
     static class BST {
         public int value;

@@ -1,6 +1,10 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BSTTraversalTest {
@@ -27,19 +31,19 @@ class BSTTraversalTest {
 
     @Test
     void traverseInOrder() {
-        int[] expected = new int[]{1,2,5,5,10, 15, 22};
-        assertArrayEquals(expected,new BSTTraversalImpl().traverseInOrder(tree, new int[7]));
+        List<Integer> expected = List.of(1,2,5,5,10, 15, 22);
+        assertEquals(expected,new BSTTraversalImpl().traverseInOrder(tree, new ArrayList<>()));
     }
 
     @Test
     void traversePreOrder() {
-        int[] expected =  new int[]{10, 5, 2, 1, 5, 22};
-        assertArrayEquals(expected, new BSTTraversalImpl().traversePreOrder(tree, new int[7]));
+        List<Integer> expected =  List.of(10, 5, 2, 1, 5, 15,22);
+        assertEquals(expected, new BSTTraversalImpl().traversePreOrder(tree, new ArrayList<>()));
     }
 
     @Test
     void traversePostOrder() {
-        int[] expected = new int[]{1, 2, 5, 5, 22, 15, 10};
-        assertArrayEquals(expected, new BSTTraversalImpl().traversePostOrder(tree, new int[7]));
+        List<Integer> expected = List.of(1, 2, 5, 5, 22, 15, 10);
+        assertEquals(expected, new BSTTraversalImpl().traversePostOrder(tree, new ArrayList<>()));
     }
 }
