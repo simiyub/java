@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/FindKthLargestValueInBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/minheightbst/MinHeightBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/minheightbst/MinHeightImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
