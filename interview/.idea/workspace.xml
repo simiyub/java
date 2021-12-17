@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ReconstructBSTImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ReconstructBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ReconstructBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/FindKthLargestValueInBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/FindKthLargestValueInBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/FindKthLargestValueInBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/ReconstructBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/ReconstructBST.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,11 +225,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="findkthlargestvalue" />
       <recent name="minheightbst" />
       <recent name="bstconstruction" />
       <recent name="bsttraversal" />
       <recent name="validatebst" />
-      <recent name="mergeoverlap" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -232,7 +239,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindKthLargestValueInBSTTest.kthLargestValue">
+  <component name="RunManager" selected="JUnit.ReconstructBSTTest.constructTree">
     <configuration name="BSTTraversalTest.traverseInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -248,16 +255,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BSTTraversalTest" />
       <option name="METHOD_NAME" value="traversePostOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BSTTraversalTest.traversePreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BSTTraversalTest" />
-      <option name="METHOD_NAME" value="traversePreOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,13 +280,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReconstructBSTTest.constructTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReconstructBSTTest" />
+      <option name="METHOD_NAME" value="constructTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReconstructBSTTest.constructTree" />
         <item itemvalue="JUnit.FindKthLargestValueInBSTTest.kthLargestValue" />
         <item itemvalue="JUnit.MinHeightBSTTest.minHeightBSTTest" />
         <item itemvalue="JUnit.BSTTraversalTest.traverseInOrder" />
         <item itemvalue="JUnit.BSTTraversalTest.traversePostOrder" />
-        <item itemvalue="JUnit.BSTTraversalTest.traversePreOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -613,14 +620,19 @@
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>46</line>
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/FindKthLargestValueInBSTImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>38</line>
           <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/ReconstructBSTImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="236" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
