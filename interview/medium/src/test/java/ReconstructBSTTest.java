@@ -43,8 +43,8 @@ class ReconstructBSTTest {
         runTests(new ReconstructBSTImpl());
     }
 
-    @Test
-    void constructTreeFasterImplTest() {
-        runTests(new ReconstructBSTFasterImpl());
-    }
+//    @Test
+//    void constructTreeFasterImplTest() {
+//        runTests(new ReconstructBSTFasterImpl());
+//    }
 }
