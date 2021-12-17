@@ -1,9 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MinHeightBSTTest {
 
@@ -23,14 +22,16 @@ class MinHeightBSTTest {
         two.right = five;
         fourteen.left = thirteen;
         fourteen.right = fifteen;
-        MinHeightBST.BST ten  = new MinHeightBST.BST(10);
-        ten.left = two;
-        ten.right = fourteen;
+
+        MinHeightBST.BST expected  = new MinHeightBST.BST(10);
+        expected.left = two;
+        expected.right = fourteen;
 
         List<Integer> array = List.of( 1,2,5,7,10, 13,14,15,22);
-        MinHeightBST.BST expected = ten;
         MinHeightBST.BST actual = new MinHeightImpl().minHeightBST(array);
-        assertEquals(expected, actual);
+        assertEquals(expected.value, actual.value);
+        assertEquals(expected.left.value, actual.left.value);
+        assertEquals(expected.right.value, actual.right.value);
     }
 
 }
