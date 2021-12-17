@@ -1,3 +1,5 @@
+import minheightbst.MinHeightBST;
+import minheightbst.MinHeightImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

@@ -1,3 +1,5 @@
+package minheightbst;
+
 import java.util.List;
 
 /**
