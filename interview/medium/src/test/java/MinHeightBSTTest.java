@@ -8,6 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MinHeightBSTTest {
 
+
+
     @Test
     void minHeightBSTTest(){
         MinHeightBST.BST seven = new MinHeightBST.BST(7);

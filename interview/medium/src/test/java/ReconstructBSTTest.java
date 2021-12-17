@@ -1,4 +1,5 @@
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -7,8 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ReconstructBSTTest {
 
-    @Test
-    void constructTree() {
+    ReconstructBST.BST expected;
+    List<Integer> array;
+
+    @BeforeEach
+    void setUp() {
         ReconstructBST.BST one = new ReconstructBST.BST(1);
         ReconstructBST.BST two = new ReconstructBST.BST(2);
         ReconstructBST.BST five = new ReconstructBST.BST(5);
@@ -22,12 +26,25 @@ class ReconstructBSTTest {
         nineteen.left = eighteen;
         seventeen.left = nineteen;
 
-        ReconstructBST.BST expected = new ReconstructBST.BST(10);
+        expected = new ReconstructBST.BST(10);
         expected.left = four;
         expected.right = seventeen;
-        List<Integer> array = List.of(10,4,2,1,5,17,19,18);
-        ReconstructBST.BST actual = new ReconstructBSTImpl().constructTree(array);
-        assertEquals(expected,actual );
-                
+        array = List.of(10,4,2,1,5,17,19,18);
+    }
+    private void runTests(ReconstructBST impl){
+        ReconstructBST.BST actual = impl.constructTree(array);
+        assertEquals(expected.value,actual.value );
+        assertEquals(expected.left.value,actual.left.value );
+        assertEquals(expected.right.value,actual.right.value );
+    }
+
+    @Test
+    void constructTreeBasicImplTest() {
+        runTests(new ReconstructBSTImpl());
+    }
+
+    @Test
+    void constructTreeFasterImplTest() {
+        runTests(new ReconstructBSTFasterImpl());
     }
 }
