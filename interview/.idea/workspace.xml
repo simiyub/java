@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/MinHeightBST$BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/MinHeightBST$BST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/target/classes/MinHeightImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/MinHeightImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/MinHeightBSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/MinHeightBSTTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -610,19 +609,14 @@
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="224" />
+          <url>file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="226" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="228" />
+          <line>17</line>
+          <option name="timeStamp" value="230" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
