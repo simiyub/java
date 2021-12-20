@@ -1,6 +1,8 @@
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import reconstructbst.ReconstructBST;
+import reconstructbst.ReconstructBSTImpl;
 
 import java.util.List;
 
@@ -45,6 +47,6 @@ class ReconstructBSTTest {
 
 //    @Test
 //    void constructTreeFasterImplTest() {
-//        runTests(new ReconstructBSTFasterImpl());
+//        runTests(new reconstructbst.ReconstructBSTFasterImpl());
 //    }
 }

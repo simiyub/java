@@ -1,3 +1,5 @@
+package invertbinarytree;
+
 /**
  * This function takes a binary tree and inverts it's nodes
  * such that the nodes to the left are moved to the right and vice versa.
