@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ReconstructBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ReconstructBSTFasterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTFasterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ReconstructBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,41 +52,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTFasterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/InvertBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="81">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="210">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,12 +77,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/InvertBinaryTreeImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="39" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,11 +114,13 @@
       <find>result[index] =</find>
       <find>result.set(index,</find>
       <find>int[]</find>
+      <find>BST</find>
     </findStrings>
     <replaceStrings>
       <replace>result.set(index,</replace>
       <replace>result.add(</replace>
       <replace>List&lt;Integer&gt;</replace>
+      <replace>BinaryTree</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,9 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClosestValueInBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClosestValueInBSTImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DepthFirstSearch.java" />
@@ -193,6 +184,10 @@
         <option value="$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/InvertBinaryTreeImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java" />
       </list>
     </option>
   </component>
@@ -253,6 +248,15 @@
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reconstructbst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,7 +279,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640001682193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640009635024" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -293,11 +297,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="invertbinarytree" />
       <recent name="reconstructbst" />
       <recent name="" />
       <recent name="findkthlargestvalue" />
       <recent name="minheightbst" />
-      <recent name="bstconstruction" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -319,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.All in medium">
+  <component name="RunManager" selected="JUnit.BinaryTreeDiameterTest.diameterTest">
     <configuration name="All in medium" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -328,11 +332,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthLargestValueInBSTTest.kthLargestValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeDiameterTest.diameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FindKthLargestValueInBSTTest" />
-      <option name="METHOD_NAME" value="kthLargestValue" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeDiameterTest" />
+      <option name="METHOD_NAME" value="diameterTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeDiameterTest.diameterTest" />
         <item itemvalue="Android JUnit.All in medium" />
         <item itemvalue="JUnit.InvertBinaryTreeTest.invertTest" />
         <item itemvalue="JUnit.ReconstructBSTTest.constructTreeFasterImplTest" />
         <item itemvalue="JUnit.ReconstructBSTTest.constructTree" />
-        <item itemvalue="JUnit.FindKthLargestValueInBSTTest.kthLargestValue" />
       </list>
     </recent_temporary>
   </component>
@@ -393,9 +397,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvertBinaryTreeTest_invertTest - 2021.12.20 at 10h 57m 50s.xml">
-      <configuration name="InvertBinaryTreeTest.invertTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InvertBinaryTreeTest_invertTest - 2021.12.20 at 11h 00m 26s.xml">
       <configuration name="InvertBinaryTreeTest.invertTest" configurationId="JUnit" />
     </history-entry>
@@ -423,6 +424,9 @@
     <history-entry file="InvertBinaryTreeTest_invertTest - 2021.12.20 at 11h 57m 58s.xml">
       <configuration name="InvertBinaryTreeTest.invertTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_medium - 2021.12.20 at 12h 02m 48s.xml">
+      <configuration name="All in medium" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -441,7 +445,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -754,15 +758,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/RemoveDuplicatesFromLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/RemoveDuplicateListImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.7.0/9c4b766f5e598d39ea76858dcc5a6e3d8fa5ca7f/junit-jupiter-engine-5.7.0-sources.jar!/org/junit/jupiter/engine/execution/ExecutableInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -957,20 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -982,13 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTFasterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1013,17 +987,17 @@
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/InvertBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#552#553#0" expanded="true" />
@@ -1031,13 +1005,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/InvertBinaryTreeImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTFasterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

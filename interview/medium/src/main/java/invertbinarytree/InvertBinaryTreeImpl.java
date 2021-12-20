@@ -1,5 +1,16 @@
 package invertbinarytree;
 
+/**
+ * O(n) T O(d) S because we go through the full length of the tree only once
+ * and would use some space to store the recursive stack.
+ *
+ * How it works
+ * ------------
+ * This function takes a binary tree and returns an inverted version of the tree.
+ * We do this by recursively calling a function that swaps left and right nodes
+ * for each node and does this for all nodes.
+ * */
+
 import java.util.ArrayList;
 import java.util.List;
 
