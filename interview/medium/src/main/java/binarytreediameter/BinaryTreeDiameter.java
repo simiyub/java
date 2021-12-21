@@ -1,3 +1,5 @@
+package binarytreediameter;
+
 /**
  *
  * O(n) T O(d) S

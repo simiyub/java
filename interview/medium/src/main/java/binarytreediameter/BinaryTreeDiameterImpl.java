@@ -1,3 +1,5 @@
+package binarytreediameter;
+
 /**
  * O(n) T and O(h) S as we traverse through the tree to the end
  * and would need space the size of the stack.

@@ -1,3 +1,5 @@
+import binarytreediameter.BinaryTreeDiameter;
+import binarytreediameter.BinaryTreeDiameterImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

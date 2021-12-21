@@ -1,3 +1,5 @@
+package findsuccessor;
+
 /**
  * This function takes a binary tree and a node value
  * and returns the successor of the given node using

@@ -1,3 +1,5 @@
+package findsuccessor;
+
 /**
  * O(h) T on average and O(1) S but could go to O(n) T if the tree only has one sided branch
  * such as only left children or only right children.

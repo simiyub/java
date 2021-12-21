@@ -1,3 +1,5 @@
+import findsuccessor.FindSuccessor;
+import findsuccessor.FindSuccessorImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
