@@ -1,6 +1,7 @@
 /**
- * O(n) T and O(1) S in worst case scenario as we will iterate through the tree comparing the left and right branches,
- * comparing the depth of each without storing any values until we find a difference greater than one height.
+ * O(n) T and O(h) S in worst case scenario as we will iterate through the tree comparing the left and right branches,
+ * comparing the depth of each. The space required is the space to store the stack down the height of the tree.
+ * We do this until we find a difference greater than one height.
  *
  * How it works
  * ------------
@@ -11,6 +12,23 @@
 public class HeightBalancedBinaryTreeImpl implements HeightBalancedBinaryTree{
     @Override
     public boolean isBalanced(BinaryTree tree) {
-        return false;
+        return getBalancedStatus(tree).isBalanced;
     }
+
+    BalancedStatus getBalancedStatus(BinaryTree tree) {
+        if (tree !=null){
+            BalancedStatus leftBalancedStatus = getBalancedStatus(tree.left);
+            BalancedStatus rightBalancedStatus = getBalancedStatus(tree.right);
+
+            boolean isBalanced = leftBalancedStatus.isBalanced
+                    && rightBalancedStatus.isBalanced
+                    && Math.abs(leftBalancedStatus.height-rightBalancedStatus.height) <=1;
+
+
+            return new BalancedStatus(isBalanced,Math.max(leftBalancedStatus.height, rightBalancedStatus.height)+1);
+
+        }
+        return new BalancedStatus(true,-1);
+    }
+
 }

@@ -8,7 +8,7 @@ public interface HeightBalancedBinaryTree {
     boolean isBalanced(BinaryTree tree);
 
 
-    static class BinaryTree {
+     class BinaryTree {
         public int value;
         public BinaryTree left = null;
         public BinaryTree right = null;
@@ -16,6 +16,21 @@ public interface HeightBalancedBinaryTree {
         public BinaryTree(int value) {
             this.value = value;
         }
+
+     }
+
+    class BalancedStatus{
+
+         boolean isBalanced;
+         int height;
+
+        public BalancedStatus(boolean isBalanced, int height) {
+            this.isBalanced = isBalanced;
+            this.height = height;
+        }
+
     }
+
+
 
 }
