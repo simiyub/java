@@ -1,3 +1,5 @@
+package heightbalancedbinarytree;
+
 /**
  * O(n) T and O(h) S in worst case scenario as we will iterate through the tree comparing the left and right branches,
  * comparing the depth of each. The space required is the space to store the stack down the height of the tree.

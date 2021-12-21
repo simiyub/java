@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/HeightBalancedBinaryTree$BalancedStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/HeightBalancedBinaryTree$BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/HeightBalancedBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/HeightBalancedBinaryTreeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/HeightBalancedBinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/HeightBalancedBinaryTreeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,23 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#526#527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +74,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
+            <state relative-caret-position="206">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTreeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
               <folding>
                 <element signature="e#735#736#0" expanded="true" />
                 <element signature="e#767#768#0" expanded="true" />
@@ -90,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="195">
               <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,11 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ProductSumTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProductSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProductSumImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/productsum/ProductSumImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/CaesarCipherEncryptorImpl.java" />
@@ -189,6 +232,11 @@
         <option value="$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java" />
       </list>
     </option>
   </component>
@@ -198,8 +246,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="640" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="709" />
@@ -250,24 +297,6 @@
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="invertbinarytree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="longestpeak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,7 +319,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640094184067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640112154611" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -308,11 +337,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="heightbalancedbinarytree" />
       <recent name="findsuccessor" />
       <recent name="binarytreediameter" />
       <recent name="invertbinarytree" />
       <recent name="reconstructbst" />
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -334,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeightBalancedBinaryTreeTest.testIsBalanced">
+  <component name="RunManager" selected="JUnit.MaxSumNoAdjacentTest.sumTest">
     <configuration name="All in medium" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -373,11 +402,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertBinaryTreeTest.invertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxSumNoAdjacentTest.sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvertBinaryTreeTest" />
-      <option name="METHOD_NAME" value="invertTest" />
+      <option name="MAIN_CLASS_NAME" value="MaxSumNoAdjacentTest" />
+      <option name="METHOD_NAME" value="sumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -385,11 +414,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxSumNoAdjacentTest.sumTest" />
         <item itemvalue="JUnit.HeightBalancedBinaryTreeTest.testIsBalanced" />
         <item itemvalue="JUnit.FindSuccessorTest.testSuccessor" />
         <item itemvalue="JUnit.BinaryTreeDiameterTest.diameterTest" />
         <item itemvalue="Android JUnit.All in medium" />
-        <item itemvalue="JUnit.InvertBinaryTreeTest.invertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -408,42 +437,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.21 at 07h 35m 50s.xml">
-      <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 44m 29s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 46m 28s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 47m 32s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 50m 15s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 53m 05s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 53m 14s.xml">
-      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeightBalancedBinaryTreeTest_testIsBalanced - 2021.12.21 at 11h 09m 37s.xml">
+    <history-entry file="HeightBalancedBinaryTreeTest_testIsBalanced - 2021.12.21 at 14h 24m 38s.xml">
       <configuration name="HeightBalancedBinaryTreeTest.testIsBalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeightBalancedBinaryTreeTest_testIsBalanced - 2021.12.21 at 13h 37m 46s.xml">
+    <history-entry file="HeightBalancedBinaryTreeTest_testIsBalanced - 2021.12.21 at 14h 25m 17s.xml">
       <configuration name="HeightBalancedBinaryTreeTest.testIsBalanced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeightBalancedBinaryTreeTest_testIsBalanced - 2021.12.21 at 13h 38m 41s.xml">
-      <configuration name="HeightBalancedBinaryTreeTest.testIsBalanced" configurationId="JUnit" />
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 14h 25m 24s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 17h 59m 55s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 02m 42s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 13m 20s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 16m 01s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 26m 49s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 31m 10s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSumNoAdjacentTest_sumTest - 2021.12.21 at 18h 42m 34s.xml">
+      <configuration name="MaxSumNoAdjacentTest.sumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="23" width="640" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.41437802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.85785955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,8 +480,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.2771475" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.47163695" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.2771475" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.47163695" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -790,34 +818,16 @@
           <properties />
           <option name="timeStamp" value="259" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearchImp.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClassPhotosTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CaesarCipherEncryptorImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/CaesarCipherEncryptorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/smallestdifference/SmallestDifferencePointerImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1066,16 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/findsuccessor/FindSuccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1083,33 +1083,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="150">
+          <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
           <folding>
-            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        <state relative-caret-position="195">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/HeightBalancedBinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
+        <state relative-caret-position="-10">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

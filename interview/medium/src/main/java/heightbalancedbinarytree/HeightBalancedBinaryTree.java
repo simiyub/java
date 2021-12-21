@@ -1,3 +1,5 @@
+package heightbalancedbinarytree;
+
 /**
  * This function checks the binary tree provided to determine if it is height
  * balanced or not. A tree is balanced if it has equal number of children

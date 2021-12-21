@@ -1,3 +1,5 @@
+import heightbalancedbinarytree.HeightBalancedBinaryTree;
+import heightbalancedbinarytree.HeightBalancedBinaryTreeImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
