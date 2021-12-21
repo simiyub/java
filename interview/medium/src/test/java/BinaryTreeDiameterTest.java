@@ -9,9 +9,9 @@ class BinaryTreeDiameterTest {
     @Test
     void diameterTest(){
 
-        int expected = 6;
+        int expected = 5;
         BinaryTreeDiameter.BinaryTree tree = new BinaryTreeDiameter.BinaryTree(1);
-        int[] array = new int[]{3,7,8,9,4,5,6,2};
+        int[] array = new int[]{3,7,6,19,4,10,9,12};
         Arrays.stream(array).forEach(tree::insert);
 
         assertEquals(expected, new BinaryTreeDiameterImpl().diameter(tree));

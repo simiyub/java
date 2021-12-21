@@ -41,5 +41,16 @@ public interface BinaryTreeDiameter {
             }
             return this;
         }
+
+
+    }
+    class TreeTraversalStatus{
+        public int diameter;
+        public int height;
+
+        public TreeTraversalStatus(int diameter, int height) {
+            this.diameter = diameter;
+            this.height = height;
+        }
     }
 }
