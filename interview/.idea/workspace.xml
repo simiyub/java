@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -49,28 +51,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-              <folding>
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -84,19 +64,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="115">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="244">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +90,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/SumOfBSTBranchesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DepthFirstSearchImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java" />
@@ -191,6 +173,7 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameterImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java" />
       </list>
     </option>
   </component>
@@ -200,7 +183,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="709" />
@@ -291,7 +274,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640072926265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640084001621" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -335,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeDiameterTest.diameterTest">
+  <component name="RunManager" selected="JUnit.FindSuccessorTest.testSuccessor">
     <configuration name="All in medium" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -354,21 +337,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertBinaryTreeTest.invertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSuccessorTest.testSuccessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvertBinaryTreeTest" />
-      <option name="METHOD_NAME" value="invertTest" />
+      <option name="MAIN_CLASS_NAME" value="FindSuccessorTest" />
+      <option name="METHOD_NAME" value="testSuccessor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructBSTTest.constructTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InvertBinaryTreeTest.invertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReconstructBSTTest" />
-      <option name="METHOD_NAME" value="constructTree" />
+      <option name="MAIN_CLASS_NAME" value="InvertBinaryTreeTest" />
+      <option name="METHOD_NAME" value="invertTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -386,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindSuccessorTest.testSuccessor" />
         <item itemvalue="JUnit.BinaryTreeDiameterTest.diameterTest" />
         <item itemvalue="Android JUnit.All in medium" />
         <item itemvalue="JUnit.InvertBinaryTreeTest.invertTest" />
         <item itemvalue="JUnit.ReconstructBSTTest.constructTreeFasterImplTest" />
-        <item itemvalue="JUnit.ReconstructBSTTest.constructTree" />
       </list>
     </recent_temporary>
   </component>
@@ -409,15 +392,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.20 at 18h 41m 28s.xml">
-      <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.20 at 18h 47m 07s.xml">
-      <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.20 at 18h 56m 52s.xml">
-      <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.20 at 18h 57m 53s.xml">
       <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
     </history-entry>
@@ -439,11 +413,21 @@
     <history-entry file="BinaryTreeDiameterTest_diameterTest - 2021.12.21 at 07h 35m 50s.xml">
       <configuration name="BinaryTreeDiameterTest.diameterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 44m 29s.xml">
+      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 46m 28s.xml">
+      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindSuccessorTest_testSuccessor - 2021.12.21 at 10h 47m 32s.xml">
+      <configuration name="FindSuccessorTest.testSuccessor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="640" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.2003231" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" weight="0.4147157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,11 +437,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.2771475" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.47163695" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.47163695" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -778,17 +762,16 @@
           <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/productsum/ProductSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -987,16 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1050,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -1086,10 +1052,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="244">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
         </state>
       </provider>
     </entry>
