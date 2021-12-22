@@ -1,3 +1,5 @@
+package maxsumnoadjacent;
+
 /**
  * O(n) T O(1) S as we iterate through the array to the end
  * but we do not need additional space as we track the optimal total
@@ -10,7 +12,7 @@
  * and make the new higher sum our current running sum.
  *
  * */
-public class MaxSumNoAdjacentImpl implements MaxSumNoAdjacent{
+public class MaxSumNoAdjacentImpl implements MaxSumNoAdjacent {
     @Override
     public int sum(int[] array) {
 

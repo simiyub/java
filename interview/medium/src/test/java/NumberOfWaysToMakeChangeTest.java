@@ -1,3 +1,6 @@
+import numberofwaystomakechange.NumberOfWaysToMakeChangeDynamicImpl;
+import numberofwaystomakechange.NumberOfWaysToMakeChangeMemoizationImpl;
+import numberofwaystomakechange.NumberOfWaysToMakeChangeRecursiveImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,7 +14,7 @@ class NumberOfWaysToMakeChangeTest {
         int[] array = new int[]{1,5};
         int targetAmount = 6;
 
-        assertEquals(expected,new NumberOfWaysToMakeChangeImpl().numberOfWaysToMakeChange(array, targetAmount));
+        assertEquals(expected,new NumberOfWaysToMakeChangeDynamicImpl().numberOfWaysToMakeChange(array, targetAmount));
     }
 
     @Test

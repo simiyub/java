@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeMemoizationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeRecursiveImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/target/classes/maxsumnoadjacent/MaxSumNoAdjacent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/target/classes/maxsumnoadjacent/MaxSumNoAdjacentImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/target/classes/numberofwaystomakechange/NumberOfWaysToMakeChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/target/classes/numberofwaystomakechange/NumberOfWaysToMakeChangeImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/target/classes/numberofwaystomakechange/NumberOfWaysToMakeChangeRecursiveImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeMemoizationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeMemoizationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeRecursiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeRecursiveImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToMakeChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToMakeChangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChangeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChangeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MaxSumNoAdjacent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MaxSumNoAdjacentImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChangeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChangeMemoizationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/numberofwaystomakechange/NumberOfWaysToMakeChangeMemoizationImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToMakeChangeRecursiveImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/MaxSumNoAdjacentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/MaxSumNoAdjacentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/target/test-classes/NumberOfWaysToMakeChangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/NumberOfWaysToMakeChangeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -57,29 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToMakeChangeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeRecursiveImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="201">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +83,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeMemoizationImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="52" />
+            <state relative-caret-position="118">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeRecursiveImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeMemoizationImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +122,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/src/test/java/MoveToTheEndTest.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MoveToTheEndImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/SpiralTraverseImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/ArrayOfProductsImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValue.java" />
@@ -188,7 +219,6 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/HeightBalancedBinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/heightbalancedbinarytree/HeightBalancedBinaryTree.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/MaxSumNoAdjacentTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java" />
@@ -197,7 +227,11 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeDynamicImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeRecursiveImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeMemoizationImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacent.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToMakeChangeTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java" />
       </list>
     </option>
   </component>
@@ -207,7 +241,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="709" />
@@ -258,6 +292,15 @@
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="numberofwaystomakechange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,7 +323,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640195882371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640200646234" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -298,11 +341,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="maxsumnoadjacent" />
+      <recent name="numberofwaystomakechange" />
       <recent name="heightbalancedbinarytree" />
       <recent name="findsuccessor" />
-      <recent name="binarytreediameter" />
-      <recent name="invertbinarytree" />
-      <recent name="reconstructbst" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -324,17 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3">
-    <configuration name="MaxSumNoAdjacentTest.sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MaxSumNoAdjacentTest" />
-      <option name="METHOD_NAME" value="sumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1">
     <configuration name="NumberOfWaysToMakeChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -349,6 +382,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumberOfWaysToMakeChangeTest" />
       <option name="METHOD_NAME" value="testNumberOfWaysToMakeChangeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfWaysToMakeChangeTest" />
+      <option name="METHOD_NAME" value="testNumberOfWaysToMakeChangeTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,11 +419,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest" />
-        <item itemvalue="JUnit.MaxSumNoAdjacentTest.sumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -399,18 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 15h 19m 47s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 16h 14m 46s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 16h 15m 21s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 16h 22m 07s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 16h 44m 56s.xml">
       <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
     </history-entry>
@@ -429,6 +460,18 @@
     <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 17h 57m 40s.xml">
       <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 17h 59m 15s.xml">
+      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 55m 02s.xml">
+      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 56m 08s.xml">
+      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 58m 00s.xml">
+      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -443,12 +486,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.3273906" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -782,19 +825,19 @@
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacentImpl.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>15</line>
           <properties />
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>7</line>
           <properties />
           <option name="timeStamp" value="266" />
@@ -1091,31 +1134,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChange.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MaxSumNoAdjacentImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacentImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeMemoizationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1129,40 +1182,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeRecursiveImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToMakeChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        <state relative-caret-position="201">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeRecursiveImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToMakeChangeMemoizationImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="118">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
