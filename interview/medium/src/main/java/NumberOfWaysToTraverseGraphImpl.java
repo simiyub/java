@@ -1,5 +1,12 @@
 /**
- *In this
+ * O(nm) T O(nm) S as we traverse two arrays to determine the
+ * total number of ways to traverse the graph.
+ *
+ * How it works
+ * ------------
+ *In this implementation, we work out the number of ways to each cell
+ * in the graph starting at point 0,0 and adding 1 to the count of paths
+ * from adjacent sides until we get to the end.
  * */
 public class NumberOfWaysToTraverseGraphImpl implements NumberOfWaysToTraverseGraph{
     @Override

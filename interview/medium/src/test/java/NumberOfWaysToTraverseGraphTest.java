@@ -19,7 +19,7 @@ class NumberOfWaysToTraverseGraphTest {
         int expected = 210;
         int width=5;
         int height=7;
-        assertEquals(expected, new NumberOfWaysToTraverseGraphImpl().count(width, height));
+        assertEquals(expected, new NumberOfWaysToTraverseGraphFactorialImpl().count(width, height));
     }
 
 }
