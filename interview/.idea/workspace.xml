@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/LevenshteinDistanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/LevenshteinDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/LevenshteinDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/MinimumCoinsForChangeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/MinimumCoinsForChangeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/MinimumCoinsForChangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/MinimumCoinsForChangeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -96,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="72">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="32" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -299,7 +291,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640276079649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640277142287" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -462,12 +454,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.3273906" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -1215,8 +1207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="32" selection-end-column="60" />
         </state>
       </provider>
     </entry>

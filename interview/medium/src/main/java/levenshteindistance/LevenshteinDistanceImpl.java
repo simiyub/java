@@ -1,3 +1,5 @@
+package levenshteindistance;
+
 /**
  * O(nm) T O(nm) S because we need to iterate through the two strings to determine the
  * number of edits required to match them up. The time required is the product of the

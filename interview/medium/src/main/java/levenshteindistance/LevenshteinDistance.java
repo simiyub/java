@@ -1,3 +1,5 @@
+package levenshteindistance;
+
 /**
  * This function takes two strings and returns the minimum number of edits required
  * for the first string to match the second string.

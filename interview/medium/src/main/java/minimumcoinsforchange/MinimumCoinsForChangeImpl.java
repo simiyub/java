@@ -1,5 +1,6 @@
+package minimumcoinsforchange;
+
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 /**
  *O(nd) T O(n) S as we iterate through the array of denominations and
