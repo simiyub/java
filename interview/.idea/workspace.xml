@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/LevenshteinDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/LevenshteinDistanceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MinimumCoinsForChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/MinimumCoinsForChangeImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/LevenshteinDistanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/LevenshteinDistanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/MinimumCoinsForChangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/MinimumCoinsForChangeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -53,31 +62,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/LevenshteinDistanceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,31 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="32" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -154,11 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MinHeightBST.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/ReconstructBST.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/ReconstructBSTImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTFasterImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTTest.java" />
@@ -205,6 +176,11 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/LevenshteinDistanceTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceFasterImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/levenshteindistance/LevenshteinDistanceFasterImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" />
       </list>
     </option>
   </component>
@@ -265,6 +241,15 @@
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="levenshteindistance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +276,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640277142287" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640285100990" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -309,11 +294,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="minimumcoinsforchange" />
+      <recent name="levenshteindistance" />
       <recent name="" />
       <recent name="maxsumnoadjacent" />
       <recent name="numberofwaystomakechange" />
-      <recent name="heightbalancedbinarytree" />
-      <recent name="findsuccessor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -335,7 +320,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LevenshteinDistanceTest.testLevenshteinDistance">
+  <component name="RunManager" selected="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph2">
+    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -355,31 +348,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinimumCoinsForChangeTest" />
-      <option name="METHOD_NAME" value="testMinimumCoinsForChange1" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfWaysToTraverseGraphTest" />
+      <option name="METHOD_NAME" value="testNumberOfWaysToTraverseGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinimumCoinsForChangeTest" />
-      <option name="METHOD_NAME" value="testMinimumCoinsForChange2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinimumCoinsForChangeTest" />
-      <option name="METHOD_NAME" value="testMinimumCoinsForChange3" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfWaysToTraverseGraphTest" />
+      <option name="METHOD_NAME" value="testNumberOfWaysToTraverseGraph2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -387,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph2" />
+        <item itemvalue="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" />
+        <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.LevenshteinDistanceTest.testLevenshteinDistance" />
         <item itemvalue="JUnit.MinimumCoinsForChangeTest" />
-        <item itemvalue="JUnit.MinimumCoinsForChangeTest.testMinimumCoinsForChange1" />
-        <item itemvalue="JUnit.MinimumCoinsForChangeTest.testMinimumCoinsForChange2" />
-        <item itemvalue="JUnit.MinimumCoinsForChangeTest.testMinimumCoinsForChange3" />
       </list>
     </recent_temporary>
   </component>
@@ -410,42 +393,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinimumCoinsForChangeTest_testMinimumCoinsForChange1 - 2021.12.23 at 11h 17m 30s.xml">
-      <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange1" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 17h 42m 27s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumCoinsForChangeTest_testMinimumCoinsForChange1 - 2021.12.23 at 11h 25m 28s.xml">
-      <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange1" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 17h 42m 40s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumCoinsForChangeTest - 2021.12.23 at 11h 25m 50s.xml">
-      <configuration name="MinimumCoinsForChangeTest" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 22m 44s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumCoinsForChangeTest - 2021.12.23 at 11h 31m 27s.xml">
-      <configuration name="MinimumCoinsForChangeTest" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 23m 25s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumCoinsForChangeTest - 2021.12.23 at 11h 31m 41s.xml">
-      <configuration name="MinimumCoinsForChangeTest" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 25m 00s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinDistanceTest_testLevenshteinDistance - 2021.12.23 at 13h 26m 20s.xml">
-      <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 26m 12s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinDistanceTest_testLevenshteinDistance - 2021.12.23 at 16h 12m 15s.xml">
-      <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 27m 52s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinDistanceTest_testLevenshteinDistance - 2021.12.23 at 16h 13m 17s.xml">
-      <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 29m 16s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinDistanceTest_testLevenshteinDistance - 2021.12.23 at 16h 13m 43s.xml">
-      <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 31m 18s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinDistanceTest_testLevenshteinDistance - 2021.12.23 at 16h 14m 47s.xml">
-      <configuration name="LevenshteinDistanceTest.testLevenshteinDistance" configurationId="JUnit" />
+    <history-entry file="NumberOfWaysToTraverseGraphTest_testNumberOfWaysToTraverseGraph - 2021.12.23 at 18h 31m 38s.xml">
+      <configuration name="NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.15993538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.2584814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,11 +438,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.3273906" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39708266" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" visible="true" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -811,43 +794,21 @@
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/minimumcoinsforchange/MinimumCoinsForChangeImpl.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="279" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/validatebst/ValidateBSTIterativeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-516">
@@ -1127,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1164,51 +1118,86 @@
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/minimumcoinsforchange/MinimumCoinsForChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/levenshteindistance/LevenshteinDistanceFasterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistance.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        <state relative-caret-position="100">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/levenshteindistance/LevenshteinDistanceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/LevenshteinDistanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/LevenshteinDistanceImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/levenshteindistance/LevenshteinDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="135">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/minimumcoinsforchange/MinimumCoinsForChangeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
