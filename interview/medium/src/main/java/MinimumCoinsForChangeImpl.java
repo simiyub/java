@@ -1,10 +1,13 @@
+import java.util.Arrays;
+import java.util.function.Predicate;
+
 /**
- *O(n) T O(n) S as we iterate through the array of denominations and
- * combinations to determine the least number of coins.
+ *O(nd) T O(n) S as we iterate through the array of denominations and
+ * combinations of those denominations to determine the least number of coins.
  * How it works
  * ------------
  * We iterate through the denominations to determine the combination
- * with the least number of denominations required to obtain the target amount.
+ * with the least count of denominations required to obtain the target amount.
  * */
 public class MinimumCoinsForChangeImpl implements MinimumCoinsForChange{
     @Override
@@ -12,16 +15,24 @@ public class MinimumCoinsForChangeImpl implements MinimumCoinsForChange{
 
         if(desiredAmount == 0) return 0;
         int[] coinCount = new int[desiredAmount+1];
+        Arrays.fill(coinCount,Integer.MAX_VALUE);
         coinCount[0] = 0;
+
+
 
         for (int denomination:denominations){
 
-            for(int index=1;index<coinCount.length;index++){
-                if(denomination<=index) {
-                    coinCount[index] =Math.min(index,1+coinCount[index-denomination]);
+            for(int amount=0;amount<coinCount.length;amount++){
+                if(denomination<=amount) {
+
+                    boolean initialised = coinCount[amount-denomination] ==Integer.MAX_VALUE;
+                    int newValue = coinCount[amount-denomination];
+                    if(!initialised) newValue +=1;
+                    coinCount[amount] =Math.min(coinCount[amount],newValue);
                 }
             }
         }
-        return coinCount[desiredAmount];
+        return coinCount[desiredAmount]==Integer.MAX_VALUE? -1 : coinCount[desiredAmount];
     }
+
 }
