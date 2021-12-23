@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bit-manipulation/src/test/java/BitManipulationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/medium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/medium/medium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/medium/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bit-manipulation/.gradle/" />
+    <ignored path="$PROJECT_DIR$/bit-manipulation/build/" />
+    <ignored path="$PROJECT_DIR$/bit-manipulation/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +66,12 @@
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -71,6 +82,51 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bit-manipulation/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bit-manipulation/src/test/java/BitManipulationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulationImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,14 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValue.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/FirstDuplicateValueImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervals.java" />
-        <option value="$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/BSTTraversal.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/BSTTraversalImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java" />
@@ -175,6 +223,14 @@
         <option value="$PROJECT_DIR$/medium/src/test/java/MinimumCoinsForChangeTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/test/java/ValueOfKthBitTest.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/main/java/ValueOfKthBitImpl.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/main/java/ValueOfKthBit.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulation.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulationImpl.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulationManipulationImpl.java" />
+        <option value="$PROJECT_DIR$/bit-manipulation/src/test/java/BitManipulationTest.java" />
       </list>
     </option>
   </component>
@@ -184,7 +240,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="640" />
     <option name="height" value="709" />
@@ -207,51 +263,27 @@
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-manipulation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-manipulation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-manipulation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="bit-manipulation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="numberofwaystomakechange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,12 +298,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640205035678" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640242634216" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -310,22 +346,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumCoinsForChangeTest.testMinimumCoinsForChange">
+  <component name="RunManager">
+    <configuration name="BitManipulationTest.testValueOfKthBit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bit-manipulation_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BitManipulationTest" />
+      <option name="METHOD_NAME" value="testValueOfKthBit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MinimumCoinsForChangeTest" />
       <option name="METHOD_NAME" value="testMinimumCoinsForChange" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfWaysToMakeChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumberOfWaysToMakeChangeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BitManipulationTest.testValueOfKthBit" />
         <item itemvalue="JUnit.MinimumCoinsForChangeTest.testMinimumCoinsForChange" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" />
         <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" />
-        <item itemvalue="JUnit.NumberOfWaysToMakeChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,42 +422,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 16h 44m 56s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest2 - 2021.12.22 at 17h 16m 02s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest2 - 2021.12.22 at 17h 17m 41s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest2 - 2021.12.22 at 17h 19m 35s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest2 - 2021.12.22 at 17h 20m 48s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 17h 57m 40s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest3 - 2021.12.22 at 17h 59m 15s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 55m 02s.xml">
-      <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 56m 08s.xml">
       <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NumberOfWaysToMakeChangeTest_testNumberOfWaysToMakeChangeTest1 - 2021.12.22 at 18h 58m 00s.xml">
       <configuration name="NumberOfWaysToMakeChangeTest.testNumberOfWaysToMakeChangeTest1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MinimumCoinsForChangeTest_testMinimumCoinsForChange - 2021.12.22 at 20h 35m 32s.xml">
+      <configuration name="MinimumCoinsForChangeTest.testMinimumCoinsForChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 48m 36s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 52m 00s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 52m 54s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 54m 05s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 55m 41s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 56m 32s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValueOfKthBitTest_testValueOfKthBit - 2021.12.23 at 06h 57m 20s.xml">
+      <configuration name="ValueOfKthBitTest.testValueOfKthBit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="640" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.33198708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.33110368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +466,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" weight="0.3273906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.57859534" visible="true" weight="0.3273906" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +475,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32901135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -789,37 +826,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/SpiralTraverseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/ArrayOfProductsImpl.java" />
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/ArrayOfProducts.java" />
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/LongestPeakTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/ArrayOfProductsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/FirstDuplicateValueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervals.java" />
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/MergeOverlappingIntervalsImpl.java" />
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1153,9 +1159,12 @@
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinimumCoinsForChangeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,6 +1173,39 @@
           <folding>
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bit-manipulation/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bit-manipulation/src/main/java/BitManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bit-manipulation/src/test/java/BitManipulationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1220,12 +1262,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>interview</last-edited>
+          <last-edited>easy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1233,6 +1274,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: org.apiguardian:apiguardian-api:1.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

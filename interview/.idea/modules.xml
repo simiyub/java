@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation.iml" group="bit-manipulation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_main.iml" group="bit-manipulation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_test.iml" group="bit-manipulation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_main.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_test.iml" group="easy" />
