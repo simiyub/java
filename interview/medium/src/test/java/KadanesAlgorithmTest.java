@@ -1,3 +1,4 @@
+import kadanesalgorithm.KadanesAlgorithmImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,6 +18,14 @@ class KadanesAlgorithmTest {
 
         int expected = -10;
         int[] array = new int[]{-10};
+        assertEquals(expected, new KadanesAlgorithmImpl().greatestSumFromSubArray(array));
+    }
+
+    @Test
+    void testGreatestSumFromSubArray3(){
+
+        int expected = -1;
+        int[] array = new int[]{-10, -2, -9, -4, -8, -6, -7, -1, -3, -5};
         assertEquals(expected, new KadanesAlgorithmImpl().greatestSumFromSubArray(array));
     }
 

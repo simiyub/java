@@ -1,3 +1,5 @@
+package kadanesalgorithm;
+
 /**
  * O(n) T O(1) S as we iterate through the array only once
  * looking for the greatest sum of sub arrays and
