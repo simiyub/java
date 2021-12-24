@@ -3,5 +3,5 @@
  * returns the maximum sum we can obtain from a sub array of the array.
  * */
 public interface KadanesAlgorithm {
-    int greatestSumFromSubarray(int[] array);
+    int greatestSumFromSubArray(int[] array);
 }
