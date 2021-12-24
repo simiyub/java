@@ -1,3 +1,5 @@
+package numberofwaystotraversegraph;
+
 /**
  * This function receives dimensions of a graph and
  * determines how many ways we can traverse a graph with these dimensions.

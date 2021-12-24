@@ -1,3 +1,5 @@
+package numberofwaystotraversegraph;
+
 /**
  * O(nm) T O(nm) S as we traverse two arrays to determine the
  * total number of ways to traverse the graph.

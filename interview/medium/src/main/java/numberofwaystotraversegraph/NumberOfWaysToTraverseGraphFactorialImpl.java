@@ -1,3 +1,5 @@
+package numberofwaystotraversegraph;
+
 /**
  * O(n+m) T and O(1) S as we use the factorial and no more space required.
  *

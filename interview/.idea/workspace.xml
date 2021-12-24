@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphFactorialImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToTraverseGraphFactorialImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithmImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphFactorialImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphFactorialImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToTraverseGraphImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/NumberOfWaysToTraverseGraphImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/NumberOfWaysToTraverseGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/NumberOfWaysToTraverseGraphTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -59,10 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -71,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,19 +81,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="44" />
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphFactorialImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphFactorialImpl.java">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithmImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,10 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java" />
-        <option value="$PROJECT_DIR$/medium/src/test/java/ReconstructBSTTest.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/ReconstructBSTFasterImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/test/java/InvertBinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/InvertBinaryTree.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/InvertBinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java" />
@@ -205,6 +236,10 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphFactorialImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphFactorialImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithm.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithmImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java" />
       </list>
     </option>
   </component>
@@ -291,7 +326,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640286636634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640338413520" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -309,11 +344,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="numberofwaystotraversegraph" />
       <recent name="minimumcoinsforchange" />
       <recent name="levenshteindistance" />
       <recent name="" />
       <recent name="maxsumnoadjacent" />
-      <recent name="numberofwaystomakechange" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -335,11 +370,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph2">
+  <component name="RunManager" selected="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray">
     <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KadanesAlgorithmTest.testGreatestSumFromSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
+      <option name="METHOD_NAME" value="testGreatestSumFromSubArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,15 +395,6 @@
       <option name="MAIN_CLASS_NAME" value="LevenshteinDistanceTest" />
       <option name="METHOD_NAME" value="testLevenshteinDistance" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumCoinsForChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinimumCoinsForChangeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray" />
         <item itemvalue="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph2" />
         <item itemvalue="JUnit.NumberOfWaysToTraverseGraphTest.testNumberOfWaysToTraverseGraph" />
         <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.LevenshteinDistanceTest.testLevenshteinDistance" />
-        <item itemvalue="JUnit.MinimumCoinsForChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -440,10 +476,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="640" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.2584814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.53511703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,7 +493,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" visible="true" weight="0.36466774" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5033445" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
@@ -815,7 +851,7 @@
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="279" />
@@ -824,21 +860,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/MinHeightImpl.java" />
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/BSTTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -1191,34 +1212,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraph.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/NumberOfWaysToTraverseGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="44" />
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/NumberOfWaysToTraverseGraphFactorialImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphFactorialImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithmImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
