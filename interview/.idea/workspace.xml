@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearchImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BreadthFirstSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/RiverSizes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bit-manipulation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bit-manipulation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +249,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest.search">
+  <component name="RunManager" selected="JUnit.RiverSizesTest.riverSizes">
     <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -275,21 +268,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadanesAlgorithmTest.testGreatestSumFromSubArray3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
-      <option name="METHOD_NAME" value="testGreatestSumFromSubArray3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReconstructBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReconstructBSTTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiverSizesTest.riverSizes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
+      <option name="METHOD_NAME" value="riverSizes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RiverSizesTest.riverSizes" />
         <item itemvalue="JUnit.BreadthFirstSearchTest.search" />
         <item itemvalue="JUnit.All in medium" />
         <item itemvalue="JUnit.ReconstructBSTTest" />
         <item itemvalue="JUnit.SingleCycleCheckTest.testHasSingleCycle" />
-        <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray3" />
       </list>
     </recent_temporary>
   </component>
