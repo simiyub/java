@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="298">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="e#935#936#0" expanded="true" />
                 <element signature="e#1000#1001#0" expanded="true" />
@@ -65,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="247">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -168,8 +164,8 @@
         <option value="$PROJECT_DIR$/medium/src/test/java/SingleCycleCheckTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/SingleCycleCheck.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" />
       </list>
     </option>
   </component>
@@ -241,7 +237,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641407205604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641409970314" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -285,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RiverSizesTest.riverSizes">
+  <component name="RunManager" selected="JUnit.RiverSizesTest.riverSizes2">
     <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -304,15 +300,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReconstructBSTTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RiverSizesTest.riverSizes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -323,11 +310,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleCycleCheckTest.testHasSingleCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RiverSizesTest.riverSizes1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SingleCycleCheckTest" />
-      <option name="METHOD_NAME" value="testHasSingleCycle" />
+      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
+      <option name="METHOD_NAME" value="riverSizes1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiverSizesTest.riverSizes2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
+      <option name="METHOD_NAME" value="riverSizes2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RiverSizesTest.riverSizes2" />
+        <item itemvalue="JUnit.RiverSizesTest.riverSizes1" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizes" />
         <item itemvalue="JUnit.BreadthFirstSearchTest.search" />
         <item itemvalue="JUnit.All in medium" />
-        <item itemvalue="JUnit.ReconstructBSTTest" />
-        <item itemvalue="JUnit.SingleCycleCheckTest.testHasSingleCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -358,35 +355,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 16h 49m 00s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 47m 37s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 16h 54m 11s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 48m 00s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 17h 35m 09s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 50m 21s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 17h 48m 41s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 52m 54s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 17h 50m 47s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 55m 52s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 18h 04m 19s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 56m 22s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 18h 17m 10s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes1 - 2022.01.05 at 18h 56m 33s.xml">
+      <configuration name="RiverSizesTest.riverSizes1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 18h 18m 44s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 19h 02m 56s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 18h 24m 38s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 19h 06m 17s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes - 2022.01.05 at 18h 24m 48s.xml">
-      <configuration name="RiverSizesTest.riverSizes" configurationId="JUnit" />
+    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 19h 09m 04s.xml">
+      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -402,13 +399,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57754445" visible="true" weight="0.3273906" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4983845" weight="0.39708266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57512116" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49676898" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49665552" weight="0.36466774" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42245558" side_tool="true" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49596122" weight="0.36466774" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42487884" side_tool="true" visible="true" weight="0.3273906" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49757674" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32901135" />
@@ -754,9 +751,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>41</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="288" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1134,13 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="378" selection-start-line="378" selection-end-line="378" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1148,17 +1156,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="247">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="298">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="e#935#936#0" expanded="true" />
             <element signature="e#1000#1001#0" expanded="true" />

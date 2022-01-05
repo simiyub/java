@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class RiverSizesTest {
 
     @Test
-    void riverSizes() {
+    void riverSizes1() {
         List<Integer> expected = List.of(2,1,5,2,2);
         int[][] array = new int[][]{
                 new int[]{1,0,0,1,0},
@@ -17,6 +17,16 @@ class RiverSizesTest {
                 new int[]{1,0,1,0,1},
                 new int[]{1,0,1,1,0}
             };
+        assertEquals(expected,new RiverSizesImpl().riverSizes(array));
+    }
+
+
+    @Test
+    void riverSizes2() {
+        List<Integer> expected = List.of(3,2,1);
+        int[][] array = new int[][]{
+                {1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0}
+        };
         assertEquals(expected,new RiverSizesImpl().riverSizes(array));
     }
 }
