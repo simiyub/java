@@ -5,27 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/SingleCycleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/SingleCycleCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearchImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BreadthFirstSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/kadanesalgorithm/KadanesAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/KadanesAlgorithmImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/kadanesalgorithm/KadanesAlgorithmImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/KadanesAlgorithmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/KadanesAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/KadanesAlgorithmImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/KadanesAlgorithmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/KadanesAlgorithmTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bit-manipulation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bit-manipulation/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/medium/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/bit-manipulation/.gradle/" />
-    <ignored path="$PROJECT_DIR$/bit-manipulation/build/" />
-    <ignored path="$PROJECT_DIR$/bit-manipulation/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,40 +49,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="easy" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/SingleCycleCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/medium/src/test/java/SingleCycleCheckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -272,71 +229,47 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="kadanesalgorithm" />
       <recent name="numberofwaystotraversegraph" />
       <recent name="minimumcoinsforchange" />
       <recent name="levenshteindistance" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="util" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.SingleCycleCheckTest.testHasSingleCycle">
-    <configuration name="KadanesAlgorithmTest.testGreatestSumFromSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BreadthFirstSearchTest.search">
+    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
-      <option name="METHOD_NAME" value="testGreatestSumFromSubArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadanesAlgorithmTest.testGreatestSumFromSubArray1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BreadthFirstSearchTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
-      <option name="METHOD_NAME" value="testGreatestSumFromSubArray1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KadanesAlgorithmTest.testGreatestSumFromSubArray2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
-      <option name="METHOD_NAME" value="testGreatestSumFromSubArray2" />
+      <option name="MAIN_CLASS_NAME" value="BreadthFirstSearchTest" />
+      <option name="METHOD_NAME" value="search" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,6 +281,15 @@
       <option name="MAIN_CLASS_NAME" value="KadanesAlgorithmTest" />
       <option name="METHOD_NAME" value="testGreatestSumFromSubArray3" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReconstructBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReconstructBSTTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,15 +306,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreadthFirstSearchTest.search" />
+        <item itemvalue="JUnit.All in medium" />
+        <item itemvalue="JUnit.ReconstructBSTTest" />
         <item itemvalue="JUnit.SingleCycleCheckTest.testHasSingleCycle" />
         <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray3" />
-        <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray1" />
-        <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray2" />
-        <item itemvalue="JUnit.KadanesAlgorithmTest.testGreatestSumFromSubArray" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -457,14 +399,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -483,6 +418,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,290 +426,247 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java</url>
           <line>142</line>
-          <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sumofbstbranches/SumOfBSTBranchesImpl.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
           <line>61</line>
-          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/removeduplicatesfromlinkedlist/RemoveDuplicateListImpl.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fibonacci/FibonacciRecursiveImpl.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/productsum/ProductSumImpl.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/binarysearch/BinarySearchRecursiveImp.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/bubblesort/BubbleSortImpl.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocumentImpl.java</url>
           <line>30</line>
-          <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferencePointerImpl.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/monotonicarray/MonotonicArrayWithDirectionFlagImpl.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/arrayofproducts/ArrayOfProductsImpl.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>26</line>
-          <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java</url>
           <line>79</line>
-          <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>46</line>
-          <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/binarytreediameter/BinaryTreeDiameterImpl.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findsuccessor/FindSuccessorImpl.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacentImpl.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>7</line>
-          <properties />
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/minimumcoinsforchange/MinimumCoinsForChangeImpl.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearchImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="283" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
