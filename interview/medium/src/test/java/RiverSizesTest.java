@@ -9,7 +9,7 @@ class RiverSizesTest {
 
     @Test
     void riverSizes() {
-        List<Integer> expected = List.of(1,2,2,2,5);
+        List<Integer> expected = List.of(2,1,5,2,2);
         int[][] array = new int[][]{
                 new int[]{1,0,0,1,0},
                 new int[]{1,0,1,0,0},

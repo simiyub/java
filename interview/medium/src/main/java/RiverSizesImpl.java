@@ -10,7 +10,10 @@ import java.util.Set;
  *
  * How it works
  * ------------
- *
+ * we iterate through the multidimensional array and whenever we find a
+ * 1, we follow through, identifying any further parts of the river(1)
+ * and add to the size. Once we determine that no more consecutive 1s
+ * exist, we add the size to the array that is returned.
  *
  * */
 
@@ -26,7 +29,7 @@ public class RiverSizesImpl implements RiverSizes{
         for(int i=0;i<=this.rivers.length-1;i++){
 
             for (int j=0;j<=this.rivers[i].length-1;j++){
-                if(this.rivers[i][j] == 1) riverSizes.add(traverseRiver(i,j));
+                if(this.rivers[i][j] == 1 && !visited(i,j)) riverSizes.add(1+traverseRiver(i,j));
             }
         }
         return riverSizes;
@@ -36,36 +39,41 @@ public class RiverSizesImpl implements RiverSizes{
         return validElementsVisited.contains(row+"-"+col);
     }
 
-    private int traverseRiver(int vert, int hor) {
-        int size = 1;
+    private int traverseRiver(int row, int col) {
+        int size = 0;
         int increment = 1;
-        validElementsVisited.add(vert+"-"+hor);
+        validElementsVisited.add(row+"-"+col);
 
-        while (hor-1>=0 && rivers[vert][hor-increment]==1 && !visited(vert,hor-increment)){
+        while (col-1>=0 && rivers[row][col-increment]==1 && !visited(row,col-increment)){
             size ++;
-            validElementsVisited.add(vert+"-"+(hor-increment));
+            validElementsVisited.add(row+"-"+(col-increment));
+            size+=traverseRiver(row, col-increment);
             increment++;
+
         }
 
         increment = 1;
 
-        while (hor+increment <= rivers.length-1 && rivers[vert][hor+increment]==1 && !visited(vert,hor+increment)){
+        while (col+increment <= rivers.length-1 && rivers[row][col+increment]==1 && !visited(row,col+increment)){
             size ++;
-            validElementsVisited.add(vert+"-"+(hor+increment));
+            validElementsVisited.add(row+"-"+(col+increment));
+            size+=traverseRiver(row, col+increment);
             increment ++;
         }
 
         increment = 1;
-        while (vert-increment >=0 && rivers[vert-increment][hor]==1 && !visited(vert-increment,hor)){
+        while (row-increment >=0 && rivers[row-increment][col]==1 && !visited(row-increment,col)){
             size ++;
-            validElementsVisited.add((vert-increment)+"-"+hor);
+            validElementsVisited.add((row-increment)+"-"+col);
+            size+=traverseRiver(row-increment, col);
             increment ++;
         }
 
         increment = 1;
-        while (vert+increment <= rivers.length-1 && rivers[vert+increment][hor]==1 && !visited(vert+increment,hor)){
+        while (row+increment <= rivers.length-1 && rivers[row+increment][col]==1 && !visited(row+increment,col)){
             size ++;
-            validElementsVisited.add((vert+increment)+"-"+hor);
+            validElementsVisited.add((row+increment)+"-"+col);
+            size+=traverseRiver(row+increment, col);
             increment ++;
         }
         return size;
