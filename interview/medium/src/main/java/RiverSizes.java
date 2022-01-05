@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * This function takes a two dimension matrix
  * and returns an array of the size of rivers in the array.
@@ -15,6 +17,6 @@
  * */
 public interface RiverSizes {
 
-    int[] riverSizes(int[][] rivers);
+    List<Integer> riverSizes(int[][] rivers);
 
 }
