@@ -44,7 +44,7 @@ public class RiverSizesImpl implements RiverSizes{
         int increment = 1;
         validElementsVisited.add(row+"-"+col);
 
-        while (col-1>=0 && rivers[row][col-increment]==1 && !visited(row,col-increment)){
+        while (col-increment>=0 && rivers[row][col-increment]==1 && !visited(row,col-increment)){
             size ++;
             validElementsVisited.add(row+"-"+(col-increment));
             size+=traverseRiver(row, col-increment);
