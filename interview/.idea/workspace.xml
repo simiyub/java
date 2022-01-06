@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesAlternativeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/YoungestCommonAncestorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearch$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearchImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/BreadthFirstSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/BreadthFirstSearchTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/SingleCycleCheckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/SingleCycleCheckTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,40 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="easy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/medium/src/test/java/YoungestCommonAncestorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,9 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameter.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/BinaryTreeDiameterImpl.java" />
-        <option value="$PROJECT_DIR$/medium/src/main/java/FindSuccessor.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/FindSuccessorImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/findsuccessor/FindSuccessorImpl.java" />
@@ -141,6 +164,9 @@
         <option value="$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java" />
         <option value="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" />
         <option value="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" />
+        <option value="$PROJECT_DIR$/medium/src/test/java/YoungestCommonAncestorTest.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java" />
       </list>
     </option>
   </component>
@@ -162,35 +188,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -200,7 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -212,7 +238,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641409970314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641487301901" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/medium/src/main/java" />
@@ -223,10 +249,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -236,23 +259,30 @@
       <recent name="" />
       <recent name="kadanesalgorithm" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="util" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RiverSizesTest.riverSizesAlternativeImplTest">
-    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.YoungestCommonAncestorTest.getYoungestCommonAncestorTest">
     <configuration name="RiverSizesTest.riverSizes3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -293,17 +323,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YoungestCommonAncestorTest.getYoungestCommonAncestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YoungestCommonAncestorTest" />
+      <option name="METHOD_NAME" value="getYoungestCommonAncestorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YoungestCommonAncestorTest.getYoungestCommonAncestorTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesAlternativeImplTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesImplTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesImpl1Test" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizes3" />
-        <item itemvalue="JUnit.All in medium" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -318,12 +358,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 47m 37s.xml">
-      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 48m 00s.xml">
-      <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 18h 50m 21s.xml">
       <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
@@ -348,12 +382,18 @@
     <history-entry file="RiverSizesTest_riverSizes2 - 2022.01.05 at 19h 09m 04s.xml">
       <configuration name="RiverSizesTest.riverSizes2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RiverSizesTest_riverSizesAlternativeImplTest - 2022.01.06 at 16h 39m 12s.xml">
+      <configuration name="RiverSizesTest.riverSizesAlternativeImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YoungestCommonAncestorTest_getYoungestCommonAncestorTest - 2022.01.06 at 16h 41m 48s.xml">
+      <configuration name="YoungestCommonAncestorTest.getYoungestCommonAncestorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.26655897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.27059773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,13 +402,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.5024155" side_tool="true" weight="0.3231018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.57512116" visible="true" weight="0.3273906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5743134" visible="true" weight="0.3273906" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49676898" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49596122" weight="0.36466774" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.42487884" side_tool="true" visible="true" weight="0.3273906" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4951535" weight="0.36466774" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4256866" side_tool="true" visible="true" weight="0.3273906" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49757674" weight="0.32901135" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32901135" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32901135" />
@@ -388,7 +428,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -407,7 +454,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,300 +461,325 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ClosestValueInBSTTest.java</url>
           <line>69</line>
+          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
           <line>29</line>
+          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/implementbinarytree/BinaryTreeImpl.java</url>
           <line>142</line>
+          <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/BinaryTreeBreadthFirstTest.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sumofbstbranches/SumOfBSTBranchesImpl.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DepthFirstSearchTest.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
           <line>61</line>
+          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RemoveDuplicatesFromLinkedListTest.java</url>
           <line>62</line>
+          <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/removeduplicatesfromlinkedlist/RemoveDuplicateListImpl.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/fibonacci/FibonacciRecursiveImpl.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/productsum/ProductSumImpl.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/binarysearch/BinarySearchRecursiveImp.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/bubblesort/BubbleSortImpl.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/insertionsort/InsertionSortImpl.java</url>
           <line>8</line>
+          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
           <line>10</line>
+          <properties />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocumentImpl.java</url>
           <line>30</line>
+          <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferenceImpl.java</url>
           <line>51</line>
+          <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/SmallestDifferencePointerImpl.java</url>
           <line>36</line>
+          <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/monotonicarray/MonotonicArrayWithDirectionFlagImpl.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/longestpeak/LongestPeakPeakFirstImpl.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/arrayofproducts/ArrayOfProductsImpl.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/firstduplicate/FirstDuplicateValueImpl.java</url>
           <line>25</line>
+          <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/mergeoverlap/MergeOverlappingIntervalsImpl.java</url>
           <line>26</line>
+          <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MergeOverlappingIntervalsTest.java</url>
           <line>29</line>
+          <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BSTTest.java</url>
           <line>62</line>
+          <properties />
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bstconstruction/BSTRecursiveImpl.java</url>
           <line>79</line>
+          <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/ValidateBSTTest.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/bsttraversal/BSTTraversalImpl.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/MinHeightBSTTest.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="229" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>46</line>
+          <properties />
           <option name="timeStamp" value="232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findkthlargestvalue/FindKthLargestValueInBSTImpl.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/BinaryTreeDiameterTest.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/binarytreediameter/BinaryTreeDiameterImpl.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/test/java/FindSuccessorTest.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/findsuccessor/FindSuccessorImpl.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/maxsumnoadjacent/MaxSumNoAdjacentImpl.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystomakechange/NumberOfWaysToMakeChangeDynamicImpl.java</url>
           <line>7</line>
+          <properties />
           <option name="timeStamp" value="266" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/minimumcoinsforchange/MinimumCoinsForChangeImpl.java</url>
           <line>24</line>
+          <properties />
           <option name="timeStamp" value="269" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/numberofwaystotraversegraph/NumberOfWaysToTraverseGraphImpl.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheckImpl.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearchImpl.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="283" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
           <line>50</line>
+          <properties />
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
           <line>62</line>
+          <properties />
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="289" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBSTImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/invertbinarytree/InvertBinaryTreeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/reconstructbst/ReconstructBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/binarytreediameter/BinaryTreeDiameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -1055,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1067,21 +1138,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="118">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java">
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/test/java/YoungestCommonAncestorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
           <folding>
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
