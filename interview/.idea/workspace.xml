@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -657,12 +654,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>56</line>
+          <line>54</line>
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>72</line>
+          <line>66</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

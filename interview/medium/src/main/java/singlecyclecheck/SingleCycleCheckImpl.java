@@ -1,3 +1,5 @@
+package singlecyclecheck;
+
 /**
  * O(n) T O(1) S because we iterate through the array once until we get to the beginning
  * of the cycle or until we find we've run through the length of the array

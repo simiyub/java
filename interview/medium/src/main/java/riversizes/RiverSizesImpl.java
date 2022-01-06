@@ -1,3 +1,5 @@
+package riversizes;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -18,7 +20,7 @@ import java.util.Set;
  * */
 
 public class RiverSizesImpl implements RiverSizes{
-    private  Set<String> validElementsVisited = new HashSet<>();
+    private Set<String> validElementsVisited = new HashSet<>();
     private int[][] rivers;
 
     @Override
@@ -29,14 +31,10 @@ public class RiverSizesImpl implements RiverSizes{
         for(int i=0;i<=this.rivers.length-1;i++){
 
             for (int j=0;j<=this.rivers[i].length-1;j++){
-                if(this.rivers[i][j] == 1 && !visited(i,j)) riverSizes.add(1+traverseRiver(i,j));
+                if(this.rivers[i][j] == 1 && notVisited(i,j)) riverSizes.add(1+traverseRiver(i,j));
             }
         }
         return riverSizes;
-    }
-
-    private boolean visited(int row, int col){
-        return validElementsVisited.contains(row+"-"+col);
     }
 
     private int traverseRiver(int row, int col) {
@@ -44,38 +42,45 @@ public class RiverSizesImpl implements RiverSizes{
         int increment = 1;
         validElementsVisited.add(row+"-"+col);
 
-        while (col-increment>=0 && rivers[row][col-increment]==1 && !visited(row,col-increment)){
-            size ++;
-            validElementsVisited.add(row+"-"+(col-increment));
-            size+=traverseRiver(row, col-increment);
+        while (canFlow(col - increment >= 0,row,  col - increment)){
+            size = getSize(row, size, col - increment);
             increment++;
 
         }
 
         increment = 1;
 
-        while (col+increment <= rivers[row].length-1 && rivers[row][col+increment]==1 && !visited(row,col+increment)){
-            size ++;
-            validElementsVisited.add(row+"-"+(col+increment));
-            size+=traverseRiver(row, col+increment);
+        while (canFlow(col+increment <= rivers[row].length-1,row,col+increment)){
+            size = getSize(row, size, col+increment);
             increment ++;
         }
 
         increment = 1;
-        while (row-increment >=0 && rivers[row-increment][col]==1 && !visited(row-increment,col)){
-            size ++;
-            validElementsVisited.add((row-increment)+"-"+col);
-            size+=traverseRiver(row-increment, col);
+        while (canFlow(row-increment >=0,row-increment,  col)){
+            size = getSize(row-increment, size, col);
             increment ++;
         }
 
         increment = 1;
-        while (row+increment <= rivers.length-1 && rivers[row+increment][col]==1 && !visited(row+increment,col)){
-            size ++;
-            validElementsVisited.add((row+increment)+"-"+col);
-            size+=traverseRiver(row+increment, col);
+        while (canFlow(row+increment <= rivers.length-1,row+increment, col)){
+            size = getSize(row+increment, size, col);
             increment ++;
         }
+        return size;
+    }
+
+    private boolean canFlow(boolean baseCondition, int row, int col) {
+        return baseCondition && rivers[row][col] == 1 && notVisited(row, col);
+    }
+
+    private boolean notVisited(int row, int col){
+        return !validElementsVisited.contains(row+"-"+col);
+    }
+
+    private int getSize(int row, int size, int i) {
+        size++;
+        validElementsVisited.add(row + "-" + (i));
+        size += traverseRiver(row, i);
         return size;
     }
 }

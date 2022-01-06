@@ -1,3 +1,5 @@
+package riversizes;
+
 import java.util.List;
 
 /**
