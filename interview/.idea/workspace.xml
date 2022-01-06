@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesAlternativeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/RiverSizesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearch$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/BreadthFirstSearchImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/RiverSizesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/classes/SingleCycleCheckImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/BreadthFirstSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/BreadthFirstSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/RiverSizesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/target/test-classes/SingleCycleCheckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/test-classes/SingleCycleCheckTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,11 +230,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="riversizes" />
+      <recent name="singlecyclecheck" />
+      <recent name="breadthfirstsearch" />
       <recent name="" />
       <recent name="kadanesalgorithm" />
-      <recent name="numberofwaystotraversegraph" />
-      <recent name="minimumcoinsforchange" />
-      <recent name="levenshteindistance" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -233,51 +244,50 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RiverSizesTest">
-    <configuration name="RiverSizesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RiverSizesTest.riverSizesAlternativeImplTest">
+    <configuration name="All in medium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiverSizesTest.riverSizes5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RiverSizesTest.riverSizes3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizes5" />
+      <option name="METHOD_NAME" value="riverSizes3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiverSizesTest.riverSizes6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RiverSizesTest.riverSizesAlternativeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizes6" />
+      <option name="METHOD_NAME" value="riverSizesAlternativeImplTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiverSizesTest.riverSizes7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RiverSizesTest.riverSizesImpl1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizes7" />
+      <option name="METHOD_NAME" value="riverSizesImpl1Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiverSizesTest.riverSizes8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RiverSizesTest.riverSizesImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizes8" />
+      <option name="METHOD_NAME" value="riverSizesImplTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RiverSizesTest" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizes7" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizes8" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizes6" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizes5" />
+        <item itemvalue="JUnit.RiverSizesTest.riverSizesAlternativeImplTest" />
+        <item itemvalue="JUnit.RiverSizesTest.riverSizesImplTest" />
+        <item itemvalue="JUnit.RiverSizesTest.riverSizesImpl1Test" />
+        <item itemvalue="JUnit.RiverSizesTest.riverSizes3" />
+        <item itemvalue="JUnit.All in medium" />
       </list>
     </recent_temporary>
   </component>
@@ -638,32 +648,32 @@
           <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/SingleCycleCheckImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheckImpl.java</url>
           <line>20</line>
           <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/BreadthFirstSearchImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/breadthfirstsearch/BreadthFirstSearchImpl.java</url>
           <line>17</line>
           <option name="timeStamp" value="283" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
+          <line>40</line>
           <option name="timeStamp" value="285" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>54</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
+          <line>50</line>
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
+          <line>62</line>
           <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/RiverSizesImpl.java</url>
+          <url>file://$PROJECT_DIR$/medium/src/main/java/riversizes/RiverSizesImpl.java</url>
           <line>28</line>
           <option name="timeStamp" value="289" />
         </line-breakpoint>

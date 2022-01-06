@@ -12,13 +12,13 @@ public interface BreadthFirstSearch {
 
     class Node{
 
-        String name;
-        List<Node> children = new ArrayList<>();
+        public String name;
+        public List<Node> children = new ArrayList<>();
 
     public Node(String name) {
         this.name = name;
 
-    }}
-
+    }
+    }
 
 }
