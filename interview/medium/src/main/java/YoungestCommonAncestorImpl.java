@@ -7,7 +7,51 @@
  * */
 public class YoungestCommonAncestorImpl implements YoungestCommonAncestor{
     @Override
-    public AncestralTree getYoungestCommonAncestor(AncestralTree topAncestor, AncestralTree descendantOne, AncestralTree descendantTwo) {
-        return null;
+    public AncestralTree getYoungestCommonAncestor(AncestralTree topAncestor, AncestralTree one, AncestralTree two) {
+        boolean descendantOneNotFound = true;
+        boolean descendantTwoNotFound = true;
+        int descendantOneDepth = 0;
+        int descendantTwoDepth = 0;
+        AncestralTree currentAncestorOne = one;
+        AncestralTree currentAncestorTwo = two;
+        while (descendantOneNotFound || descendantTwoNotFound){
+
+            if(currentAncestorOne== topAncestor) descendantOneNotFound=false;
+            if(currentAncestorTwo==topAncestor) descendantTwoNotFound = false;
+
+            if (descendantOneNotFound) {
+                currentAncestorOne = currentAncestorOne.ancestor;
+                descendantOneDepth++;
+            }
+            if (descendantTwoNotFound) {
+                currentAncestorTwo = currentAncestorTwo.ancestor;
+                descendantTwoDepth++;
+            }
+
+        }
+
+        AncestralTree deepest = descendantOneDepth > descendantTwoDepth ? one : two;
+        if(deepest == one){
+            currentAncestorOne = findMatchingAncestor(one,descendantOneDepth-descendantTwoDepth);
+            currentAncestorTwo = two;
+        }
+        if(deepest == two) {
+            currentAncestorTwo = findMatchingAncestor(two,descendantTwoDepth-descendantOneDepth);
+            currentAncestorOne = one;
+        }
+
+        while(currentAncestorOne!=currentAncestorTwo){
+            currentAncestorOne = currentAncestorOne.ancestor;
+            currentAncestorTwo = currentAncestorTwo.ancestor;
+        }
+        return currentAncestorTwo;
+    }
+
+    private AncestralTree findMatchingAncestor(AncestralTree ancestralTree, int levelRequired) {
+        while (levelRequired!=0) {
+            ancestralTree = ancestralTree.ancestor;
+            levelRequired--;
+        }
+        return ancestralTree;
     }
 }
