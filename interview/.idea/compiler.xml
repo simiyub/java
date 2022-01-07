@@ -11,6 +11,10 @@
       <module name="easy_main" target="11" />
       <module name="easy_test" target="11" />
       <module name="medium" target="11" />
+      <module name="topskills.tech-bit-manipulation_main" target="1.8" />
+      <module name="topskills.tech-bit-manipulation_test" target="1.8" />
+      <module name="topskills.tech-easy_main" target="11" />
+      <module name="topskills.tech-easy_test" target="11" />
       <module name="topskills.tech.easy.main" target="11" />
       <module name="topskills.tech.easy.test" target="11" />
     </bytecodeTargetLevel>

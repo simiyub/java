@@ -29,4 +29,22 @@ class LongestPalindromicSubstringTest {
         assertEquals(expected,actual);
     }
 
+    @Test
+    public void longestPalindromeTest4(){
+        String expected = "zzzzzzzzzzzzzzzzzzzz";
+
+        String string = "abcdefgfedcbazzzzzzzzzzzzzzzzzzzz";
+        String actual = new LongestPalindromicSubstringImpl().longestPalindrome(string);
+        assertEquals(expected,actual);
+    }
+
+
+    @Test
+    public void longestPalindromeTest5(){
+        String expected = "zz2345abbbba5432zz";
+
+        String string = "zzzzzzz2345abbbba5432zzbbababa";
+        String actual = new LongestPalindromicSubstringImpl().longestPalindrome(string);
+        assertEquals(expected,actual);
+    }
 }
