@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,10 +219,10 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="riversizes" />
       <recent name="singlecyclecheck" />
       <recent name="breadthfirstsearch" />
-      <recent name="" />
       <recent name="kadanesalgorithm" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -235,7 +233,16 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest2">
+    <configuration name="LongestPalindromicSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -246,31 +253,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
+      <option name="METHOD_NAME" value="longestPalindromeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RiverSizesTest.riverSizesAlternativeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
       <option name="METHOD_NAME" value="riverSizesAlternativeImplTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RiverSizesTest.riverSizesImpl1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizesImpl1Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RiverSizesTest.riverSizesImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizesImplTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest2" />
+        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
         <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest" />
         <item itemvalue="JUnit.YoungestCommonAncestorTest.getYoungestCommonAncestorTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesAlternativeImplTest" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizesImplTest" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizesImpl1Test" />
       </list>
     </recent_temporary>
   </component>
@@ -679,6 +676,11 @@
           <url>file://$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="302" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

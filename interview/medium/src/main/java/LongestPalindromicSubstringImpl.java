@@ -24,21 +24,23 @@ public class LongestPalindromicSubstringImpl implements LongestPalindromicSubstr
                 if (string.charAt(i) == string.charAt(i + 1)) {
                     int leftIndex = i;
                     int rightIndex = i+1;
-                    int length = 2;
+                    boolean canExtend =true;
 
-                    while (string.charAt(leftIndex) == string.charAt(rightIndex)){
-                        leftIndex --;
-                        rightIndex ++;
+                    while (canExtend ){
+                        if (leftIndex-1 >=0 && rightIndex+1<=string.length()-1 &&
+                                string.charAt(leftIndex-1) == string.charAt(rightIndex+1)) {
+                            canExtend = true;
+                            leftIndex--;
+                            rightIndex++;
+                        }
+                        else canExtend = false;
                     }
-                    leftIndex++;
-                    rightIndex--;
+
                     if((rightIndex-leftIndex)>(rightIndexLongest-leftIndexLongest)){
                      leftIndexLongest = leftIndex;
                      rightIndexLongest = rightIndex;
                     }
-
                 }
-
             }
             char[] newPalindrome = new char[(rightIndexLongest - leftIndexLongest)+1];
             int index = leftIndexLongest;
