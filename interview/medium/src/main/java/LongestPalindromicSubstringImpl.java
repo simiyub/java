@@ -21,8 +21,10 @@ public class LongestPalindromicSubstringImpl implements LongestPalindromicSubstr
             int leftIndexLongest = 0;
             int rightIndexLongest = 0;
             for (int i = 0; i <= string.length()-2; i++) {
-                if (string.charAt(i) == string.charAt(i + 1)) {
-                    int leftIndex = i;
+                boolean b = i>0 && string.charAt(i - 1) == string.charAt(i + 1);
+                boolean b1 = string.charAt(i) == string.charAt(i + 1);
+                if (b1 || b) {
+                    int leftIndex = b ? i-1 : i;
                     int rightIndex = i+1;
                     boolean canExtend =true;
 

@@ -20,6 +20,13 @@ class LongestPalindromicSubstringTest {
         String actual = new LongestPalindromicSubstringImpl().longestPalindrome(string);
         assertEquals(expected,actual);
     }
+    @Test
+    public void longestPalindromeTest3(){
+        String expected = "abcdefgfedcba";
 
+        String string = "abcdefgfedcba";
+        String actual = new LongestPalindromicSubstringImpl().longestPalindrome(string);
+        assertEquals(expected,actual);
+    }
 
 }
