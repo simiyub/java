@@ -1,9 +1,9 @@
 /**
  * This function takes in three instances of ancestral trees representing
  * the most senior of the trees and two descendants. It returns the
- * youngest common descendants of the two. Effectively, the ancestor closest to
+ * youngest common ancestor of the two descendants. Effectively, the ancestor closest to
  * the two descendants. An ancestral tree is considered to be it's own
- * descendant.
+ * ancestor.
  * */
 public interface YoungestCommonAncestor {
     AncestralTree getYoungestCommonAncestor(
