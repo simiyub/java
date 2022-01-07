@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestor$AncestralTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestor$AncestralTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/YoungestCommonAncestorImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,12 +235,12 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.YoungestCommonAncestorTest.getYoungestCommonAncestorTest">
-    <configuration name="RiverSizesTest.riverSizes3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest">
+    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RiverSizesTest" />
-      <option name="METHOD_NAME" value="riverSizes3" />
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
+      <option name="METHOD_NAME" value="longestPalindromeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest" />
         <item itemvalue="JUnit.YoungestCommonAncestorTest.getYoungestCommonAncestorTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesAlternativeImplTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesImplTest" />
         <item itemvalue="JUnit.RiverSizesTest.riverSizesImpl1Test" />
-        <item itemvalue="JUnit.RiverSizesTest.riverSizes3" />
       </list>
     </recent_temporary>
   </component>
@@ -673,6 +674,11 @@
           <url>file://$PROJECT_DIR$/medium/src/main/java/YoungestCommonAncestorImpl.java</url>
           <line>46</line>
           <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/test/java/LongestPalindromicSubstringTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="299" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
