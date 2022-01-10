@@ -1,9 +1,9 @@
 package util;
 
 public class Node {
-    int value;
-    Node left;
-    Node right;
+    public int value;
+    public Node left;
+    public Node right;
 
     public Node(int value) {
         this.value = value;

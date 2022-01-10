@@ -5,8 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/DepthFirstSearchImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/depthfirstsearch/DepthFirstSearchImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/depthfirstsearch/DepthFirstSearchImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/selectionsort/SelectionSortImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/selectionsort/SelectionSortImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/util/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/util/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SelectionSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SelectionSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/removeduplicatesfromlinkedlist/RemoveDuplicatesFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/removeduplicatesfromlinkedlist/RemoveDuplicatesFromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -247,63 +269,119 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest">
-    <configuration name="LongestPalindromicSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.SelectionSortTest.sortTest2">
+    <configuration name="SelectionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="longestPalindromeTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SelectionSortTest.sortTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="longestPalindromeTest3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SelectionSortTest.sortTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="longestPalindromeTest4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SelectionSortTest.sortTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SelectionSortTest.sortTest3&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromicSubstringTest.longestPalindromeTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstringTest" />
-      <option name="METHOD_NAME" value="longestPalindromeTest5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Tests in 'easy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest4" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest5" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest3" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest2" />
+        <item itemvalue="Gradle.SelectionSortTest.sortTest2" />
+        <item itemvalue="Gradle.SelectionSortTest.sortTest3" />
+        <item itemvalue="Gradle.SelectionSortTest.sortTest1" />
+        <item itemvalue="Gradle.SelectionSortTest" />
+        <item itemvalue="Gradle.Tests in 'easy.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -488,12 +566,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/selectionsort/SelectionSortImpl.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

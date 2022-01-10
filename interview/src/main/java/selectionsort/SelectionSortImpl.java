@@ -5,6 +5,7 @@ package selectionsort;
  * There's no additional space required as we sort the array in place.
  * */
 public class SelectionSortImpl implements SelectionSort {
+
     @Override
     public int[] sort(int[] array) {
         int unsortedStartIndex = 0;

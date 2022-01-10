@@ -1,3 +1,5 @@
 rootProject.name = 'easy'
 include 'bit-manipulation'
+include 'top-algorithm-topics'
+include 'top-algorithm-interview-topics'
 

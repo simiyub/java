@@ -1,7 +1,9 @@
 package depthfirstsearch;
 
-import util.BST;
+
+
 import util.Node;
+import util.BST;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +11,11 @@ import java.util.List;
 /**
  * O( vertices + edges) T and O(v) S
  * */
-public class DepthFirstSearchImpl implements DepthFirstSearch {
+public class DepthFirstSearchImpl implements DepthFirstSearch{
 
     @Override
     public List<Integer> list(BST tree) {
+
         return listRecursively(tree.getRoot(), new ArrayList<>());
     }
 

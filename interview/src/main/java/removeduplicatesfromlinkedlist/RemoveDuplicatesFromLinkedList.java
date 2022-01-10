@@ -6,7 +6,7 @@ import java.util.Objects;
  * Given a sorted singly linked list, remove the duplicates and retain unique values in sorted order.
  * */
 public interface RemoveDuplicatesFromLinkedList {
-    LinkedListRecord removeDuplicates(LinkedListRecord linkedListRecord);
+    public LinkedListRecord removeDuplicates(LinkedListRecord linkedListRecord);
 
     class LinkedListRecord {
         public int value;

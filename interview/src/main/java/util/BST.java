@@ -1,6 +1,6 @@
 package util;
 
-public class BST {
+public class BST{
     private Node root;
 
     private Node add(Node bst, int newValue) {

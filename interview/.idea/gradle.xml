@@ -4,13 +4,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/Development/gradle-4.10.2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/bit-manipulation" />
+            <option value="$PROJECT_DIR$/top-algorithm-interview-topics" />
+            <option value="$PROJECT_DIR$/top-algorithm-topics" />
           </set>
         </option>
       </GradleProjectSettings>
