@@ -7,7 +7,6 @@
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/target/classes/LongestPalindromicSubstringImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/medium/target/classes/LongestPalindromicSubstringImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +247,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest4">
+  <component name="RunManager" selected="JUnit.LongestPalindromicSubstringTest">
     <configuration name="LongestPalindromicSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
@@ -300,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
         <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest4" />
         <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest5" />
         <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest3" />
         <item itemvalue="JUnit.LongestPalindromicSubstringTest.longestPalindromeTest2" />
-        <item itemvalue="JUnit.LongestPalindromicSubstringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +703,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/LongestPalindromicSubstringImpl.java</url>
-          <line>78</line>
+          <line>77</line>
           <option name="timeStamp" value="306" />
         </line-breakpoint>
       </breakpoints>

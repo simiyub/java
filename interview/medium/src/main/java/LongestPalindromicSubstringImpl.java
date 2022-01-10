@@ -67,7 +67,6 @@ public class LongestPalindromicSubstringImpl implements LongestPalindromicSubstr
             }
             char[] newPalindrome = new char[(rightIndexLongest - leftIndexLongest)+1];
             int index = leftIndexLongest;
-            int newIndex = 0;
             for(int i=0;i<newPalindrome.length;i++){
                 if(index<=rightIndexLongest){
                     newPalindrome[i] = string.charAt(index);
