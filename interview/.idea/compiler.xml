@@ -11,6 +11,8 @@
       <module name="easy_main" target="11" />
       <module name="easy_test" target="11" />
       <module name="medium" target="11" />
+      <module name="top-algorithm-interview-topics_main" target="11" />
+      <module name="top-algorithm-interview-topics_test" target="11" />
       <module name="topskills.tech-bit-manipulation_main" target="1.8" />
       <module name="topskills.tech-bit-manipulation_test" target="1.8" />
       <module name="topskills.tech-easy_main" target="11" />

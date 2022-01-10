@@ -1,16 +1,13 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class DepthFirstSearchTest {
+    DepthFirstSearchImpl depthFirstSearch;
 
-    @Test
-    void search() {
-
-    }
-
-    @Test
-    void  testGraph(){
+    @BeforeEach
+    void setUp() {
 
         String[] airports = new String[]{"PHX", "BKK", "OKC", "JFK", "LAX",
                 "MEX","EZE","HEL", "LOS", "LAP", "LIM"};
@@ -26,7 +23,25 @@ class DepthFirstSearchTest {
                 new String[]{"MEX", "EZE"},
                 new String[]{"LIM", "BKK"}
         };
-        Graph graph = new DepthFirstSearchImpl().createGraph(airports,routes);
-        System.out.println(graph.getNodes());
+
+        depthFirstSearch = new DepthFirstSearchImpl();
+        depthFirstSearch.createGraph(airports,routes);
+    }
+
+    @Test
+    void search1() {
+        assertFalse(depthFirstSearch.search("PHX", "BKK"));
+
+    }
+
+    @Test
+    void search2() {
+        assertTrue(depthFirstSearch.search("MEX", "BKK"));
+
+    }
+
+    @Test
+    void  testGraph(){
+        assertNotNull(depthFirstSearch.getGraph());
     }
 }

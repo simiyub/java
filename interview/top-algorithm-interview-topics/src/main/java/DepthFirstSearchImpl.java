@@ -1,23 +1,40 @@
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class DepthFirstSearchImpl implements DepthFirstSearch {
-
+    private Graph graph;
 
     public Graph createGraph(String[] airports, String[][] routes) {
-        Graph graph = new Graph();
+        graph = new Graph();
         Arrays.stream(airports).forEach(graph::addNode);
-        Arrays.stream(routes[0]).forEach( name ->{
-                List<String> airs = Arrays.stream(airports).filter(air -> Objects.equals(name, air)).collect(Collectors.toList());
-                airs.forEach(air -> graph.addEdge(air,name));
+        graph.getNodes().forEach( (nodeName, node) ->{
+            Arrays.stream(routes).forEach(route ->{
+                if(route[0].equals(nodeName)) node.addAdjacentNode(route[1]);
+                else  if(route[1].equals(nodeName)) node.addAdjacentNode(route[0]);
+            });
         });
         return graph;
     }
 
     @Override
-    public void search() {
+    public boolean search(String origin, String destination) {
+        Queue<String> queue = new LinkedList<>();
+        queue.add(origin);
+        Set<String> seen = new HashSet<>();
+        while (!queue.isEmpty()){
+            String currentNodeName = queue.remove();
+            if(!seen.contains(currentNodeName)){
+                seen.add(currentNodeName);
+                Node currentNode = graph.getNodes().get(currentNodeName);
+                if(currentNode.equals(destination)) return true;
+                currentNode.getAdjacentNodes().stream().forEach(queue::add);
+            }
+        }
+        return false;
 
+    }
+
+    public Graph getGraph() {
+        return graph;
     }
 }

@@ -1,4 +1,4 @@
 public interface DepthFirstSearch {
 
-    void search();
+    boolean search(String origin, String destination);
 }
