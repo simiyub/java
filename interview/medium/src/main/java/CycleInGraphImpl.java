@@ -12,7 +12,7 @@ public class CycleInGraphImpl implements CycleInGraph {
         int[] colours = new int[edges.length];
         Arrays.fill(colours, WHITE);
 
-        for(int i=0;i<=edges.length;i++){
+        for(int i=0;i<=edges.length-1;i++){
             boolean hasCycle = hasCycle(i, colours, edges);
             if(hasCycle) return true;
         }
@@ -24,7 +24,7 @@ public class CycleInGraphImpl implements CycleInGraph {
         colours[node] = GREY;
         for(int edge:edges[node]) {
             if (colours[edge] == GREY) return true;
-            else if (colours[edge] == WHITE ) return hasCycle(edge,colours,edges);
+            if (colours[edge] == WHITE )if(hasCycle(edge,colours,edges)) return true;
         }
         colours[node] =BLACK;
         return false;
