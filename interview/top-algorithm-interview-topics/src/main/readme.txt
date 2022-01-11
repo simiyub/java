@@ -10,7 +10,8 @@ Relationships exist in graphs which can be used to provide recommendations of pr
 Depth first search
 When to use it: When we need to do exhaustive searches and all paths. Goes deep into a path.
 Time complexity: O(v+e) T and O(n) S where
-v is the vertex/node and e is the edge - connecting the vertices/nodes.
+v is the vertex/node and e is the edge connecting the vertices/nodes which in this case
+represents the number of adjacent nodes.
 The edge can be a follow or a friendship on social media.
 A follow is one direction while the friendship is undirected and goes both ways.
 Representation: A graph can be represented as a two-dimensional array. However, this has a quadratic

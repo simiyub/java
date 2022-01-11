@@ -4,14 +4,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GraphTraversalTest {
-    BFSTraversalImpl depthFirstSearch;
+    String[] airports;
+    String[][] routes;
 
     @BeforeEach
     void setUp() {
 
-        String[] airports = new String[]{"PHX", "BKK", "OKC", "JFK", "LAX",
+        airports = new String[]{"PHX", "BKK", "OKC", "JFK", "LAX",
                 "MEX","EZE","HEL", "LOS", "LAP", "LIM"};
-        String[][] routes = new String[][]{
+        routes = new String[][]{
                 new  String[]{"PHX","LAX"},
                 new String[]{"PHX", "JFK"},
                 new String[]{"JFK", "OKC"},
@@ -23,25 +24,27 @@ class GraphTraversalTest {
                 new String[]{"MEX", "EZE"},
                 new String[]{"LIM", "BKK"}
         };
+    }
 
-        depthFirstSearch = new BFSTraversalImpl();
-        depthFirstSearch.createGraph(airports,routes);
+    private void runTests(GraphTraversal impl){
+        assertFalse(impl.search("PHX", "BKK"));
+        assertTrue(impl.search("MEX", "BKK"));
     }
 
     @Test
-    void search1() {
-        assertFalse(depthFirstSearch.search("PHX", "BKK"));
-
+    void dfsImplTest() {
+        DFSTraversalImpl impl = new DFSTraversalImpl(GraphTraversal.createGraph(airports,routes));
+        runTests(impl);
     }
 
     @Test
-    void search2() {
-        assertTrue(depthFirstSearch.search("MEX", "BKK"));
-
+    void bfsImplTest() {
+        BFSTraversalImpl impl = new BFSTraversalImpl(GraphTraversal.createGraph(airports,routes));
+        runTests(impl);
     }
 
     @Test
     void  testGraph(){
-        assertNotNull(depthFirstSearch.getGraph());
+        assertNotNull(GraphTraversal.createGraph(airports,routes));
     }
 }
