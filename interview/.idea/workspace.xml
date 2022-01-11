@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/DFSTraversalImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/main/java/BalancedBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/src/test/java/BalancedBracketsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/BFSTraversalImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/BFSTraversalImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/GraphTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/main/java/GraphTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top-algorithm-interview-topics/src/test/java/GraphTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/top-algorithm-interview-topics/src/test/java/GraphTraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -257,34 +253,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GraphTraversalTest.dfsImplTest">
+  <component name="RunManager" selected="JUnit.BalancedBracketsTest.balanced">
     <configuration name="DepthFirstSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;DepthFirstSearchTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":top-algorithm-interview-topics:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DepthFirstSearchTest.search2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DepthFirstSearchTest.search2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -363,13 +338,23 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="BalancedBracketsTest.balanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="balanced" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBracketsTest.balanced" />
         <item itemvalue="Gradle.GraphTraversalTest.dfsImplTest" />
         <item itemvalue="Gradle.GraphTraversalTest.testGraph" />
         <item itemvalue="Gradle.GraphTraversalTest.bfsImplTest" />
         <item itemvalue="Gradle.DepthFirstSearchTest" />
-        <item itemvalue="Gradle.DepthFirstSearchTest.search2" />
       </list>
     </recent_temporary>
   </component>
