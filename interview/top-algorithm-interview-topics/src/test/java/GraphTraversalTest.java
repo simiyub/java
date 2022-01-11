@@ -3,8 +3,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class DepthFirstSearchTest {
-    DepthFirstSearchImpl depthFirstSearch;
+class GraphTraversalTest {
+    BFSTraversalImpl depthFirstSearch;
 
     @BeforeEach
     void setUp() {
@@ -24,7 +24,7 @@ class DepthFirstSearchTest {
                 new String[]{"LIM", "BKK"}
         };
 
-        depthFirstSearch = new DepthFirstSearchImpl();
+        depthFirstSearch = new BFSTraversalImpl();
         depthFirstSearch.createGraph(airports,routes);
     }
 
