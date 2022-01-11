@@ -6,15 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_main.iml" group="bit-manipulation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/bit-manipulation_test.iml" group="bit-manipulation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.test.iml" filepath="$PROJECT_DIR$/.idea/modules/bit-manipulation/easy.bit-manipulation.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/easy.top-algorithm-interview-topics.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-topics/easy.top-algorithm-topics.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-topics/easy.top-algorithm-topics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_main.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_test.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/medium/medium.iml" filepath="$PROJECT_DIR$/medium/medium.iml" />
