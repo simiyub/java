@@ -252,34 +252,13 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest.balanced2">
+  <component name="RunManager" selected="JUnit.BalancedBracketsTest.balanced3">
     <configuration name="GraphTraversalTest.dfsImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;GraphTraversalTest.dfsImplTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":top-algorithm-interview-topics:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GraphTraversalTest.testGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GraphTraversalTest.testGraph&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -325,13 +304,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BalancedBracketsTest.balanced3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BalancedBracketsTest" />
+      <option name="METHOD_NAME" value="balanced3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBracketsTest.balanced3" />
         <item itemvalue="JUnit.BalancedBracketsTest.balanced2" />
         <item itemvalue="JUnit.BalancedBracketsTest.balanced1" />
         <item itemvalue="JUnit.BalancedBracketsTest.balanced" />
         <item itemvalue="Gradle.GraphTraversalTest.dfsImplTest" />
-        <item itemvalue="Gradle.GraphTraversalTest.testGraph" />
       </list>
     </recent_temporary>
   </component>

@@ -19,7 +19,8 @@ public class BalancedBracketsImpl implements BalancedBrackets {
         for (Character character:string.toCharArray()){
             if(parenthesis.keySet().contains(character)) stack.push(character);
             else if (parenthesis.values().contains(character)){
-                if(!parenthesis.get(stack.peek()).equals(character)) return false;
+                Character current = stack.peek();
+                if(current==null || !parenthesis.get(current).equals(character)) return false;
                 else stack.remove();
             }
         }

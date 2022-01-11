@@ -15,4 +15,10 @@ class BalancedBracketsTest {
         String string = "([])(){}(()()()";
         assertFalse(new BalancedBracketsImpl().balanced(string));
     }
+
+    @Test
+    void balanced3() {
+        String string = ")[]}";
+        assertFalse(new BalancedBracketsImpl().balanced(string));
+    }
 }
