@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * O(n) T and O(1) S as we walk through the string checking
  * every character to determine if it is a parenthesis and if it is,
@@ -9,6 +11,19 @@
 public class BalancedBracketsImpl implements BalancedBrackets {
     @Override
     public boolean balanced(String string) {
-        return false;
+        Map<Character, Character> parenthesis = new HashMap<>();
+        parenthesis.put('{','}');
+        parenthesis.put('[',']');
+        parenthesis.put('(',')');
+        Deque<Character> stack = new ArrayDeque<>();
+        for (Character character:string.toCharArray()){
+            if(parenthesis.keySet().contains(character)) stack.push(character);
+            else if (parenthesis.values().contains(character)){
+                if(!parenthesis.get(stack.peek()).equals(character)) return false;
+                else stack.remove();
+            }
+        }
+        return stack.isEmpty();
+
     }
 }
