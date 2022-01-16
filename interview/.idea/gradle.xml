@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/bit-manipulation" />
+            <option value="$PROJECT_DIR$/real_interview" />
             <option value="$PROJECT_DIR$/top-algorithm-interview-topics" />
             <option value="$PROJECT_DIR$/top-algorithm-topics" />
           </set>
