@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_main.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy_test.iml" group="easy" />
       <module fileurl="file://$PROJECT_DIR$/medium/medium.iml" filepath="$PROJECT_DIR$/medium/medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real_interview.iml" filepath="$PROJECT_DIR$/.idea/modules/real_interview.iml" group="real_interview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real_interview/real_interview_main.iml" filepath="$PROJECT_DIR$/.idea/modules/real_interview/real_interview_main.iml" group="real_interview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/real_interview/real_interview_test.iml" filepath="$PROJECT_DIR$/.idea/modules/real_interview/real_interview_test.iml" group="real_interview" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics.iml" group="top-algorithm-interview-topics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics_main.iml" group="top-algorithm-interview-topics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/top-algorithm-interview-topics/top-algorithm-interview-topics_test.iml" group="top-algorithm-interview-topics" />
