@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06961d4b-3ef4-4893-9b6e-92ded2750a83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/src/test/java/ValidIPAddressTest.java" afterDir="false" />
+    <list default="true" id="7a5c22f2-75d1-47a9-bc09-63b1793b3951" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/test/java/ValidIPAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ValidIPAddressTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,41 +248,41 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidIPAddressTest.validIPAddresses">
-    <configuration name="CycleInGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CycleInGraphTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CycleInGraphTest.testCycleInGraph1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CycleInGraphTest" />
-      <option name="METHOD_NAME" value="testCycleInGraph1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CycleInGraphTest.testCycleInGraph4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CycleInGraphTest" />
-      <option name="METHOD_NAME" value="testCycleInGraph4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ValidIPAddressTest">
     <configuration name="PathBetweenTwoNodesTest.testFindPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PathBetweenTwoNodesTest" />
       <option name="METHOD_NAME" value="testFindPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidIPAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidIPAddressTest.testValidIPAddresses0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
+      <option name="METHOD_NAME" value="testValidIPAddresses0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidIPAddressTest.testValidIPAddresses1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="medium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
+      <option name="METHOD_NAME" value="testValidIPAddresses1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidIPAddressTest" />
+        <item itemvalue="JUnit.ValidIPAddressTest.testValidIPAddresses0" />
+        <item itemvalue="JUnit.ValidIPAddressTest.testValidIPAddresses1" />
         <item itemvalue="JUnit.ValidIPAddressTest.validIPAddresses" />
         <item itemvalue="JUnit.PathBetweenTwoNodesTest.testFindPath" />
-        <item itemvalue="JUnit.CycleInGraphTest" />
-        <item itemvalue="JUnit.CycleInGraphTest.testCycleInGraph4" />
-        <item itemvalue="JUnit.CycleInGraphTest.testCycleInGraph1" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +320,14 @@
       <option name="presentableId" value="Default" />
       <updated>1637858227610</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'main' of github.com:simiyub/java&#10;&#10;# Conflicts:&#10;#&#9;interview/.idea/workspace.xml&#10;sd">
+      <created>1642503361341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642503361341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -414,6 +421,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of github.com:simiyub/java&#10;&#10;# Conflicts:&#10;#&#9;interview/.idea/workspace.xml" />
+    <MESSAGE value="Merge branch 'main' of github.com:simiyub/java&#10;&#10;# Conflicts:&#10;#&#9;interview/.idea/workspace.xml&#10;sd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of github.com:simiyub/java&#10;&#10;# Conflicts:&#10;#&#9;interview/.idea/workspace.xml&#10;sd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,6 +724,16 @@
           <url>file://$PROJECT_DIR$/medium/src/main/java/CycleInGraphImpl.java</url>
           <line>15</line>
           <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="324" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
