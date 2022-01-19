@@ -9,7 +9,7 @@ package singlecyclecheck;
  * ------------
  * We track the current index to determine if we have gone back to the beginning of the
  * cycle in which case we return true, meaning we have a single cycle. On the other hand
- * if we run through the array up to the length of the array and haven't returned to the
+ * if we run through the array up to the end and haven't returned to the
  * beginning, we know we do not have a single cycle.
  * */
 

@@ -3,7 +3,7 @@ package util;
 public class BST{
     private Node root;
 
-    private Node add(Node bst, int newValue) {
+    private Node add(Node bst, int newValue){
 
         if (bst == null) return new Node(newValue);
         if (newValue <= bst.value) bst.left = add(bst.left, newValue);

@@ -9,7 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * O( vertices + edges) T and O(v) S
+ * O( vertices + edges) T and O(v) S as we call the function iteratively in each node and its children.
+ * As we are using recursion we, each call is on the stack until we write to the array.
+ * How it works
+ * ------------
+ * We add the first node onto the array provided and subsequently call the function with the children of the node.
  * */
 public class DepthFirstSearchImpl implements DepthFirstSearch{
 

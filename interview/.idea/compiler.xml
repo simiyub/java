@@ -8,6 +8,9 @@
       <module name="easy.bit-manipulation" target="1.8" />
       <module name="easy.bit-manipulation.main" target="1.8" />
       <module name="easy.bit-manipulation.test" target="1.8" />
+      <module name="easy.real_interview" target="1.8" />
+      <module name="easy.real_interview.main" target="1.8" />
+      <module name="easy.real_interview.test" target="1.8" />
       <module name="easy_main" target="11" />
       <module name="easy_test" target="11" />
       <module name="medium" target="11" />

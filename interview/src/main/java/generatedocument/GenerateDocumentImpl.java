@@ -3,14 +3,14 @@ package generatedocument;
 import java.util.HashMap;
 import java.util.Map;
 /**
- *O(n+m) T O(uniqueChar) S We iterate through the two strings,
+ *O(n+m) T O(uniqueChar) S as we iterate through the two strings,
  * so the time complexity is the sum of the two.
  * We need space to store the map  of the characters
  * and count of how many there are in the characters available.
  *
  * How it works
  * ------------
- * We iterate through the characters available and store the count
+ * We iterate through the characters available and store the count in a map
  * Then we iterate through the document required
  * and each time check the store of characters available
  * reducing by 1 if we find it.

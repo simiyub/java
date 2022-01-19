@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5c22f2-75d1-47a9-bc09-63b1793b3951" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/src/test/java/ValidIPAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/test/java/ValidIPAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheckImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheckImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_interview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/real_interview/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/caesarcipherencryptor/CaesarCipherEncryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/caesarcipherencryptor/CaesarCipherEncryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/caesarcipherencryptor/CaesarCipherEncryptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/caesarcipherencryptor/CaesarCipherEncryptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/depthfirstsearch/DepthFirstSearchImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstnonrepeatingcharacter/FirstNonRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstnonrepeatingcharacter/FirstNonRepeatingCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstnonrepeatingcharacter/FirstNonRepeatingCharacterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstnonrepeatingcharacter/FirstNonRepeatingCharacterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocumentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generatedocument/GenerateDocumentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeCheckImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeCheckImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runlengthencoding/RunLengthEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runlengthencoding/RunLengthEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runlengthencoding/RunLengthEncodingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runlengthencoding/RunLengthEncodingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,51 +268,96 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidIPAddressTest">
-    <configuration name="PathBetweenTwoNodesTest.testFindPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PathBetweenTwoNodesTest" />
-      <option name="METHOD_NAME" value="testFindPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JUnit.SingleCycleCheckTest.testHasSingleCycle">
+    <configuration name="CaesarCipherEncryptorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CaesarCipherEncryptorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="ValidIPAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="DepthFirstSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DepthFirstSearchTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="ValidIPAddressTest.testValidIPAddresses0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
-      <option name="METHOD_NAME" value="testValidIPAddresses0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="GenerateDocumentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GenerateDocumentTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="ValidIPAddressTest.testValidIPAddresses1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="medium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
-      <option name="METHOD_NAME" value="testValidIPAddresses1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="PalindromeCheckTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;PalindromeCheckTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="ValidIPAddressTest.validIPAddresses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleCycleCheckTest.testHasSingleCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="medium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidIPAddressTest" />
-      <option name="METHOD_NAME" value="validIPAddresses" />
+      <option name="MAIN_CLASS_NAME" value="SingleCycleCheckTest" />
+      <option name="METHOD_NAME" value="testHasSingleCycle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidIPAddressTest" />
-        <item itemvalue="JUnit.ValidIPAddressTest.testValidIPAddresses0" />
-        <item itemvalue="JUnit.ValidIPAddressTest.testValidIPAddresses1" />
-        <item itemvalue="JUnit.ValidIPAddressTest.validIPAddresses" />
-        <item itemvalue="JUnit.PathBetweenTwoNodesTest.testFindPath" />
+        <item itemvalue="JUnit.SingleCycleCheckTest.testHasSingleCycle" />
+        <item itemvalue="Gradle.DepthFirstSearchTest" />
+        <item itemvalue="Gradle.GenerateDocumentTest" />
+        <item itemvalue="Gradle.CaesarCipherEncryptorTest" />
+        <item itemvalue="Gradle.PalindromeCheckTest" />
       </list>
     </recent_temporary>
   </component>
@@ -727,13 +792,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/medium/src/main/java/ValidIPAddressImpl.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="324" />
+          <url>file://$PROJECT_DIR$/medium/src/main/java/singlecyclecheck/SingleCycleCheckImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="325" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
