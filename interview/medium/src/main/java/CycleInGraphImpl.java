@@ -1,5 +1,18 @@
 import java.util.Arrays;
 
+
+/**
+ * O(v+e) T and O(v) S This is because we iterate through
+ * the array reviewing the vertices and adjacent vertices and in worst case,
+ * we would have to review all of them, hence v+e.
+ *
+ * How it works
+ * ------------
+ * We initialise an array to store the colours of the nodes then we
+ * use this array to determine if a node has been visited or not.
+ * If in our review of the adjacent vertices we reach a node that
+ * is currently in our stack, we know we have found a cycle and return true.
+ * */
 public class CycleInGraphImpl implements CycleInGraph {
 
     int WHITE = 0;
