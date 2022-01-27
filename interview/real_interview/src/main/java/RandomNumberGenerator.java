@@ -1,3 +1,3 @@
-public interface RandomNumberGenerator {
+public interface RandomNumberGenerator{
     int nextNum();
 }
