@@ -15,4 +15,6 @@ java_upgrade*
 .idea/*
 .gradle/*
 build/*
+interview/.idea*
+demo/.idea*
 learn/
