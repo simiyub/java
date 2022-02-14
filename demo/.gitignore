@@ -1,1 +1,4 @@
 optimizing-java*
+.idea/*
+.gradle/*
+build/*

@@ -12,5 +12,7 @@ spring-springboot*
 spring-springboot3*
 optimizing-java*
 java_upgrade*
-interview/.idea/*
-interview/.gradle/*
+.idea/*
+.gradle/*
+build/*
+learn/

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.monotonic.collections._7_sets.after.ProductCatalogueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-22T16:59:11" hostname="Bramwells-iMac.lan" time="0.002">
-  <properties/>
-  <testcase name="shouldNotRecordDuplicateProducts" classname="com.monotonic.collections._7_sets.after.ProductCatalogueTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
