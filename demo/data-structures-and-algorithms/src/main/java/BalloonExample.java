@@ -10,6 +10,7 @@ public class BalloonExample <T> {
      * In one move we can delete seven letters from S,
      * forming the word "BALLOON" (one 'B', one 'A', two 'L's, two 'O's and one 'N'),
      * and leave a shorter word in S.
+     *
      * If the remaining letters in the shortened S are sufficient to allow another instance
      * of the word "BALLOON" to be removed, next move can be done.
      * What is the maximum number of such moves that we can apply to S?
