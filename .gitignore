@@ -17,4 +17,5 @@ java_upgrade*
 build/*
 interview/.idea*
 demo/.idea*
+interview/build*
 learn/
