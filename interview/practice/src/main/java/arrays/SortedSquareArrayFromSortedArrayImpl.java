@@ -1,4 +1,4 @@
-package sortedsquarearrayfromsortedarray;
+package arrays;
 
 import java.util.Arrays;
 /***

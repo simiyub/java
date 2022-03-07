@@ -1,9 +1,10 @@
+package arrays;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import sortedsquarearrayfromsortedarray.SortedSquareArrayFromSortedArrayImpl;
-import sortedsquarearrayfromsortedarray.SortedSquareArrayFromSortedArrayOptimizedImpl;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 
 class SortedSquareArrayFromSortedArrayTest {
     private static int[] array1, array2;

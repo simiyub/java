@@ -1,4 +1,4 @@
-package sortedsquarearrayfromsortedarray;
+package arrays;
 
 /**
  * O(n) T O(n) S

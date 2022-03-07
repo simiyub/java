@@ -1,4 +1,4 @@
-package sortedsquarearrayfromsortedarray;
+package arrays;
 
 /**
  * Given an array of sorted integers, return a sorted array of the square of the numbers
