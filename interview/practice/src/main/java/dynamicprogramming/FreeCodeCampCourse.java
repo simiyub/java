@@ -132,4 +132,79 @@ public class FreeCodeCampCourse {
        }
        return new int[0];
    }
+
+    /**
+     * In this case we need to find the best way to get to the target value
+     * The sub problems are to find the best way to get to constituents of the target sum
+     * m is the target sum
+     * n is the size of numbers
+     *
+     */
+   public static int[] bestSum(int target, int[] numbers){
+       int[][] table =  new int[target+1][];
+       table[0] = new int[0];
+       int[] smallestResult = null;
+       for(int tableIndex=0;tableIndex<=table.length-1;tableIndex++){
+
+           if(table[tableIndex] !=null){
+
+               for(int numberIndex=0;numberIndex<=numbers.length-1;numberIndex++){
+                   int resultIndex = tableIndex + numbers[numberIndex];
+                   if(resultIndex<=target) {
+                       int[] currentArray = table[tableIndex];
+                       table[resultIndex] = Arrays.copyOf(currentArray, currentArray.length + 1);
+                       table[resultIndex][currentArray.length] = numbers[numberIndex];
+                       int[] resultArray = table[resultIndex];
+                       int sum = Arrays.stream(resultArray).sum();
+                       if( sum==target){
+                           if(smallestResult == null) smallestResult = resultArray;
+                           if (smallestResult.length == 1) return smallestResult;
+                           else if (resultArray.length < smallestResult.length) smallestResult = resultArray;
+                       }
+                   }
+               }
+           }
+
+       }
+       System.out.println(Arrays.toString(smallestResult));
+           return smallestResult;
+    }
+
+    /**
+     * Write a function that accepts a target string and an array of strings and returns a boolean
+     * indicating if the target word can be constructed from elements of the word bank array.
+     * You may use elements of the word bank array as many times as you wish.
+     * We know that the array of words will not change.
+     * We will be taking a substring of the target string off as we find elements that match a
+     * prefix of it and then recursively check for other prefixes until we get to the empty
+     * base case or arrive at an element that is not in the array.
+     * */
+    public static boolean canConstruct(String target, String[] words){
+
+        Boolean[] table = new Boolean[target.length()+1];
+        Arrays.fill(table,false);
+        table[0] = true;
+        for (int tableIndex=0; tableIndex<=table.length-1;tableIndex++){
+
+            for (String word : words) {
+
+                if (table[tableIndex]) {
+
+                    int newIndex = tableIndex + word.length();
+                    if (newIndex <= table.length - 1) {
+                        if (target.substring(tableIndex, newIndex).equalsIgnoreCase(word)) table[newIndex] = true;
+
+                        if (table[target.length()]) {
+                            System.out.println(Arrays.toString(table));
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+
+        return table[target.length()];
+    }
+
+
 }

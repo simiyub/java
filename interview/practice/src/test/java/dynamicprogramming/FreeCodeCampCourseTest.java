@@ -14,16 +14,16 @@ class FreeCodeCampCourseTest {
     }
 
     @Test
-    void testTravelGrid(){
-        assertEquals(1, FreeCodeCampCourse.gridTravel(1,1));
-        assertEquals(3, FreeCodeCampCourse.gridTravel(2,3));
-        assertEquals(3, FreeCodeCampCourse.gridTravel(3,2));
-        assertEquals(6, FreeCodeCampCourse.gridTravel(3,3));
-        assertEquals(48620, FreeCodeCampCourse.gridTravel(10,10));
+    void testTravelGrid() {
+        assertEquals(1, FreeCodeCampCourse.gridTravel(1, 1));
+        assertEquals(3, FreeCodeCampCourse.gridTravel(2, 3));
+        assertEquals(3, FreeCodeCampCourse.gridTravel(3, 2));
+        assertEquals(6, FreeCodeCampCourse.gridTravel(3, 3));
+        assertEquals(48620, FreeCodeCampCourse.gridTravel(10, 10));
     }
 
     @Test
-    void testCanSum(){
+    void testCanSum() {
         assertTrue(FreeCodeCampCourse.canSum(7, new int[]{2, 3}));
         assertTrue(FreeCodeCampCourse.canSum(7, new int[]{5, 3, 4, 7}));
         assertFalse(FreeCodeCampCourse.canSum(7, new int[]{2, 4}));
@@ -32,11 +32,28 @@ class FreeCodeCampCourseTest {
     }
 
     @Test
-    void testHowSum(){
+    void testHowSum() {
         assertEquals(7, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{2, 3})).sum());
         assertEquals(7, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{5, 3, 4})).sum());
         assertEquals(0, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{2, 4})).sum());
         assertEquals(8, Arrays.stream(FreeCodeCampCourse.howSum(8, new int[]{2, 3, 5})).sum());
         assertEquals(0, Arrays.stream(FreeCodeCampCourse.howSum(300, new int[]{7, 14})).sum());
+    }
+
+    @Test
+    void testBestSum() {
+        assertEquals(3, Arrays.stream(FreeCodeCampCourse.bestSum(7, new int[]{2, 3})).count());
+        assertEquals(2, Arrays.stream(FreeCodeCampCourse.bestSum(7, new int[]{5, 3, 4})).count());
+        assertNull(FreeCodeCampCourse.bestSum(7, new int[]{2, 4}));
+        assertEquals(2, Arrays.stream(FreeCodeCampCourse.bestSum(8, new int[]{2, 3, 5})).count());
+        assertNull(FreeCodeCampCourse.bestSum(300, new int[]{7, 14}));
+    }
+
+    @Test
+    void testCanConstruct() {
+
+    assertTrue(FreeCodeCampCourse.canConstruct("abcdef", new String[]{"ab", "abc", "cd", "def", "abcd"}));
+        assertFalse(FreeCodeCampCourse.canConstruct("skateboard", new String[]{"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
+        assertFalse(FreeCodeCampCourse.canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", new String[]{"e", "ee", "eee", "eeee", "eeeeee", "eeeeee"}));
     }
 }
