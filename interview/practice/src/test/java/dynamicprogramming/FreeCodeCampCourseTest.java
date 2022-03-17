@@ -2,6 +2,8 @@ package dynamicprogramming;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class FreeCodeCampCourseTest {
@@ -27,5 +29,14 @@ class FreeCodeCampCourseTest {
         assertFalse(FreeCodeCampCourse.canSum(7, new int[]{2, 4}));
         assertTrue(FreeCodeCampCourse.canSum(8, new int[]{2, 3, 5}));
         assertFalse(FreeCodeCampCourse.canSum(300, new int[]{7, 14}));
+    }
+
+    @Test
+    void testHowSum(){
+        assertEquals(7, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{2, 3})).sum());
+        assertEquals(7, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{5, 3, 4})).sum());
+        assertEquals(0, Arrays.stream(FreeCodeCampCourse.howSum(7, new int[]{2, 4})).sum());
+        assertEquals(8, Arrays.stream(FreeCodeCampCourse.howSum(8, new int[]{2, 3, 5})).sum());
+        assertEquals(0, Arrays.stream(FreeCodeCampCourse.howSum(300, new int[]{7, 14})).sum());
     }
 }

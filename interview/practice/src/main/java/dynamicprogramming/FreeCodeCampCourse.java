@@ -90,4 +90,46 @@ public class FreeCodeCampCourse {
         System.out.println(result);
         return result;
     }
+
+   /**
+    * In this case, we take a target sum and an array of numbers as arguments.
+    * We should return an array containing any combinations of elements that add up to
+    * exactly the target sum. If there is no combination that adds up to the target sum,
+    * we return null. If there are multiple combinations, then we just return one of them.
+    * The implementation in this case is similar to can sum. However, we need to return an array of
+    * possible combinations.
+    * howSum(7, [5, 3, 4])
+    * Complexity
+    * To start with, we are iterating through the numbers for each position in the table we
+    * have created which adds up to O(m*n). In addition, we are making a copy of the table entries
+    * and in worst case scenario, this would be m. As a result we have a time complexity of Om^2 n
+    * Space complexity in this case will be O(m^2) given that the table can potentially have
+    * up to target number of elements.
+    * */
+   public static int[] howSum(int target, int[] numbers){
+       int[][] table =  new int[target+1][];
+       table[0] = new int[0];
+       for(int tableIndex=0;tableIndex<=table.length-1;tableIndex++){
+
+           if(table[tableIndex] !=null){
+
+               for(int numberIndex=0;numberIndex<=numbers.length-1;numberIndex++){
+                   int resultIndex = tableIndex + numbers[numberIndex];
+                   if(resultIndex<=target) {
+                       int[] currentArray = table[tableIndex];
+                       table[resultIndex] = Arrays.copyOf(currentArray, currentArray.length + 1);
+                       table[resultIndex][currentArray.length] = numbers[numberIndex];
+                       int[] resultArray = table[resultIndex];
+                       int sum = Arrays.stream(resultArray).sum();
+                       if( sum==target){
+                           System.out.println("found:"+Arrays.toString(resultArray));
+                           return resultArray;
+                       }
+                   }
+               }
+           }
+
+       }
+       return new int[0];
+   }
 }
