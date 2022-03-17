@@ -207,4 +207,22 @@ public class FreeCodeCampCourse {
     }
 
 
+    public static int countConstruct(String target, String[] words) {
+        int[] table = new int[target.length()+1];
+        Arrays.fill(table,0);
+        table[0] = 1;
+        for(int tableIndex=0;tableIndex<=target.length()-1;tableIndex++) {
+
+
+            for (String word:words) {
+                if(tableIndex+ word.length() <=target.length()){
+                if (target.substring(tableIndex,tableIndex+word.length()).equalsIgnoreCase(word)){
+
+                    table[tableIndex+ word.length()] += table[tableIndex];
+                }
+            }
+            }
+        }
+        return table[target.length()];
+    }
 }

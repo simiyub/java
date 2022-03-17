@@ -56,4 +56,14 @@ class FreeCodeCampCourseTest {
         assertFalse(FreeCodeCampCourse.canConstruct("skateboard", new String[]{"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
         assertFalse(FreeCodeCampCourse.canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", new String[]{"e", "ee", "eee", "eeee", "eeeeee", "eeeeee"}));
     }
+
+    @Test
+    void testCountConstruct() {
+        assertEquals(2, FreeCodeCampCourse.countConstruct("purple", new String[]{"purp", "p", "ur", "le", "purpl"}));
+        assertEquals(1, FreeCodeCampCourse.countConstruct("abcdef", new String[]{"ab", "abc", "cd", "def", "abcd"}));
+        assertEquals(0, FreeCodeCampCourse.countConstruct("skateboard", new String[]{"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
+        assertEquals(0, FreeCodeCampCourse.countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", new String[]{"e", "ee", "eee", "eeee", "eeeeee", "eeeeee"}));
+    }
+
+
 }
