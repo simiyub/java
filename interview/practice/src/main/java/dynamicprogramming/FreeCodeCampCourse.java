@@ -1,7 +1,6 @@
 package dynamicprogramming;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 
 public class FreeCodeCampCourse {
@@ -11,7 +10,7 @@ public class FreeCodeCampCourse {
     /**
      * Seed the array
      * Create an array with size greater than the value provided by 1.
-     * Fibonacci requires a sum. So we start off by initialisng the array with zeros.
+     * Fibonacci requires a sum. So we start off by initialising the array with zeros.
      * The first value stays as zero
      * The index corresponds to a gfi
      * */
@@ -38,7 +37,7 @@ public class FreeCodeCampCourse {
      if any of the dimensions is zero then there's no path to traverse
      grid_traversal(3,3) => 3
      Every step towards the bottom right shrinks our problem and grid towards the base case of (1,1)
-     Every times, structure the problem as a tree to visualise
+     Every time, structure the problem as a tree to visualise
      grid_traversal(2,3) => 3
      knowing the result of a simple examples, we can visualise our logic
      * */
@@ -56,5 +55,39 @@ public class FreeCodeCampCourse {
         Arrays.stream(array).forEach(a -> System.out.println(Arrays.toString(a)));
         System.out.println("*****************");
         return array[width][height];
+    }
+
+    /**
+     * Write a function that takes in a target sum and an array of numbers as arguments.
+     * The function should return a boolean indicating if it is possible
+     * to generate the target sum using numbers from the array.
+     * You may use an element of the array as many times as needed.
+     * You may assume that all input numbers are non-negative.
+     *complexity - O(nm) T O(m) S
+     * */
+
+    public static boolean canSum(int target, int[] array){
+        Boolean[] table = new Boolean[target+1];
+        Arrays.fill(table,false);
+        table[0] = true;
+        for(int i=0;i<=table.length-1;i++){
+
+            if(table[i]) {
+                for(int j=0;j<=array.length-1;j++){
+                    int nextIndex = i+array[j];
+                    if(nextIndex<=target) {
+
+                        if (nextIndex == target) {
+                            System.out.println("found it");
+                            return true;
+                        }
+                        table[nextIndex] = true;
+                    }
+                }
+            }
+        }
+        boolean result = table[target];
+        System.out.println(result);
+        return result;
     }
 }
