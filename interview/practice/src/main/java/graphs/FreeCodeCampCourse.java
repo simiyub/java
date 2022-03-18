@@ -166,4 +166,50 @@ public class FreeCodeCampCourse {
         return true;
     }
 
+    /**
+     * Write a function, largestComponent, that takes in the adjacency list of an undirected graph.
+     * The function should return the size of the largest connected component in the graph.
+     * Time - O(e)
+     * Space - O(n) as we mark nodes as visited in a set
+     * */
+    public static int largestComponent(Map<Integer, Integer[]> graph){
+        Set<Integer> visited = new HashSet<>();
+        int finalCount = 0;
+        for(Integer node:graph.keySet()) {
+            int newCount = exploreCount(node, graph, visited);
+            if(newCount>finalCount) finalCount = newCount;
+        }
+        return finalCount;
+
+    }
+
+    private static int exploreCount(Integer node, Map<Integer, Integer[]> graph, Set<Integer> visited) {
+        int visitedCount = 0;
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(node);
+        while (!queue.isEmpty()){
+            Integer current = queue.poll();
+            if(!visited.contains(current)){
+                visited.add(current);
+                visitedCount ++;
+                Integer[] neighbours = graph.get(current);
+                if (neighbours!=null) Collections.addAll(queue, neighbours);
+            }
+        }
+        return visitedCount;
+    }
+
+    /**
+     * Write a function, shortestPath, that takes in an array of edges for an undirected graph
+     * and two nodes (nodeA, nodeB).
+     * The function should return the length of the shortest path between A and B.
+     * Consider the length as the number of edges in the path, not the number of nodes.
+     * If there is no path between A and B, then return -1.
+     * */
+
+    public static int shortestPath(Character[][] edges, char start, char end){
+        return 0;
+    }
+
+
 }

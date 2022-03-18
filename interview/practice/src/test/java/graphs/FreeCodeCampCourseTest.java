@@ -12,7 +12,6 @@ class FreeCodeCampCourseTest {
     private Map<Character, Character[]> conceptGraph;
     @BeforeEach
     void setUp() {
-        Node a = new Node('a', new char[]{'b', 'c'});
         conceptGraph = new HashMap<>();
         conceptGraph.put('a',new Character[]{'b', 'c'});
         conceptGraph.put('b', new Character[]{'d'});
@@ -91,4 +90,30 @@ class FreeCodeCampCourseTest {
         graph.put(4, new Integer[]{3, 2});
         assertEquals(2, FreeCodeCampCourse.connectedComponentsCount(graph));
     }
+
+    @Test
+    void largestComponent(){
+        Map<Integer,Integer[]> graph = new HashMap<>();
+        graph.put(0,new Integer[]{8, 1, 5});
+        graph.put(1,new Integer[]{0});
+        graph.put(5, new Integer[]{0, 8});
+        graph.put(8, new Integer[]{0, 5});
+        graph.put(2, new Integer[]{3, 4});
+        graph.put(3, new Integer[]{2, 4});
+        graph.put(4, new Integer[]{3, 2});
+        assertEquals(4, FreeCodeCampCourse.largestComponent(graph));
+    }
+
+    @Test
+    void testShortestPath(){
+
+        Character[][] edges = new Character[][]{
+                new Character[]{'w', 'x'},
+                new Character[]{'x', 'y'},
+                new Character[]{'z', 'y'},
+                new Character[]{'z', 'v'},
+                new Character[]{'w', 'v'}};
+        assertEquals(2, FreeCodeCampCourse.shortestPath(edges,'w', 'z'));
+    }
+
 }
