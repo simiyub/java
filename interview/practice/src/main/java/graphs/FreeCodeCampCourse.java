@@ -139,4 +139,31 @@ public class FreeCodeCampCourse {
         return graph;
     }
 
+    /**
+     * Write a function, connectedComponentsCount,
+     * that takes in the adjacency list of an undirected graph.
+     * The function should return the number of connected components within the graph.
+     * Complexity
+     * Time - O(e)
+     * Space - O(n) as we mark nodes as visited in a set
+     * */
+
+    public static int connectedComponentsCount(Map<Integer, Integer[]> graph){
+        int count =0;
+        Set<Integer> visited = new HashSet<>();
+        for(Integer key: graph.keySet()) {
+            if(explore(graph,key, visited)) count ++;
+        }
+        return count;
+    }
+
+    private static boolean explore(Map<Integer, Integer[]> graph, Integer node, Set<Integer> visited) {
+        if (visited.contains(node)) return false;
+        visited.add(node);
+        for(Integer neighbour: graph.get(node)){
+            explore(graph, neighbour, visited);
+        }
+        return true;
+    }
+
 }

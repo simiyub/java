@@ -6,8 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class FreeCodeCampCourseTest {
     private Map<Character, Character[]> conceptGraph;
@@ -78,5 +77,18 @@ class FreeCodeCampCourseTest {
                 new Character[]{'k', 'l'},
                 new Character[]{'o', 'n'}};
         assertTrue(FreeCodeCampCourse.hasPathUndirected(graph, 'j', 'm'));
+    }
+
+    @Test
+    void testConnectedComponentsCount(){
+        Map<Integer,Integer[]> graph = new HashMap<>();
+        graph.put(0,new Integer[]{8, 1, 5});
+        graph.put(1,new Integer[]{0});
+        graph.put(5, new Integer[]{0, 8});
+        graph.put(8, new Integer[]{0, 5});
+        graph.put(2, new Integer[]{3, 4});
+        graph.put(3, new Integer[]{2, 4});
+        graph.put(4, new Integer[]{3, 2});
+        assertEquals(2, FreeCodeCampCourse.connectedComponentsCount(graph));
     }
 }
