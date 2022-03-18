@@ -31,4 +31,23 @@ public class FreeCodeCampCourse {
         }
         return result.toArray(new Character[result.size()]);
     }
+
+    public static Object[] breadthFirstSearch(Map<Character, Character[]> graph, char start) {
+
+        List<Character> results = new ArrayList<>();
+        Queue<Character> queue = new LinkedList<>();
+        queue.add(start);
+        while (!queue.isEmpty()){
+            Character current = queue.poll();
+            System.out.println(current);
+            results.add(current);
+            Character[] neighbours = graph.get(current);
+            if(neighbours!=null) {
+                for (Character neighbour : neighbours) {
+                    queue.add(neighbour);
+                }
+            }
+        }
+        return results.toArray(new Character[ results.size()]);
+    }
 }
