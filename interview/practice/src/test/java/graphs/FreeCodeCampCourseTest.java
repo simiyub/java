@@ -7,34 +7,76 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class FreeCodeCampCourseTest {
-    private Map<Character, Character[]> graph;
+    private Map<Character, Character[]> conceptGraph;
     @BeforeEach
     void setUp() {
         Node a = new Node('a', new char[]{'b', 'c'});
-         graph= new HashMap<>();
-        graph.put('a',new Character[]{'b', 'c'});
-        graph.put('b', new Character[]{'d'});
-        graph.put('c', new Character[]{'e'});
-        graph.put('d', new Character[]{'f'});
-        graph.put('e', null);
-        graph.put('f', null);
+        conceptGraph = new HashMap<>();
+        conceptGraph.put('a',new Character[]{'b', 'c'});
+        conceptGraph.put('b', new Character[]{'d'});
+        conceptGraph.put('c', new Character[]{'e'});
+        conceptGraph.put('d', new Character[]{'f'});
+        conceptGraph.put('e', null);
+        conceptGraph.put('f', null);
+
+
     }
 
     @Test
     void testDepthFirstSearchIterative() {
-        assertArrayEquals(new Character[]{'a', 'c','e', 'b', 'd', 'f'}, FreeCodeCampCourse.depthFirstSearchIterative(graph, 'a'));
+
+        assertArrayEquals(new Character[]{'a', 'c','e', 'b', 'd', 'f'}, FreeCodeCampCourse.depthFirstSearchIterative(conceptGraph, 'a'));
     }
 
     @Test
     void testDepthFirstSearchRecursive() {
-        assertArrayEquals(new Character[]{'a', 'b', 'd', 'f', 'c','e'}, FreeCodeCampCourse.depthFirstSearchRecursive(graph, 'a'));
+        assertArrayEquals(new Character[]{'a', 'b', 'd', 'f', 'c','e'}, FreeCodeCampCourse.depthFirstSearchRecursive(conceptGraph, 'a'));
     }
 
     @Test
     void testBreadthFirstSearch() {
 
-        assertArrayEquals(new Character[]{'a', 'b','c', 'd', 'e', 'f'}, FreeCodeCampCourse.breadthFirstSearch(graph, 'a'));
+        assertArrayEquals(new Character[]{'a', 'b','c', 'd', 'e', 'f'}, FreeCodeCampCourse.breadthFirstSearch(conceptGraph, 'a'));
+    }
+
+    @Test
+    void testHasPathRecursive(){
+
+        Map<Character, Character[]> graph = new HashMap<>();
+        graph.put('f', new Character[]{'g', 'i'});
+        graph.put('g', new Character[]{'h'});
+        graph.put('h', new Character[0]);
+        graph.put('i', new Character[]{'g', 'k'});
+        graph.put('j', new Character[]{'i'});
+        graph.put('k', new Character[0]);
+        assertTrue(FreeCodeCampCourse.hasPathRecursive(graph, 'f', 'k'));
+    }
+
+    @Test
+    void testHasPathIterative(){
+
+        Map<Character, Character[]> graph = new HashMap<>();
+        graph.put('f', new Character[]{'g', 'i'});
+        graph.put('g', new Character[]{'h'});
+        graph.put('h', new Character[0]);
+        graph.put('i', new Character[]{'g', 'k'});
+        graph.put('j', new Character[]{'i'});
+        graph.put('k', new Character[0]);
+        assertTrue(FreeCodeCampCourse.hasPathIterative(graph, 'f', 'k'));
+    }
+
+    @Test
+    void testHasPathUndirected(){
+
+        Character[][] graph = new Character[][]{
+                new Character[]{'i', 'j'},
+                new Character[]{'k', 'i'},
+                new Character[]{'m', 'k'},
+                new Character[]{'k', 'l'},
+                new Character[]{'o', 'n'}};
+        assertTrue(FreeCodeCampCourse.hasPathUndirected(graph, 'j', 'm'));
     }
 }
