@@ -64,6 +64,12 @@ class FreeCodeCampCourseTest {
         assertEquals(0, FreeCodeCampCourse.countConstruct("skateboard", new String[]{"bo", "rd", "ate", "t", "ska", "sk", "boar"}));
         assertEquals(0, FreeCodeCampCourse.countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeef", new String[]{"e", "ee", "eee", "eeee", "eeeeee", "eeeeee"}));
     }
+    
+    @Test
+            void tesAllConstructs() {
 
-
+        assertArrayEquals(new String[][]{new String[]{"purp", "le"}, new String[]{"p", "ur", "p", "le"}}, FreeCodeCampCourse.allConstructs("purple", new String[]{"purp", "p", "ur", "le", "purpl"}));
+        assertArrayEquals(new String[][]{new String[]{"ab", "cd", "ef"}, new String[]{"ab", "c", "def"}, new String[]{"abc", "def"}, new String[]{"abcd", "ef"}}, FreeCodeCampCourse.allConstructs(
+                "abcdef", new String[]{"ab", "abc", "cd", "def", "abcd", "ef", "c"}));
+    }
 }

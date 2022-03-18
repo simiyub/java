@@ -1,6 +1,7 @@
 package dynamicprogramming;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 
 public class FreeCodeCampCourse {
@@ -219,6 +220,33 @@ public class FreeCodeCampCourse {
                 if (target.substring(tableIndex,tableIndex+word.length()).equalsIgnoreCase(word)){
 
                     table[tableIndex+ word.length()] += table[tableIndex];
+                }
+            }
+            }
+        }
+        return table[target.length()];
+    }
+
+    public static String[] allConstructs(String target, String[] words) {
+        String[][] table = new String[target.length()+1][];
+        table[0] = new String[0];
+
+        for(int tableIndex=0;tableIndex<=table.length-1;tableIndex++){
+
+            for (String word:words){
+                if(tableIndex+word.length()<=target.length()){
+                if(target.substring(tableIndex,tableIndex+word.length()).equalsIgnoreCase(word)){
+
+                    table[tableIndex+ word.length()] = table[tableIndex];
+                    String[] current = (table[tableIndex]!=null) ? table[tableIndex] : new String[0];
+                    current = Arrays.copyOf(current,current.length+1);
+                    current[current.length-1] = word;
+                    String[] existingCombinations = table[tableIndex+word.length()] != null ?
+                            table[tableIndex+word.length()] : new String[0];
+//                    String[] newArray = Arrays.copyOf(existingCombinations, existingCombinations.length+1);
+//
+//                    table[tableIndex+word.length()] = newArray;
+//                    table[tableIndex+word.length()] = Stream.of(existingCombinations,current).flatMap(Stream::of).toArray(String[]::new);
                 }
             }
             }
