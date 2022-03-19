@@ -207,9 +207,33 @@ public class FreeCodeCampCourse {
      * If there is no path between A and B, then return -1.
      * */
 
-    public static int shortestPath(Character[][] edges, char start, char end){
-        return 0;
+    public static int shortestPath(Character[][] edges, char startChar, char endChar){
+        //create graph
+        //bfs over neighbours of start node,
+        // checking for access to the end node through the neighbours
+        //(each neighbour is a new path - restart)
+        //compare the count of path to the end and return the shortest
+        Map<Character, List<Character>> graph = buildGraph(edges);
+        Set<Character> visited = new HashSet<>();
+        Queue<Node> queue = new LinkedList<>();
+        Node start = new Node(startChar,0);
+        queue.add(start);
+        while (!queue.isEmpty()){
+            Node current = queue.poll();
+            if(current.id==endChar) return current.distance;
+            for(char neighbour: graph.get(current.id)){
+                if(!visited.contains(neighbour)) {
+                    visited.add(neighbour);
+                    queue.add(new Node(neighbour, current.distance+1));
+                }
+            }
+        }
+        return -1;
     }
+
+    private record Node(char id, int distance) {
+    }
+
 
 
 }
