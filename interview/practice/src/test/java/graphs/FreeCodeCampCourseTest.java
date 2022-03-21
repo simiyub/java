@@ -164,4 +164,65 @@ class FreeCodeCampCourseTest {
         assertEquals(0, FreeCodeCampCourse.islandCount(grid4));
     }
 
+
+    @Test
+    void testminimumIsland1(){
+        char[][] grid1 = new char[][]{
+                new char[]{'W', 'L', 'W', 'W', 'W'},
+                new char[]{'W', 'L', 'W', 'W', 'W'},
+                new char[]{'W', 'W', 'W', 'L', 'W'},
+                new char[]{'W', 'W', 'L', 'L', 'W'},
+                new char[]{'L', 'W', 'W', 'L', 'L'},
+                new char[]{'L', 'L', 'W', 'W', 'W'},
+        };
+        assertEquals(2, FreeCodeCampCourse.minimumIsland(grid1));
+
+    }
+
+    @Test
+    void testminimumIsland2(){
+        char[][] grid2 = new char[][]{
+                new char[]{'L', 'W', 'W', 'L', 'W'},
+                new char[]{'L', 'W', 'W', 'L', 'L'},
+                new char[]{'W', 'L', 'W', 'L', 'W'},
+                new char[]{'W', 'W', 'W', 'W', 'W'},
+                new char[]{'W', 'W', 'L', 'L', 'L'}
+        };
+        assertEquals(1, FreeCodeCampCourse.minimumIsland(grid2));
+
+    }
+
+    @Test
+    void testMinimumIsland3(){
+        char[][] grid3 = new char[][]{
+                new char[]{'L', 'L', 'L'},
+                new char[]{'L', 'L', 'L'},
+                new char[]{'L', 'L', 'L'}
+        };
+        assertEquals(9, FreeCodeCampCourse.minimumIsland(grid3));
+    }
+
+    @Test
+    void testMinimumIsland4(){
+
+        char[][] grid4 = new char[][]{
+                new char[]{'W', 'W'},
+                new char[]{'W', 'W'},
+                new char[]{'W', 'W'}
+        };
+        assertEquals(0, FreeCodeCampCourse.minimumIsland(grid4));
+    }
+
+    @Test
+    void testMinimumIsland5(){
+
+        char[][] grid4 = new char[][]{
+                new char[]{'W', 'W'},
+                new char[]{'L', 'L'},
+                new char[]{'W', 'W'},
+                new char[]{'W', 'L'}
+        };
+        assertEquals(1, FreeCodeCampCourse.minimumIsland(grid4));
+    }
+
 }

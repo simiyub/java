@@ -273,5 +273,27 @@ public class FreeCodeCampCourse {
         return size;
     }
 
+    /**
+     *
+     * */
+    public static int minimumIsland(char[][] grid){
+
+        Set<String> visited = new HashSet<>();
+        int minimum = 0;
+        for(int i=0;i<=grid.length-1;i++){
+            System.out.println(Arrays.toString(grid[i]));
+            for(int j=0;j<=grid[i].length-1;j++){
+                int size =0;
+                int neighbourLength = islandCountHelper(grid,i, j, size, visited);
+                if (neighbourLength>0) {
+                    if (minimum == 0) minimum = neighbourLength;
+                    else if (neighbourLength < minimum) minimum = neighbourLength;
+                }
+            }
+
+        }
+        return minimum;
+    }
+
 
 }
