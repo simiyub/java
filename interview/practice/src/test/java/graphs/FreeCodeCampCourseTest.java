@@ -23,11 +23,11 @@ class FreeCodeCampCourseTest {
 
     }
 
-    @Test
-    void testDepthFirstSearchIterative() {
-
-        assertArrayEquals(new Character[]{'a', 'c','e', 'b', 'd', 'f'}, FreeCodeCampCourse.depthFirstSearchIterative(conceptGraph, 'a'));
-    }
+//    @Test
+//    void testDepthFirstSearchIterative() {
+//
+//        assertArrayEquals(new Character[]{'a', 'c','e', 'b', 'd', 'f'}, FreeCodeCampCourse.depthFirstSearchIterative(conceptGraph, 'a'));
+//    }
 
     @Test
     void testDepthFirstSearchRecursive() {
@@ -114,6 +114,54 @@ class FreeCodeCampCourseTest {
                 new Character[]{'z', 'v'},
                 new Character[]{'w', 'v'}};
         assertEquals(2, FreeCodeCampCourse.shortestPath(edges,'w', 'z'));
+    }
+    
+    @Test 
+    void testIslandCount1(){
+        char[][] grid1 = new char[][]{
+                new char[]{'W', 'L', 'W', 'W', 'W'},
+                new char[]{'W', 'L', 'W', 'W', 'W'},
+                new char[]{'W', 'W', 'W', 'L', 'W'},
+                new char[]{'W', 'W', 'L', 'L', 'W'},
+                new char[]{'L', 'W', 'W', 'L', 'L'},
+                new char[]{'L', 'L', 'W', 'W', 'W'},
+        };
+        assertEquals(3, FreeCodeCampCourse.islandCount(grid1));
+
+    }
+
+    @Test
+    void testIslandCount2(){
+        char[][] grid2 = new char[][]{
+                new char[]{'L', 'W', 'W', 'L', 'W'},
+                new char[]{'L', 'W', 'W', 'L', 'L'},
+                new char[]{'W', 'L', 'W', 'L', 'W'},
+                new char[]{'W', 'W', 'W', 'W', 'W'},
+                new char[]{'W', 'W', 'L', 'L', 'L'}
+        };
+        assertEquals(4, FreeCodeCampCourse.islandCount(grid2));
+
+    }
+
+    @Test
+    void testIslandCount3(){
+        char[][] grid3 = new char[][]{
+                new char[]{'L', 'L', 'L'},
+                new char[]{'L', 'L', 'L'},
+                new char[]{'L', 'L', 'L'}
+        };
+        assertEquals(1, FreeCodeCampCourse.islandCount(grid3));
+    }
+
+    @Test
+    void testIslandCount4(){
+
+        char[][] grid4 = new char[][]{
+                new char[]{'W', 'W'},
+                new char[]{'W', 'W'},
+                new char[]{'W', 'W'}
+        };
+        assertEquals(0, FreeCodeCampCourse.islandCount(grid4));
     }
 
 }

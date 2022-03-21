@@ -213,6 +213,9 @@ public class FreeCodeCampCourse {
         // checking for access to the end node through the neighbours
         //(each neighbour is a new path - restart)
         //compare the count of path to the end and return the shortest
+
+        record Node(char id, int distance) {
+        }
         Map<Character, List<Character>> graph = buildGraph(edges);
         Set<Character> visited = new HashSet<>();
         Queue<Node> queue = new LinkedList<>();
@@ -231,9 +234,44 @@ public class FreeCodeCampCourse {
         return -1;
     }
 
-    private record Node(char id, int distance) {
+    /**
+     * Write a function, islandCount, that takes in a grid containing Ws and Ls.
+     * W represents water and L represents land.
+     * The function should return the number of islands on the grid.
+     * An island is a vertically or horizontally connected region of land.
+     * */
+    public static int islandCount(char[][] grid){
+
+        Set<String> visited = new HashSet<>();
+        int count = 0;
+        for(int i=0;i<=grid.length-1;i++){
+            System.out.println(Arrays.toString(grid[i]));
+            for(int j=0;j<=grid[i].length-1;j++){
+                    int size =0;
+                    int neighbourLength = islandCountHelper(grid,i, j, size, visited);
+                    if (neighbourLength > 0) count ++;
+                }
+
+        }
+        return count;
     }
 
+    private static int islandCountHelper(char[][] grid, int rowIndex, int columnIndex, int size, Set<String> visited) {
+        boolean inbounds = (rowIndex >= 0 && rowIndex <= grid.length-1 && columnIndex>= 0 && columnIndex <= grid[rowIndex].length-1);
+
+        if(inbounds && !visited.contains(rowIndex+"-"+columnIndex)) {
+            visited.add(rowIndex + "-" + columnIndex);
+            if (grid[rowIndex][columnIndex] == 'L') {
+                size+=1;
+                size = islandCountHelper(grid, rowIndex - 1, columnIndex, size, visited);
+                size = islandCountHelper(grid, rowIndex + 1, columnIndex, size, visited);
+                size = islandCountHelper(grid, rowIndex, columnIndex - 1, size, visited);
+               size = islandCountHelper(grid, rowIndex, columnIndex + 1, size, visited);
+                }
+            }
+
+        return size;
+    }
 
 
 }
