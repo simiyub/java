@@ -1,3 +1,4 @@
+
 /**
  * We can create a thread by extending the thread class, which extends the Runnable interface.
  * It has a run method which does nothing if we created a thread using this extension option.
@@ -15,16 +16,8 @@ public class ExtendThreadDemo extends Thread{
     }
 
     public void run(){
-        count();
+        CommonFunctionality.count(this, counter);
     }
 
-    public void count(){
-        if (counter>=0) for(int i=0;i<=counter;i++)  System.out.println(i);
-    }
 
-    public static void main(String[] args) {
-        ExtendThreadDemo threadDemo = new ExtendThreadDemo(10);
-        threadDemo.start();
-
-    }
 }
