@@ -1,3 +1,4 @@
 rootProject.name = 'core-api'
 include 'collections'
+include 'concurrency'
 
